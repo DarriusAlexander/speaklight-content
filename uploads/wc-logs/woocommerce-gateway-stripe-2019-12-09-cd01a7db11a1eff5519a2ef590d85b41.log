@@ -1,0 +1,273 @@
+2019-12-09T01:12:16+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1FnanJI9FfU8bmkZx9ESsZGX
+====End Log====
+
+
+2019-12-09T01:12:16+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers request: Array
+(
+    [email] => samwak2003@gmail.com
+    [description] => Name: Samuel Wakawa, Guest
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2019-12-09T01:12:16+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2264 for the amount of 24.00
+====End Log====
+
+
+2019-12-09T01:12:16+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1FnanJI9FfU8bmkZx9ESsZGX
+    [amount] => 2400
+    [currency] => usd
+    [description] => Speaklight - Order 5298
+    [metadata] => Array
+        (
+            [customer_name] => Samuel Wakawa
+            [customer_email] => samwak2003@gmail.com
+            [order_id] => 5298
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GKFHTtpAJmr1wb
+    [statement_descriptor] => SpeaklightLLC
+)
+
+====End Log====
+
+
+2019-12-09T01:12:17+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FnanMI9FfU8bmkZXArGIpZT initiated for order 2264
+====End Log====
+
+
+2019-12-09T01:12:17+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1FnanMI9FfU8bmkZXArGIpZT/confirm request: Array
+(
+    [source] => src_1FnanJI9FfU8bmkZx9ESsZGX
+)
+
+====End Log====
+
+
+2019-12-09T01:12:19+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FnanMI9FfU8bmkZXArGIpZT succeeded for order 2264
+====End Log====
+
+
+2019-12-09T01:12:19+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1FnanNI9FfU8bmkZGmvLoU2N
+    [object] => charge
+    [amount] => 2400
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1FnanPI9FfU8bmkZy5GpFaou
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Washington DC 
+                    [country] => US
+                    [line1] => 4903 4th st nw 
+                    [line2] => 
+                    [postal_code] => 20011
+                    [state] => DC
+                )
+
+            [email] => samwak2003@gmail.com
+            [name] => Samuel Wakawa
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1575853937
+    [currency] => usd
+    [customer] => cus_GKFHTtpAJmr1wb
+    [description] => Speaklight - Order 5298
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Samuel Wakawa
+            [customer_email] => samwak2003@gmail.com
+            [order_id] => 5298
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1FnanMI9FfU8bmkZXArGIpZT
+    [payment_method] => src_1FnanJI9FfU8bmkZx9ESsZGX
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => mastercard
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 11
+                    [exp_year] => 2024
+                    [fingerprint] => eUhNSbMGwiboYL8h
+                    [funding] => prepaid
+                    [installments] => 
+                    [last4] => 3444
+                    [network] => mastercard
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1DCbGJI9FfU8bmkZ/ch_1FnanNI9FfU8bmkZGmvLoU2N/rcpt_GKFHnISWcESwGIVM7zm5wgItZJDs9ru
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1FnanNI9FfU8bmkZGmvLoU2N/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1FnanJI9FfU8bmkZx9ESsZGX
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 11
+                    [exp_year] => 2024
+                    [last4] => 3444
+                    [country] => US
+                    [brand] => MasterCard
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => prepaid
+                    [fingerprint] => eUhNSbMGwiboYL8h
+                    [three_d_secure] => recommended
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_GKFHOIwC94QGKSTQLz9kxBM7
+            [created] => 1575853938
+            [currency] => 
+            [flow] => none
+            [livemode] => 1
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Washington DC 
+                            [country] => US
+                            [line1] => 4903 4th st nw 
+                            [line2] => 
+                            [postal_code] => 20011
+                            [state] => DC
+                        )
+
+                    [email] => samwak2003@gmail.com
+                    [name] => Samuel Wakawa
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => SpeaklightLLC
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-12-09T01:12:19+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1FnanPI9FfU8bmkZy5GpFaou
+====End Log====
+
+

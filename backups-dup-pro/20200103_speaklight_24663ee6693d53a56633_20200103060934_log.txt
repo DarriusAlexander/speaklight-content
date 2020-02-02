@@ -1,0 +1,89 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2020-01-03 06:10:29
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.8.4
+WORDPRESS:	5.3.2
+PHP INFO:	7.2.24-0ubuntu0.18.04.1 | SAPI: fpm-fcgi
+SERVER:		nginx/1.14.0 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	4MB
+ARCHIVE ENGINE: ZipArchive: multi-thread
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (chunk size - 500 rows)
+
+TABLES: total:174 | filtered:0 | create:174
+FILTERED: []
+SCHEMA SIZE: [42471306]
+SQL CREATED: 20200103_speaklight_24663ee6693d53a56633_20200103060934_database.sql
+SQL FILE SIZE: 27.18MB
+SQL FILE TIME: 2020-01-03 06:10:35
+SQL RUNTIME: 6.154 sec.
+MEMORY STACK: 4MB
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20200103_speaklight_24663ee6693d53a56633_20200103060934_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	768.93MB
+STATS:	Dirs 3,851 | Files 23,642 | Total 27,493
+SQL ADDED: 20200103_speaklight_24663ee6693d53a56633_20200103060934_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 23873
+    [filename] => /var/www/html/wp-content/backups-dup-pro/tmp/20200103_speaklight_24663ee6693d53a56633_20200103060934_archive.zip
+    [comment] => 
+)
+
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 27493
+    [filename] => /var/www/html/wp-content/backups-dup-pro/tmp/20200103_speaklight_24663ee6693d53a56633_20200103060934_archive.zip
+    [comment] => 
+)
+
+COMPRESSED SIZE: 530.07MB
+ARCHIVE RUNTIME: 19.180 sec.
+MEMORY STACK: 42MB
+Installer files added to archive
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+LOCAL: Default, /var/www/html/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 27.18MB
+INSTALLER FILE: 59.08KB
+ARCHIVE FILE: 531.59MB 
+EXPECTED FILE/DIRECTORY COUNT: 27,493
+ACTUAL FILE/DIRECTORY COUNT: 27,493
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 176.511 sec.
+PEAK PHP MEMORY USED: 2MB
+DONE PROCESSING => 20200103_speaklight 2020-01-03 06:13:26
+

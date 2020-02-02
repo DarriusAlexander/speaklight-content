@@ -1,0 +1,1171 @@
+2020-01-30T15:37:58+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1G6f5XHqBUA0yb1ihObJnbvC
+====End Log====
+
+
+2020-01-30T15:37:58+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers request: Array
+(
+    [email] => wrdw92@gmail.com
+    [description] => Name: Willie Williams, Username: Willie
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-01-30T15:37:59+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2479 for the amount of 24.00
+====End Log====
+
+
+2020-01-30T15:37:59+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1G6f5XHqBUA0yb1ihObJnbvC
+    [amount] => 2400
+    [currency] => usd
+    [description] => Speaklight - Order 5312
+    [metadata] => Array
+        (
+            [customer_name] => Willie Williams
+            [customer_email] => wrdw92@gmail.com
+            [order_id] => 5312
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GdwzeM1kFnVIyh
+    [statement_descriptor] => SpeaklightLLC
+)
+
+====End Log====
+
+
+2020-01-30T15:37:59+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1G6f5fHqBUA0yb1i2xMHgRCb initiated for order 2479
+====End Log====
+
+
+2020-01-30T15:37:59+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1G6f5fHqBUA0yb1i2xMHgRCb/confirm request: Array
+(
+    [source] => src_1G6f5XHqBUA0yb1ihObJnbvC
+)
+
+====End Log====
+
+
+2020-01-30T15:38:01+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_1G6f5gHqBUA0yb1ibxRE8LPV
+            [code] => card_declined
+            [decline_code] => test_mode_live_card
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_1G6f5fHqBUA0yb1i2xMHgRCb
+                    [object] => payment_intent
+                    [amount] => 2400
+                    [amount_capturable] => 0
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_1G6f5gHqBUA0yb1ibxRE8LPV
+                                            [object] => charge
+                                            [amount] => 2400
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Jacksonville
+                                                            [country] => US
+                                                            [line1] => 5623 Alpha Avenue
+                                                            [line2] => 
+                                                            [postal_code] => 32205
+                                                            [state] => FL
+                                                        )
+
+                                                    [email] => wrdw92@gmail.com
+                                                    [name] => Willie Williams
+                                                    [phone] => 
+                                                )
+
+                                            [captured] => 
+                                            [created] => 1580398680
+                                            [currency] => usd
+                                            [customer] => cus_GdwzeM1kFnVIyh
+                                            [description] => Speaklight - Order 5312
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [customer_name] => Willie Williams
+                                                    [customer_email] => wrdw92@gmail.com
+                                                    [order_id] => 5312
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => not_sent_to_network
+                                                    [reason] => test_mode_live_card
+                                                    [risk_level] => normal
+                                                    [risk_score] => 33
+                                                    [seller_message] => This charge request was in test mode, but did not use a Stripe test card number. For the list of these numbers, see stripe.com/docs/testing
+                                                    [type] => invalid
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_1G6f5fHqBUA0yb1i2xMHgRCb
+                                            [payment_method] => src_1G6f5XHqBUA0yb1ihObJnbvC
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => 
+                                                                    [address_postal_code_check] => 
+                                                                    [cvc_check] => 
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 9
+                                                            [exp_year] => 2023
+                                                            [fingerprint] => RY3SMpyMezaOR8iv
+                                                            [funding] => debit
+                                                            [installments] => 
+                                                            [last4] => 6723
+                                                            [network] => visa
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => https://pay.stripe.com/receipts/acct_1Cs9QMHqBUA0yb1i/ch_1G6f5gHqBUA0yb1ibxRE8LPV/rcpt_GdwzZMeNd6BREJfhbMVspbUFG8JoG4K
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_1G6f5gHqBUA0yb1ibxRE8LPV/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => 
+                                            [source] => stdClass Object
+                                                (
+                                                    [id] => src_1G6f5XHqBUA0yb1ihObJnbvC
+                                                    [object] => source
+                                                    [amount] => 
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [exp_month] => 9
+                                                            [exp_year] => 2023
+                                                            [last4] => 6723
+                                                            [country] => US
+                                                            [brand] => Visa
+                                                            [funding] => debit
+                                                            [fingerprint] => RY3SMpyMezaOR8iv
+                                                            [three_d_secure] => optional
+                                                            [name] => 
+                                                            [address_line1_check] => 
+                                                            [address_zip_check] => 
+                                                            [cvc_check] => 
+                                                            [tokenization_method] => 
+                                                            [dynamic_last4] => 
+                                                        )
+
+                                                    [client_secret] => src_client_secret_GdwzG5ZEVwItxwUNlUwKFHPB
+                                                    [created] => 1580398680
+                                                    [currency] => 
+                                                    [flow] => none
+                                                    [livemode] => 
+                                                    [metadata] => stdClass Object
+                                                        (
+                                                        )
+
+                                                    [owner] => stdClass Object
+                                                        (
+                                                            [address] => stdClass Object
+                                                                (
+                                                                    [city] => Jacksonville
+                                                                    [country] => US
+                                                                    [line1] => 5623 Alpha Avenue
+                                                                    [line2] => 
+                                                                    [postal_code] => 32205
+                                                                    [state] => FL
+                                                                )
+
+                                                            [email] => wrdw92@gmail.com
+                                                            [name] => Willie Williams
+                                                            [phone] => 
+                                                            [verified_address] => 
+                                                            [verified_email] => 
+                                                            [verified_name] => 
+                                                            [verified_phone] => 
+                                                        )
+
+                                                    [statement_descriptor] => 
+                                                    [status] => consumed
+                                                    [type] => card
+                                                    [usage] => reusable
+                                                )
+
+                                            [source_transfer] => 
+                                            [statement_descriptor] => SpeaklightLLC
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_1G6f5fHqBUA0yb1i2xMHgRCb
+                        )
+
+                    [client_secret] => pi_1G6f5fHqBUA0yb1i2xMHgRCb_secret_Y6VZu5phG1zClJFwa4ydTQF6B
+                    [confirmation_method] => automatic
+                    [created] => 1580398679
+                    [currency] => usd
+                    [customer] => cus_GdwzeM1kFnVIyh
+                    [description] => Speaklight - Order 5312
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_1G6f5gHqBUA0yb1ibxRE8LPV
+                            [code] => card_declined
+                            [decline_code] => test_mode_live_card
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+                            [source] => stdClass Object
+                                (
+                                    [id] => src_1G6f5XHqBUA0yb1ihObJnbvC
+                                    [object] => source
+                                    [amount] => 
+                                    [card] => stdClass Object
+                                        (
+                                            [exp_month] => 9
+                                            [exp_year] => 2023
+                                            [last4] => 6723
+                                            [country] => US
+                                            [brand] => Visa
+                                            [address_line1_check] => unchecked
+                                            [address_zip_check] => unchecked
+                                            [cvc_check] => unchecked
+                                            [funding] => debit
+                                            [fingerprint] => RY3SMpyMezaOR8iv
+                                            [three_d_secure] => optional
+                                            [name] => 
+                                            [tokenization_method] => 
+                                            [dynamic_last4] => 
+                                        )
+
+                                    [client_secret] => src_client_secret_GdwzG5ZEVwItxwUNlUwKFHPB
+                                    [created] => 1580398671
+                                    [currency] => 
+                                    [flow] => none
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [owner] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Jacksonville
+                                                    [country] => US
+                                                    [line1] => 5623 Alpha Avenue
+                                                    [line2] => 
+                                                    [postal_code] => 32205
+                                                    [state] => FL
+                                                )
+
+                                            [email] => wrdw92@gmail.com
+                                            [name] => Willie Williams
+                                            [phone] => 
+                                            [verified_address] => 
+                                            [verified_email] => 
+                                            [verified_name] => 
+                                            [verified_phone] => 
+                                        )
+
+                                    [statement_descriptor] => 
+                                    [status] => consumed
+                                    [type] => card
+                                    [usage] => reusable
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [customer_name] => Willie Williams
+                            [customer_email] => wrdw92@gmail.com
+                            [order_id] => 5312
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => 
+                    [source] => 
+                    [statement_descriptor] => SpeaklightLLC
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [source] => stdClass Object
+                (
+                    [id] => src_1G6f5XHqBUA0yb1ihObJnbvC
+                    [object] => source
+                    [amount] => 
+                    [card] => stdClass Object
+                        (
+                            [exp_month] => 9
+                            [exp_year] => 2023
+                            [last4] => 6723
+                            [country] => US
+                            [brand] => Visa
+                            [address_line1_check] => unchecked
+                            [address_zip_check] => unchecked
+                            [cvc_check] => unchecked
+                            [funding] => debit
+                            [fingerprint] => RY3SMpyMezaOR8iv
+                            [three_d_secure] => optional
+                            [name] => 
+                            [tokenization_method] => 
+                            [dynamic_last4] => 
+                        )
+
+                    [client_secret] => src_client_secret_GdwzG5ZEVwItxwUNlUwKFHPB
+                    [created] => 1580398671
+                    [currency] => 
+                    [flow] => none
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [owner] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Jacksonville
+                                    [country] => US
+                                    [line1] => 5623 Alpha Avenue
+                                    [line2] => 
+                                    [postal_code] => 32205
+                                    [state] => FL
+                                )
+
+                            [email] => wrdw92@gmail.com
+                            [name] => Willie Williams
+                            [phone] => 
+                            [verified_address] => 
+                            [verified_email] => 
+                            [verified_name] => 
+                            [verified_phone] => 
+                        )
+
+                    [statement_descriptor] => 
+                    [status] => consumed
+                    [type] => card
+                    [usage] => reusable
+                )
+
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2020-01-30T15:38:03+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GdwzeM1kFnVIyh/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-30T15:38:04+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GdwzeM1kFnVIyh/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-30T15:39:19+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1G6f5fHqBUA0yb1i2xMHgRCb request: Array
+(
+)
+
+====End Log====
+
+
+2020-01-30T15:39:19+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1G6f6vHqBUA0yb1iGuoibylK
+====End Log====
+
+
+2020-01-30T15:39:19+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GdwzeM1kFnVIyh request: Array
+(
+    [email] => wrdw92@gmail.com
+    [description] => Name: Willie Williams, Username: Willie
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-01-30T15:39:20+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2479 for the amount of 24.00
+====End Log====
+
+
+2020-01-30T15:39:20+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1G6f5fHqBUA0yb1i2xMHgRCb request: Array
+(
+    [source] => src_1G6f6vHqBUA0yb1iGuoibylK
+)
+
+====End Log====
+
+
+2020-01-30T15:39:20+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1G6f5fHqBUA0yb1i2xMHgRCb/confirm request: Array
+(
+    [source] => src_1G6f6vHqBUA0yb1iGuoibylK
+)
+
+====End Log====
+
+
+2020-01-30T15:39:22+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_1G6f6zHqBUA0yb1ieIBlugEo
+            [code] => card_declined
+            [decline_code] => test_mode_live_card
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_1G6f5fHqBUA0yb1i2xMHgRCb
+                    [object] => payment_intent
+                    [amount] => 2400
+                    [amount_capturable] => 0
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_1G6f6zHqBUA0yb1ieIBlugEo
+                                            [object] => charge
+                                            [amount] => 2400
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Jacksonville
+                                                            [country] => US
+                                                            [line1] => 5623 Alpha Avenue
+                                                            [line2] => 
+                                                            [postal_code] => 32205
+                                                            [state] => FL
+                                                        )
+
+                                                    [email] => wrdw92@gmail.com
+                                                    [name] => Willie Williams
+                                                    [phone] => 
+                                                )
+
+                                            [captured] => 
+                                            [created] => 1580398761
+                                            [currency] => usd
+                                            [customer] => cus_GdwzeM1kFnVIyh
+                                            [description] => Speaklight - Order 5312
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [customer_name] => Willie Williams
+                                                    [customer_email] => wrdw92@gmail.com
+                                                    [order_id] => 5312
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => not_sent_to_network
+                                                    [reason] => test_mode_live_card
+                                                    [risk_level] => normal
+                                                    [risk_score] => 34
+                                                    [seller_message] => This charge request was in test mode, but did not use a Stripe test card number. For the list of these numbers, see stripe.com/docs/testing
+                                                    [type] => invalid
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_1G6f5fHqBUA0yb1i2xMHgRCb
+                                            [payment_method] => src_1G6f6vHqBUA0yb1iGuoibylK
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [brand] => visa
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => 
+                                                                    [address_postal_code_check] => 
+                                                                    [cvc_check] => 
+                                                                )
+
+                                                            [country] => US
+                                                            [exp_month] => 9
+                                                            [exp_year] => 2023
+                                                            [fingerprint] => RY3SMpyMezaOR8iv
+                                                            [funding] => debit
+                                                            [installments] => 
+                                                            [last4] => 6723
+                                                            [network] => visa
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => https://pay.stripe.com/receipts/acct_1Cs9QMHqBUA0yb1i/ch_1G6f6zHqBUA0yb1ieIBlugEo/rcpt_Gdx13qMuoNKPsby6WPos8FL4TeN5edj
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_1G6f6zHqBUA0yb1ieIBlugEo/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => 
+                                            [source] => stdClass Object
+                                                (
+                                                    [id] => src_1G6f6vHqBUA0yb1iGuoibylK
+                                                    [object] => source
+                                                    [amount] => 
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [exp_month] => 9
+                                                            [exp_year] => 2023
+                                                            [last4] => 6723
+                                                            [country] => US
+                                                            [brand] => Visa
+                                                            [funding] => debit
+                                                            [fingerprint] => RY3SMpyMezaOR8iv
+                                                            [three_d_secure] => optional
+                                                            [name] => 
+                                                            [address_line1_check] => 
+                                                            [address_zip_check] => 
+                                                            [cvc_check] => 
+                                                            [tokenization_method] => 
+                                                            [dynamic_last4] => 
+                                                        )
+
+                                                    [client_secret] => src_client_secret_Gdx0plaB3c1WfrdT64QTZ0uy
+                                                    [created] => 1580398761
+                                                    [currency] => 
+                                                    [flow] => none
+                                                    [livemode] => 
+                                                    [metadata] => stdClass Object
+                                                        (
+                                                        )
+
+                                                    [owner] => stdClass Object
+                                                        (
+                                                            [address] => stdClass Object
+                                                                (
+                                                                    [city] => Jacksonville
+                                                                    [country] => US
+                                                                    [line1] => 5623 Alpha Avenue
+                                                                    [line2] => 
+                                                                    [postal_code] => 32205
+                                                                    [state] => FL
+                                                                )
+
+                                                            [email] => wrdw92@gmail.com
+                                                            [name] => Willie Williams
+                                                            [phone] => 
+                                                            [verified_address] => 
+                                                            [verified_email] => 
+                                                            [verified_name] => 
+                                                            [verified_phone] => 
+                                                        )
+
+                                                    [statement_descriptor] => 
+                                                    [status] => consumed
+                                                    [type] => card
+                                                    [usage] => reusable
+                                                )
+
+                                            [source_transfer] => 
+                                            [statement_descriptor] => SpeaklightLLC
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 1
+                            [total_count] => 2
+                            [url] => /v1/charges?payment_intent=pi_1G6f5fHqBUA0yb1i2xMHgRCb
+                        )
+
+                    [client_secret] => pi_1G6f5fHqBUA0yb1i2xMHgRCb_secret_Y6VZu5phG1zClJFwa4ydTQF6B
+                    [confirmation_method] => automatic
+                    [created] => 1580398679
+                    [currency] => usd
+                    [customer] => cus_GdwzeM1kFnVIyh
+                    [description] => Speaklight - Order 5312
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_1G6f6zHqBUA0yb1ieIBlugEo
+                            [code] => card_declined
+                            [decline_code] => test_mode_live_card
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+                            [source] => stdClass Object
+                                (
+                                    [id] => src_1G6f6vHqBUA0yb1iGuoibylK
+                                    [object] => source
+                                    [amount] => 
+                                    [card] => stdClass Object
+                                        (
+                                            [exp_month] => 9
+                                            [exp_year] => 2023
+                                            [last4] => 6723
+                                            [country] => US
+                                            [brand] => Visa
+                                            [address_line1_check] => unchecked
+                                            [address_zip_check] => unchecked
+                                            [cvc_check] => unchecked
+                                            [funding] => debit
+                                            [fingerprint] => RY3SMpyMezaOR8iv
+                                            [three_d_secure] => optional
+                                            [name] => 
+                                            [tokenization_method] => 
+                                            [dynamic_last4] => 
+                                        )
+
+                                    [client_secret] => src_client_secret_Gdx0plaB3c1WfrdT64QTZ0uy
+                                    [created] => 1580398757
+                                    [currency] => 
+                                    [flow] => none
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [owner] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Jacksonville
+                                                    [country] => US
+                                                    [line1] => 5623 Alpha Avenue
+                                                    [line2] => 
+                                                    [postal_code] => 32205
+                                                    [state] => FL
+                                                )
+
+                                            [email] => wrdw92@gmail.com
+                                            [name] => Willie Williams
+                                            [phone] => 
+                                            [verified_address] => 
+                                            [verified_email] => 
+                                            [verified_name] => 
+                                            [verified_phone] => 
+                                        )
+
+                                    [statement_descriptor] => 
+                                    [status] => consumed
+                                    [type] => card
+                                    [usage] => reusable
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [customer_name] => Willie Williams
+                            [customer_email] => wrdw92@gmail.com
+                            [order_id] => 5312
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => 
+                    [source] => 
+                    [statement_descriptor] => SpeaklightLLC
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [source] => stdClass Object
+                (
+                    [id] => src_1G6f6vHqBUA0yb1iGuoibylK
+                    [object] => source
+                    [amount] => 
+                    [card] => stdClass Object
+                        (
+                            [exp_month] => 9
+                            [exp_year] => 2023
+                            [last4] => 6723
+                            [country] => US
+                            [brand] => Visa
+                            [address_line1_check] => unchecked
+                            [address_zip_check] => unchecked
+                            [cvc_check] => unchecked
+                            [funding] => debit
+                            [fingerprint] => RY3SMpyMezaOR8iv
+                            [three_d_secure] => optional
+                            [name] => 
+                            [tokenization_method] => 
+                            [dynamic_last4] => 
+                        )
+
+                    [client_secret] => src_client_secret_Gdx0plaB3c1WfrdT64QTZ0uy
+                    [created] => 1580398757
+                    [currency] => 
+                    [flow] => none
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [owner] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Jacksonville
+                                    [country] => US
+                                    [line1] => 5623 Alpha Avenue
+                                    [line2] => 
+                                    [postal_code] => 32205
+                                    [state] => FL
+                                )
+
+                            [email] => wrdw92@gmail.com
+                            [name] => Willie Williams
+                            [phone] => 
+                            [verified_address] => 
+                            [verified_email] => 
+                            [verified_name] => 
+                            [verified_phone] => 
+                        )
+
+                    [statement_descriptor] => 
+                    [status] => consumed
+                    [type] => card
+                    [usage] => reusable
+                )
+
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+
+2020-01-30T22:07:06+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Error: Unable to create domain association folder to domain root.
+====End Log====
+
+
+2020-01-30T22:08:15+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Error: Unable to create domain association folder to domain root.
+====End Log====
+
+
+2020-01-30T22:10:59+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_DIl849opGUTDmh/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-30T22:11:03+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_DIl849opGUTDmh/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-30T22:11:05+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_DIl849opGUTDmh/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-30T22:12:54+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Error: Unable to create domain association folder to domain root.
+====End Log====
+
+
+2020-01-30T22:13:08+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:18:12+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:18:13+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:40:55+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:45:35+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:49:56+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:50:01+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:50:59+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:51:00+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:51:03+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:51:03+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:51:04+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:51:42+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T22:55:31+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:13:15+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:27:46+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:29:24+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:38:08+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:44:26+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:52:01+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:52:02+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:52:03+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:52:04+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+
+2020-01-30T23:52:05+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe Payment Request live mode requires SSL.
+====End Log====
+
+

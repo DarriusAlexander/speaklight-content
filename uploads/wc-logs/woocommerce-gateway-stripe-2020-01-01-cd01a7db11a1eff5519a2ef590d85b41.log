@@ -1,0 +1,1754 @@
+2020-01-01T13:58:12+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1Fw7iAHqBUA0yb1iOnIVvglF
+====End Log====
+
+
+2020-01-01T13:58:13+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers request: Array
+(
+    [email] => darriusah@yahoo.com
+    [description] => Name: test test, Username: test
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-01-01T13:58:13+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2418 for the amount of 10.00
+====End Log====
+
+
+2020-01-01T13:58:13+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Fw7iAHqBUA0yb1iOnIVvglF
+    [amount] => 1000
+    [currency] => usd
+    [description] => Speaklight - Order 2418
+    [metadata] => Array
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 2418
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GT3p4VNjrWOKXD
+    [statement_descriptor] => SpeaklightLLC
+)
+
+====End Log====
+
+
+2020-01-01T13:58:13+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1Fw7iDHqBUA0yb1iUBikFp30 initiated for order 2418
+====End Log====
+
+
+2020-01-01T13:58:13+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1Fw7iDHqBUA0yb1iUBikFp30/confirm request: Array
+(
+    [source] => src_1Fw7iAHqBUA0yb1iOnIVvglF
+)
+
+====End Log====
+
+
+2020-01-01T13:58:14+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1Fw7iDHqBUA0yb1iUBikFp30 succeeded for order 2418
+====End Log====
+
+
+2020-01-01T13:58:14+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1Fw7iDHqBUA0yb1izFhpv5Al
+    [object] => charge
+    [amount] => 1000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1Fw7iEHqBUA0yb1ihANioHfj
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => tampa
+                    [country] => US
+                    [line1] => 220 s malcolm ct
+                    [line2] => 
+                    [postal_code] => 33609
+                    [state] => FL
+                )
+
+            [email] => darriusah@yahoo.com
+            [name] => test test
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1577887093
+    [currency] => usd
+    [customer] => cus_GT3p4VNjrWOKXD
+    [description] => Speaklight - Order 2418
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 2418
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 51
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1Fw7iDHqBUA0yb1iUBikFp30
+    [payment_method] => src_1Fw7iAHqBUA0yb1iOnIVvglF
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Cs9QMHqBUA0yb1i/ch_1Fw7iDHqBUA0yb1izFhpv5Al/rcpt_GT3pDj3sfthpQxP0fyMcZ2RZpLAuNjS
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Fw7iDHqBUA0yb1izFhpv5Al/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1Fw7iAHqBUA0yb1iOnIVvglF
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_GT3phQlBZxYA9KSL9tq7wnkf
+            [created] => 1577887094
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => tampa
+                            [country] => US
+                            [line1] => 220 s malcolm ct
+                            [line2] => 
+                            [postal_code] => 33609
+                            [state] => FL
+                        )
+
+                    [email] => darriusah@yahoo.com
+                    [name] => test test
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => SpeaklightLLC
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-01-01T13:58:14+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1Fw7iEHqBUA0yb1ihANioHfj
+====End Log====
+
+
+2020-01-01T14:15:27+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1Fw7yrHqBUA0yb1iNPmFx8am
+====End Log====
+
+
+2020-01-01T14:15:28+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers request: Array
+(
+    [email] => darriusah@yahoo.com
+    [description] => Name: test test, Username: test
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-01-01T14:15:28+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2419 for the amount of 10.00
+====End Log====
+
+
+2020-01-01T14:15:28+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1Fw7yrHqBUA0yb1iNPmFx8am
+    [amount] => 1000
+    [currency] => usd
+    [description] => Speaklight - Order 2419
+    [metadata] => Array
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 2419
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GT479gUfrd1lPB
+    [statement_descriptor] => SpeaklightLLC
+)
+
+====End Log====
+
+
+2020-01-01T14:15:28+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1Fw7yuHqBUA0yb1iUTLc531g initiated for order 2419
+====End Log====
+
+
+2020-01-01T14:15:28+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1Fw7yuHqBUA0yb1iUTLc531g/confirm request: Array
+(
+    [source] => src_1Fw7yrHqBUA0yb1iNPmFx8am
+)
+
+====End Log====
+
+
+2020-01-01T14:15:30+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1Fw7yuHqBUA0yb1iUTLc531g succeeded for order 2419
+====End Log====
+
+
+2020-01-01T14:15:30+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1Fw7yvHqBUA0yb1ivUSVccPi
+    [object] => charge
+    [amount] => 1000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1Fw7yvHqBUA0yb1iZJGnzUHJ
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => tampa
+                    [country] => US
+                    [line1] => 220 s malcolm ct
+                    [line2] => 
+                    [postal_code] => 33609
+                    [state] => FL
+                )
+
+            [email] => darriusah@yahoo.com
+            [name] => test test
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1577888129
+    [currency] => usd
+    [customer] => cus_GT479gUfrd1lPB
+    [description] => Speaklight - Order 2419
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 2419
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 51
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1Fw7yuHqBUA0yb1iUTLc531g
+    [payment_method] => src_1Fw7yrHqBUA0yb1iNPmFx8am
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Cs9QMHqBUA0yb1i/ch_1Fw7yvHqBUA0yb1ivUSVccPi/rcpt_GT47vy5ndfmjDVvMfhM7DG8x0WUBio1
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1Fw7yvHqBUA0yb1ivUSVccPi/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1Fw7yrHqBUA0yb1iNPmFx8am
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_GT47eyVzJMMfnh12TfZqbDvB
+            [created] => 1577888129
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => tampa
+                            [country] => US
+                            [line1] => 220 s malcolm ct
+                            [line2] => 
+                            [postal_code] => 33609
+                            [state] => FL
+                        )
+
+                    [email] => darriusah@yahoo.com
+                    [name] => test test
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => SpeaklightLLC
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-01-01T14:15:30+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1Fw7yvHqBUA0yb1iZJGnzUHJ
+====End Log====
+
+
+2020-01-01T20:12:40+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1FwDYYHqBUA0yb1imIGnAlYX
+====End Log====
+
+
+2020-01-01T20:12:40+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers request: Array
+(
+    [email] => darriusah@yahoo.com
+    [description] => Name: test test, Username: test
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-01-01T20:12:41+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2429 for the amount of 10.00
+====End Log====
+
+
+2020-01-01T20:12:41+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1FwDYYHqBUA0yb1imIGnAlYX
+    [amount] => 1000
+    [currency] => usd
+    [description] => Speaklight - Order 5307
+    [metadata] => Array
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 5307
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GT9s8KsRjI0jyT
+    [statement_descriptor] => SpeaklightLLC
+)
+
+====End Log====
+
+
+2020-01-01T20:12:41+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FwDYbHqBUA0yb1iiq6Nx9pL initiated for order 2429
+====End Log====
+
+
+2020-01-01T20:12:41+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1FwDYbHqBUA0yb1iiq6Nx9pL/confirm request: Array
+(
+    [source] => src_1FwDYYHqBUA0yb1imIGnAlYX
+)
+
+====End Log====
+
+
+2020-01-01T20:12:42+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FwDYbHqBUA0yb1iiq6Nx9pL succeeded for order 2429
+====End Log====
+
+
+2020-01-01T20:12:42+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1FwDYbHqBUA0yb1i5Fu5p9Pf
+    [object] => charge
+    [amount] => 1000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1FwDYcHqBUA0yb1iVEEDXXU1
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => tampa
+                    [country] => US
+                    [line1] => 220 s malcolm ct
+                    [line2] => 
+                    [postal_code] => 33609
+                    [state] => FL
+                )
+
+            [email] => darriusah@yahoo.com
+            [name] => test test
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1577909561
+    [currency] => usd
+    [customer] => cus_GT9s8KsRjI0jyT
+    [description] => Speaklight - Order 5307
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 5307
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 13
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1FwDYbHqBUA0yb1iiq6Nx9pL
+    [payment_method] => src_1FwDYYHqBUA0yb1imIGnAlYX
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Cs9QMHqBUA0yb1i/ch_1FwDYbHqBUA0yb1i5Fu5p9Pf/rcpt_GT9siyMc3NlUzwSndCVAHAfoBcbU2XO
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1FwDYbHqBUA0yb1i5Fu5p9Pf/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1FwDYYHqBUA0yb1imIGnAlYX
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_GT9sDTGcSVfgTbQoE5XIeyhb
+            [created] => 1577909561
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => tampa
+                            [country] => US
+                            [line1] => 220 s malcolm ct
+                            [line2] => 
+                            [postal_code] => 33609
+                            [state] => FL
+                        )
+
+                    [email] => darriusah@yahoo.com
+                    [name] => test test
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => SpeaklightLLC
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-01-01T20:12:42+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1FwDYcHqBUA0yb1iVEEDXXU1
+====End Log====
+
+
+2020-01-01T21:55:43+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1FwFAHHqBUA0yb1i2KLTp58x
+====End Log====
+
+
+2020-01-01T21:55:43+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers request: Array
+(
+    [email] => darriusah@yahoo.com
+    [description] => Name: test test, Username: test
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-01-01T21:55:43+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2435 for the amount of 10.00
+====End Log====
+
+
+2020-01-01T21:55:43+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1FwFAHHqBUA0yb1i2KLTp58x
+    [amount] => 1000
+    [currency] => usd
+    [description] => Speaklight - Order 5308
+    [metadata] => Array
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 5308
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GTBXsAAdAirqVl
+    [statement_descriptor] => SpeaklightLLC
+)
+
+====End Log====
+
+
+2020-01-01T21:55:43+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FwFAJHqBUA0yb1iho31BO8Z initiated for order 2435
+====End Log====
+
+
+2020-01-01T21:55:43+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1FwFAJHqBUA0yb1iho31BO8Z/confirm request: Array
+(
+    [source] => src_1FwFAHHqBUA0yb1i2KLTp58x
+)
+
+====End Log====
+
+
+2020-01-01T21:55:45+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FwFAJHqBUA0yb1iho31BO8Z succeeded for order 2435
+====End Log====
+
+
+2020-01-01T21:55:45+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1FwFAKHqBUA0yb1itreempJA
+    [object] => charge
+    [amount] => 1000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1FwFAKHqBUA0yb1iThmn8PXh
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => tampa
+                    [country] => US
+                    [line1] => 220 s malcolm ct
+                    [line2] => 
+                    [postal_code] => 33609
+                    [state] => FL
+                )
+
+            [email] => darriusah@yahoo.com
+            [name] => test test
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1577915744
+    [currency] => usd
+    [customer] => cus_GTBXsAAdAirqVl
+    [description] => Speaklight - Order 5308
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 5308
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 33
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1FwFAJHqBUA0yb1iho31BO8Z
+    [payment_method] => src_1FwFAHHqBUA0yb1i2KLTp58x
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Cs9QMHqBUA0yb1i/ch_1FwFAKHqBUA0yb1itreempJA/rcpt_GTBXe0pMB02CcI7n5KDoNcvAklehzTe
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1FwFAKHqBUA0yb1itreempJA/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1FwFAHHqBUA0yb1i2KLTp58x
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_GTBXVhDUn1uo6wvHLWiaz7Im
+            [created] => 1577915744
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => tampa
+                            [country] => US
+                            [line1] => 220 s malcolm ct
+                            [line2] => 
+                            [postal_code] => 33609
+                            [state] => FL
+                        )
+
+                    [email] => darriusah@yahoo.com
+                    [name] => test test
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => SpeaklightLLC
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-01-01T21:55:45+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1FwFAKHqBUA0yb1iThmn8PXh
+====End Log====
+
+
+2020-01-01T21:59:28+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_DIl849opGUTDmh/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T21:59:32+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_DIl849opGUTDmh/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:55:22+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:55:22+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:55:24+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:55:24+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:55:25+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:55:25+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:55:29+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:55:30+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-01-01T22:56:05+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1FwG6iHqBUA0yb1i4IiNgCLE
+====End Log====
+
+
+2020-01-01T22:56:05+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GTBXsAAdAirqVl request: Array
+(
+    [email] => darriusah@yahoo.com
+    [description] => Name: test test, Username: test
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-01-01T22:56:05+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2444 for the amount of 10.00
+====End Log====
+
+
+2020-01-01T22:56:05+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1FwG6iHqBUA0yb1i4IiNgCLE
+    [amount] => 1000
+    [currency] => usd
+    [description] => Speaklight - Order 5309
+    [metadata] => Array
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 5309
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GTBXsAAdAirqVl
+    [statement_descriptor] => SpeaklightLLC
+)
+
+====End Log====
+
+
+2020-01-01T22:56:05+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FwG6jHqBUA0yb1iGCR8OOju initiated for order 2444
+====End Log====
+
+
+2020-01-01T22:56:06+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1FwG6jHqBUA0yb1iGCR8OOju/confirm request: Array
+(
+    [source] => src_1FwG6iHqBUA0yb1i4IiNgCLE
+)
+
+====End Log====
+
+
+2020-01-01T22:56:07+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FwG6jHqBUA0yb1iGCR8OOju succeeded for order 2444
+====End Log====
+
+
+2020-01-01T22:56:07+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1FwG6kHqBUA0yb1ir65PsBTu
+    [object] => charge
+    [amount] => 1000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1FwG6kHqBUA0yb1iSiF9lgrm
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => tampa
+                    [country] => US
+                    [line1] => 220 s malcolm ct
+                    [line2] => 
+                    [postal_code] => 33609
+                    [state] => FL
+                )
+
+            [email] => darriusah@yahoo.com
+            [name] => test test
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1577919366
+    [currency] => usd
+    [customer] => cus_GTBXsAAdAirqVl
+    [description] => Speaklight - Order 5309
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 5309
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 52
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1FwG6jHqBUA0yb1iGCR8OOju
+    [payment_method] => src_1FwG6iHqBUA0yb1i4IiNgCLE
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Cs9QMHqBUA0yb1i/ch_1FwG6kHqBUA0yb1ir65PsBTu/rcpt_GTCVzgtTr8AHqm2ICFbUkRqnuoa2sL9
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1FwG6kHqBUA0yb1ir65PsBTu/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1FwG6iHqBUA0yb1i4IiNgCLE
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_GTCVU0563GOtCq7kJJGtDYki
+            [created] => 1577919366
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => tampa
+                            [country] => US
+                            [line1] => 220 s malcolm ct
+                            [line2] => 
+                            [postal_code] => 33609
+                            [state] => FL
+                        )
+
+                    [email] => darriusah@yahoo.com
+                    [name] => test test
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => SpeaklightLLC
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-01-01T22:56:07+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1FwG6kHqBUA0yb1iSiF9lgrm
+====End Log====
+
+
+2020-01-01T23:25:43+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1FwGZNHqBUA0yb1idcuCQTlg
+====End Log====
+
+
+2020-01-01T23:25:43+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers request: Array
+(
+    [email] => darriusah@yahoo.com
+    [description] => Name: test test, Username: test
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-01-01T23:25:44+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 2445 for the amount of 10.00
+====End Log====
+
+
+2020-01-01T23:25:44+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1FwGZNHqBUA0yb1idcuCQTlg
+    [amount] => 1000
+    [currency] => usd
+    [description] => Speaklight - Order 5310
+    [metadata] => Array
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 5310
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GTCzV9FZNFnKyx
+    [statement_descriptor] => SpeaklightLLC
+)
+
+====End Log====
+
+
+2020-01-01T23:25:44+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FwGZQHqBUA0yb1i6vRScf76 initiated for order 2445
+====End Log====
+
+
+2020-01-01T23:25:44+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1FwGZQHqBUA0yb1i6vRScf76/confirm request: Array
+(
+    [source] => src_1FwGZNHqBUA0yb1idcuCQTlg
+)
+
+====End Log====
+
+
+2020-01-01T23:25:45+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FwGZQHqBUA0yb1i6vRScf76 succeeded for order 2445
+====End Log====
+
+
+2020-01-01T23:25:45+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1FwGZQHqBUA0yb1idXdWfgIt
+    [object] => charge
+    [amount] => 1000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1FwGZRHqBUA0yb1igaVlhZht
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => tampa
+                    [country] => US
+                    [line1] => 220 s malcolm ct
+                    [line2] => 
+                    [postal_code] => 33609
+                    [state] => FL
+                )
+
+            [email] => darriusah@yahoo.com
+            [name] => test test
+            [phone] => 
+        )
+
+    [captured] => 1
+    [created] => 1577921144
+    [currency] => usd
+    [customer] => cus_GTCzV9FZNFnKyx
+    [description] => Speaklight - Order 5310
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => test test
+            [customer_email] => darriusah@yahoo.com
+            [order_id] => 5310
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 21
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1FwGZQHqBUA0yb1i6vRScf76
+    [payment_method] => src_1FwGZNHqBUA0yb1idcuCQTlg
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1Cs9QMHqBUA0yb1i/ch_1FwGZQHqBUA0yb1idXdWfgIt/rcpt_GTCzDMBsukcu0O0riy3LOSP2ZFmFK97
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1FwGZQHqBUA0yb1idXdWfgIt/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1FwGZNHqBUA0yb1idcuCQTlg
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2021
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => GPax4V9ULNxTeK1q
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_GTCzlgeGvE9YpvvCui2H0oyk
+            [created] => 1577921145
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => tampa
+                            [country] => US
+                            [line1] => 220 s malcolm ct
+                            [line2] => 
+                            [postal_code] => 33609
+                            [state] => FL
+                        )
+
+                    [email] => darriusah@yahoo.com
+                    [name] => test test
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => SpeaklightLLC
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-01-01T23:25:45+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1FwGZRHqBUA0yb1igaVlhZht
+====End Log====
+
+

@@ -1,0 +1,11 @@
+2019-12-21T06:48:38+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::toWpFormat() in /var/www/html/wp-content/plugins/social-auto-poster/includes/updater/updates/class-plugin-update-checker.php:579
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): WpwebPluginUpdateChecker->injectInfo(false, 'plugin_informat...', Object(stdClass))
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-admin/includes/plugin-install.php(150): apply_filters('plugins_api', false, 'plugin_informat...', Object(stdClass))
+#3 /var/www/html/wp-content/plugins/wordfence/lib/wfScanEngine.php(1511): plugins_api('plugin_informat...', Object(stdClass))
+#4 /var/www/html/wp-content/plugins/wordfence/lib/wfScanEngine.php(391): wfScanEngine->scan_oldVersions_main()
+#5 /var/www/html/wp-content/plugins/wordfence/lib/wfScanEngine.php(192): wfScanEngine->doScan()
+#6 /var/www/html/wp-content/plugins/wordfence/lib/wfScan.php(197): wfScanEngine->go()
+#7 /var/www/html/wp-content/plugins/wordfence/lib/wordfe in /var/www/html/wp-content/plugins/social-auto-poster/includes/updater/updates/class-plugin-update-checker.php on line 579
+

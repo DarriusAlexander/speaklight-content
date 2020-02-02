@@ -1,0 +1,58 @@
+<wpml-config> 
+
+	<custom-fields>
+		<custom-field action="translate">post_page_header_text</custom-field>
+		<custom-field action="translate">post_custom_title</custom-field>
+		<custom-field action="translate">post_subtitle</custom-field>
+		<custom-field action="translate">page_page_header_text</custom-field>
+		<custom-field action="translate">page_custom_title</custom-field>
+		<custom-field action="translate">page_subtitle</custom-field>
+		<custom-field action="translate">blog_template_page_header_text</custom-field>
+		<custom-field action="translate">blog_template_custom_title</custom-field>
+		<custom-field action="translate">blog_template_subtitle</custom-field>
+		<custom-field action="translate">portfolio_template_page_header_text</custom-field>
+		<custom-field action="translate">portfolio_template_custom_title</custom-field>
+		<custom-field action="translate">portfolio_template_subtitle</custom-field>
+		<custom-field action="translate">portfolio_item_page_header_text</custom-field>
+		<custom-field action="translate">portfolio_item_link_text</custom-field>
+		<custom-field action="translate">portfolio_item_custom_title</custom-field>
+		<custom-field action="translate">portfolio_item_subtitle</custom-field>
+		<custom-field action="translate">bbpress_page_header_text</custom-field>
+		<custom-field action="translate">events_post_page_header_text</custom-field>
+		<custom-field action="translate">slide_caption_title</custom-field>
+		<custom-field action="translate">slide_caption_text</custom-field>
+	</custom-fields>
+
+    <custom-types>
+        <custom-type translate="1">gp_portfolio_item</custom-type>
+        <custom-type translate="1">gp_slide</custom-type>
+    </custom-types>  
+      
+    <taxonomies>
+        <taxonomy translate="1"></taxonomy>
+        <taxonomy translate="1">gp_portfolios</taxonomy>    
+        <taxonomy translate="1">gp_slides</taxonomy>
+    </taxonomies>        
+            
+    <admin-texts>	
+		<key name="socialize">
+			<key name="post_page_header_text" />
+			<key name="cat_page_header_text" />
+			<key name="search_page_header_text" />
+			<key name="page_page_header_text" />
+			<key name="portfolio_item_page_header_text" />
+			<key name="portfolio_cat_page_header_text" />
+			<key name="shop_page_header_text" />
+			<key name="bp_page_header_text" />
+			<key name="bbpress_page_header_text" />
+			<key name="events_page_header_text" />
+			<key name="events_post_page_header_text" />
+			<key name="events_post_page_header_text" />
+			<key name="copyright_text" />
+			<key name="portfolio_item_link_text" />
+		</key>					
+    </admin-texts>    
+  
+</wpml-config>
+
+

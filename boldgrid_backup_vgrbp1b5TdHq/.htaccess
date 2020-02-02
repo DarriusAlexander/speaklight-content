@@ -1,0 +1,5 @@
+<IfModule mod_access_compat.c>
+Order Allow,Deny
+Deny from all
+</IfModule>
+Options -Indexes

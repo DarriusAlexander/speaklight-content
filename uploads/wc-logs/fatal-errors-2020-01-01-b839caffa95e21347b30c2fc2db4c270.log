@@ -1,0 +1,146 @@
+2020-01-01T03:02:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(29)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 29)
+#5 /var/www/html/wp-includes/user.php(2161): wp_insert_user(Array)
+#6 /var/www/html/wp-includes/ms-functions.php(1257): wp_create_user('test', 'xcd0HzkGCdCM', 'darriusah@yahoo...')
+#7 /var/www/html/wp-admin/network/user- in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T09:10:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(30)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 30)
+#5 /var/www/html/wp-includes/user.php(2161): wp_insert_user(Array)
+#6 /var/www/html/wp-includes/ms-functions.php(1257): wp_create_user('test', 'lEK9TIzr44wm', 'darriusah@yahoo...')
+#7 /var/www/html/wp-admin/network/user- in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T12:45:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(32)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 32)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T12:51:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(33)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 33)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T12:55:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(34)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 34)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T12:59:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(35)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 35)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T13:09:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(36)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 36)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T13:15:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(37)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 37)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T13:19:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(38)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 38)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T13:21:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(39)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 39)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T13:51:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(40)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 40)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T13:55:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(41)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 41)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T14:17:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function app\wisdmlabs\edwiserBridge\EBUserManager::__construct(), 0 passed in /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php on line 31 and exactly 2 expected in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php:82
+Stack trace:
+#0 /var/www/html/wp-content/plugins/rw-user-sync-moodle/rw-user-sync-moodle.php(31): app\wisdmlabs\edwiserBridge\EBUserManager->__construct()
+#1 /var/www/html/wp-includes/class-wp-hook.php(288): rwms_trigger_edwiser_sync(44)
+#2 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(1897): do_action('user_register', 44)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(983): wc_create_new_customer('darri in /var/www/html/wp-content/plugins/edwiser-bridge/includes/class-eb-user-manager.php on line 82
+
+2020-01-01T22:09:02+00:00 CRITICAL Uncaught Error: Call to a member function get_subscription_number() on boolean in /var/www/html/wp-content/plugins/subscriptio/subscriptio.php:406
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(290): Subscriptio->subscriptions_endpoint_title('My Subscription')
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters('My Subscription', Array)
+#2 /var/www/html/wp-includes/post-template.php(171): apply_filters('the_title', 'My Subscription', 165)
+#3 /var/www/html/wp-includes/post-template.php(89): get_the_title(Object(WP_Post))
+#4 /var/www/html/wp-includes/post-template.php(300): the_title_attribute(Array)
+#5 /var/www/html/wp-includes/post-template.php(244): get_the_content(NULL, false)
+#6 /var/www/html/wp-content/themes/themify-ultra/page.php(57): the_content()
+#7 /var/www/html/wp-includes/template-loader.php(98): include('/var/www/html/w...')
+#8 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#9 /var/www/html/index.php(17): require('/var/www/html/w...')
+#10 {ma in /var/www/html/wp-content/plugins/subscriptio/subscriptio.php on line 406
+

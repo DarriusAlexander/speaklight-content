@@ -1,0 +1,11 @@
+2020-01-30T08:22:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /bitnami/wordpress/wp-content/plugins/woocommerce-smart-coupons/includes/class-sc-process.php:815
+Stack trace:
+#0 /bitnami/wordpress/wp-content/plugins/woocommerce-smart-coupons/includes/class-sc-process.php(909): WC_SC_Coupon_Process->process_coupons(2351, 'remove')
+#1 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(290): WC_SC_Coupon_Process->sa_remove_coupons(2351)
+#2 /opt/bitnami/wordpress/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/bitnami/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /bitnami/wordpress/wp-content/plugins/woocommerce/includes/class-wc-order.php(363): do_action('woocommerce_ord...', 2351, Object(WC_Order))
+#5 /bitnami/wordpress/wp-content/plugins/woocommerce/includes/class-wc-order.php(221): WC_Order->status_transition()
+#6 /bitnami/wordpress/wp-content/plugins/woocommerce/includes/class-wc-order.php(333): WC_Order->save()
+#7 /bitnami/wordpress/wp-content/plugins/wo in /bitnami/wordpress/wp-content/plugins/woocommerce-smart-coupons/includes/class-sc-process.php on line 815
+

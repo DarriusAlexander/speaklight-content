@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: blocks/ld-course-complete/index.js:30
+msgid "LearnDash Course Complete"
+msgstr ""
+
+#: blocks/ld-course-complete/index.js:31
+msgid "LearnDash Course complete Block."
+msgstr ""
+
+#: blocks/ld-course-complete/index.js:51
+#: blocks/ld-visitor/index.js:48
+msgid "Settings"
+msgstr ""
+
+#: blocks/ld-course-complete/index.js:55
+#: blocks/ld-student/index.js:52
+msgid "Course ID"
+msgstr ""
+
+#: blocks/ld-course-complete/index.js:56
+#: blocks/ld-student/index.js:53
+msgid "Course ID help text"
+msgstr ""
+
+#: blocks/ld-course-complete/index.js:63
+msgid "User ID"
+msgstr ""
+
+#: blocks/ld-course-complete/index.js:64
+msgid "User ID help text"
+msgstr ""
+
+#: blocks/ld-student/index.js:30
+msgid "LearnDash Student"
+msgstr ""
+
+#: blocks/ld-student/index.js:31
+msgid "LearnDash Student Block."
+msgstr ""
+
+#: blocks/ld-visitor/index.js:30
+msgid "LearnDash Visitor"
+msgstr ""
+
+#: blocks/ld-visitor/index.js:31
+msgid "LearnDash Visitor Inner Block."
+msgstr ""
+
+#: blocks/ld-visitor/index.js:53
+msgid "Course ID (required)"
+msgstr ""
+
+#: blocks/ld-visitor/index.js:52
+msgctxt "Course ID"
+msgid "%s ID"
+msgstr ""

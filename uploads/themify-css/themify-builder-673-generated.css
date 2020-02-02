@@ -1,0 +1,16 @@
+.themify_builder_673_row.module_row_0.module_row{background-image: url("https://themify.me/demo/themes/ultra-app/files/2018/05/bg-header.jpg");background-repeat: no-repeat;background-size: cover;background-attachment: scroll;background-position: center top;background-color:#000000;padding-top:7%;padding-bottom:7%}
+.themify_builder_673_row.module_row_0.module_row>.builder_row_cover:before{background-color:rgba(105,80,209, 0.59)}
+@media screen and (max-width: 680px) {.themify_builder_673_row.module_row_0.module_row{padding-top:20%;padding-bottom:8%}
+}
+.themify_builder .text-673-0-0-0.module-text{background-repeat: repeat;text-align: center}
+.themify_builder .text-673-0-0-0.module-text,.themify_builder .text-673-0-0-0.module-text h1,.themify_builder .text-673-0-0-0.module-text h2,.themify_builder .text-673-0-0-0.module-text h3:not(.module-title),.themify_builder .text-673-0-0-0.module-text h4,.themify_builder .text-673-0-0-0.module-text h5,.themify_builder .text-673-0-0-0.module-text h6{color:#ffffff}
+.themify_builder .text-673-0-0-0.module.module-text h1{color:#ffffff}
+.themify_builder .text-673-0-0-0.module-text h1{font-size:48px;line-height:60px}
+@media screen and (max-width: 680px) {.themify_builder .text-673-0-0-0.module-text h1{font-size:38px;line-height:50px}
+}
+.themify_builder_673_row.module_row_1.module_row{background-repeat: repeat;background-attachment: scroll;background-position: center center}
+.themify_builder_673_row.module_row_2.module_row{padding-top:6%;padding-bottom:4%}
+.themify_builder .text-673-2-0-0.module-text{background-repeat: repeat;margin-bottom:10px}
+.themify_builder .text-673-2-0-0.module-text h3{font-size:30px;line-height:42px}
+@media screen and (max-width: 680px) {.themify_builder .text-673-2-0-0.module-text h3{font-size:25px;line-height:35px}
+}

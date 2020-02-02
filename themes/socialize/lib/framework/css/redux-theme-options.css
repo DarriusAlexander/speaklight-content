@@ -1,0 +1,181 @@
+/*--------------------------------------------------------------------------------------
+
+Redux theme options
+
+--------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+
+.rAds {
+display: none !important;
+visibility: hidden !important;
+}
+
+/*--------------------------------------------------------------
+Tabs
+--------------------------------------------------------------*/
+
+.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections .active a:after, 
+.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .active a:after, 
+.wp-customizer .redux-sidebar .redux-group-menu li.active.hasSubSections .active a:after, 
+.wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .active a:after,
+.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections a:after, 
+.wp-customizer .redux-sidebar .redux-group-menu li.active.hasSubSections a:after {
+z-index: 1;
+}
+
+/*--------------------------------------------------------------
+Main container
+--------------------------------------------------------------*/
+
+/* General ************************************/
+
+.redux-container .redux-group-tab h2 {
+margin: 20px 0 5px 0;
+}
+.redux-container .redux-group-tab .redux-section-desc {
+margin: 0 0 5px 0;
+}
+.redux-container .redux-main form-table, 
+.redux-container .redux-main .form-table>thead, 
+.redux-container .redux-main .form-table>tbody, 
+.redux-container .redux-main .form-table > tbody > tr > th, 
+.redux-container .redux-main .form-table > tbody > tr > td, 
+.redux-container .redux-main .form-table > tbody > tr:not(.hide) {
+display: block !important;
+width: 100% !important;
+padding: 0 !important;
+}
+.redux-container .redux-main .redux_field_th {
+padding: 20px 10px 0 0px !important;
+}
+.redux-container .redux-main .redux-field-container {
+padding: 10px 0 20px !important;
+}
+.redux-container .redux-main span.description {
+background: #fff;
+padding: 10px;
+border-radius: 4px;
+border: 1px solid #b4d9ea;
+}
+.redux-container .redux-main .redux-field-container ul {
+margin: 0;
+}
+
+/* Section ************************************/
+
+.redux-container .redux-main div.redux-section-indent-start {
+border-top: 1px solid #E7E7E7;
+}
+.redux-container .redux-main .form-table > tbody > tr.redux-section-indent-start {
+display: none !important;
+}
+.redux-container .redux-main .redux-group-tab h3 {
+margin: 0 !important;
+padding-top: 20px;
+font-size: 14px;
+line-height: 1.3em;
+border: 0;
+}
+.redux-container .redux-main .form-table-section-indented {
+width: 100%;
+margin-left: 0% !important;
+}
+.redux-container .redux-main .form-table-section-indented tbody {
+display: flex !important;
+}
+.redux-container .redux-main .form-table-section-indented tbody tr:not(.hide) {
+padding-right: 30px !important;
+width: auto !important;
+flex: 1 1 auto;
+}
+.redux-container .redux-main .form-table-section-indented tbody tr:first-child,
+.redux-container .redux-main .form-table-section-indented tbody tr:last-child {
+position: absolute;
+padding: 0 !important;
+border: 0;
+}
+.redux-container .redux-main .form-table-section-indented .redux_field_th {
+font-size: 13px;
+opacity: 0.8;
+}
+.redux-container .redux-main .form-table-section-indented td img {
+padding: 0;
+}
+	
+/* Image selection ************************************/
+
+.redux-container-image_select ul.redux-image-select li {
+margin: 0 10px 10px 0 !important;
+}
+.redux-container-image_select ul.redux-image-select li:last-child {
+margin-right: 0 !important;
+}
+.redux-container-image_select ul.redux-image-select li img {
+width: 82px !important;
+}
+.redux-container-image_select .redux-image-select-selected {
+background-color: transparent;
+}
+
+/* Import/export options ************************************/
+
+#redux-import {
+display: none;
+}
+
+/* Conflicts ************************************/
+
+.woocommerce .redux-container table.form-table .select2-container {
+min-width: 0 !important;
+}
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+
+#redux-footer-sticky .redux-action_bar .button {
+margin-left: 2px;
+margin-right: 2px;
+}
+
+
+/*--------------------------------------------------------------------------------------
+
+Media Queries
+
+--------------------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 782px) {
+
+	.redux-container .form-table>tbody>tr>th {
+	width: 100%;
+	}
+	.redux-container .redux-main .form-table-section-indented tbody {
+	flex-wrap: wrap;
+	}
+	.redux-container .redux-main .form-table-section-indented tbody tr:not(.hide) {
+	padding-right: 0 !important;
+	width: 100% !important;
+	}
+	.redux-main .form-table-section-indented input[type=text] {
+	width: auto !important;
+	}
+	.redux-container .redux-main .input-append .add-on, 
+	.redux-container .redux-main .input-prepend .add-on {
+    padding: 6px 4px 5px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.redux-container .redux-main {
+	margin-left: 44px;
+	}
+	
+
+}

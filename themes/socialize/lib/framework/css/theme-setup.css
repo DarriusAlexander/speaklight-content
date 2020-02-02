@@ -1,0 +1,501 @@
+/*--------------------------------------------------------------
+Page
+--------------------------------------------------------------*/
+
+.appearance_page_socialize-setup #wpwrap,
+.appearance_page_ghostpool-importer #wpwrap {
+background-color: #fff;
+}
+.appearance_page_socialize-setup .updated,
+.appearance_page_socialize-setup .update-nag,
+.appearance_page_socialize-setup .notice,
+.appearance_page_socialize-setup #message.updated,
+.appearance_page_socialize-setup #setting-error-tgmpa,
+.appearance_page_ghostpool-importer .updated,
+.appearance_page_ghostpool-importer .update-nag,
+.appearance_page_ghostpool-importer .notice,
+.appearance_page_ghostpool-importer #message.updated,
+.appearance_page_ghostpool-importer #setting-error-tgmpa {
+display: none;
+}
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+
+.gp-theme-setup {
+background-color: #fff;
+padding: 40px 40px 20px 20px;
+}
+.gp-theme-setup .gp-page-title {
+font-size: 2.8em;
+font-weight:700;
+line-height: 34px;
+margin-bottom: 20px;
+}
+.gp-theme-version {
+color: #333;
+text-transform: uppercase;
+font-size: 13px;
+}
+
+/*--------------------------------------------------------------
+Tabs
+--------------------------------------------------------------*/
+
+.gp-tabs {
+position: relative;
+margin: 0;
+}
+.gp-tabs nav {
+overflow: auto;
+-webkit-overflow-scrolling: touch;
+}
+@media only screen and (min-width: 960px) {
+.gp-tabs nav {
+position: relative;
+float: none;
+background: transparent;
+box-shadow: none;
+}
+}
+.gp-tabs .count-tab {
+border-radius: 50%;
+border: 1px solid #c3c2b9;
+padding: 5px;
+width: 8px;
+display: inline-block;
+height: 8px;
+line-height: 8px;
+}
+.gp-tabs .selected .count-tab {
+border: 1px solid #333;
+}
+.gp-tabs-navigation {
+width: auto;
+margin: 0;
+}
+.gp-tabs::after {
+display: none;
+}
+.gp-tabs-navigation:after {
+content: "";
+display: table;
+clear: both;
+}
+.gp-tabs-navigation li {
+float: left;
+margin-bottom:0;
+}
+@media only screen and (max-width: 998px) {
+.gp-tabs-navigation li {
+float: none;
+width: 100%
+}
+}
+.gp-tabs-navigation a {
+position: relative;
+display: block;
+width: auto;
+height: 60px;
+text-align: center;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-weight: 700;
+color: #777;
+text-decoration: none;
+line-height: 60px;
+text-align: left;
+font-size: 14px;
+padding: 0 2em 0 2em;
+}
+.no-touch .gp-tabs-navigation a:hover {
+color: #29324e;
+}
+.gp-tabs-navigation a.selected {
+background-color: #fff !important;
+box-shadow: inset 0 3px 0 #1dbbd4;
+color: #29324e;
+border: 1px solid #ccc;
+border-top: 0;
+border-bottom: 0;
+}
+.gp-tabs-navigation a::before {
+top: 50%;
+margin-top: -10px;
+margin-left: 0;
+left: 38px;
+}
+.gp-tabs-content {
+margin-top: -1px;
+padding: 30px 10px;
+background: #ffffff;
+border-top: 1px solid #ccc;
+}
+.gp-tabs-content .gp-theme-setup {
+padding: 0;
+}
+.gp-tabs-content > li {
+display: none;
+padding: 0;
+}
+.gp-tabs-content li.selected {
+display: block;
+-webkit-animation: gp-fade-in 0.5s;
+-moz-animation: gp-fade-in 0.5s;
+animation: gp-fade-in 0.5s;
+}
+.gp-tabs-content {
+min-height: 0;
+}
+.gp-tabs-content li p {
+font-size: 16px;
+font-size: 1rem;
+}
+@-webkit-keyframes gp-fade-in {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+@-moz-keyframes gp-fade-in {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+@keyframes gp-fade-in {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+
+/*--------------------------------------------------------------
+Content
+--------------------------------------------------------------*/
+
+/* Text  ************************************/
+
+.gp-primary-header {
+font-size:24px; 
+margin: 0 0 30px; 
+font-weight: 300; 
+line-height: 1;
+}
+.gp-secondary-header {
+font-size: 20px; 
+margin: 0; 
+font-weight: 300; 
+line-height: 1;
+}
+.gp-primary-text {
+font-size: 14px;
+line-height: 20px;
+color: #646464;
+}
+.gp-primary-text {
+font-size: 14px;
+line-height: 20px;
+color: #646464;
+}
+
+/* Rows/columns  ************************************/
+
+.gp-row:before, 
+.gp-row:after, 
+.clearfix:before, 
+.clearfix:after { 
+display: table; 
+content: ' '; 
+}
+.gp-row:after, 
+.clearfix:after {
+clear: both;
+}
+.gp-row, 
+.gp-row * { 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box; 
+}
+.gp-row { 
+margin: 0 -15px; 
+}
+.gp-col-7, 
+.gp-col-6, 
+.gp-col-5 { 
+float: left; 
+padding: 0 15px; 
+}
+.gp-col-7 {
+width: 58.33333333%;
+}
+.gp-col-6 { 
+width: 49.99%; 
+}
+.gp-col-5 {
+width: 41.66666667%;
+}
+@media only screen and (max-width: 998px) {
+.gp-col-7, 
+.gp-col-6, 
+.gp-col-5 {
+width: 50%;
+}
+}
+@media only screen and (max-width: 767px) {
+.gp-col-7, 
+.gp-col-6, 
+.gp-col-5 {
+width: 100%;
+}
+.gp-col-7, 
+.gp-col-6, 
+.gp-col-5 {
+margin-bottom: 30px;
+}
+}
+
+/*--------------------------------------------------------------
+Welcome tab
+--------------------------------------------------------------*/
+
+.gp-sstatus-wrapper { 
+display: table;
+border-collapse: collapse; 
+}
+.gp-sstatus-row { 
+display: table-row; 
+border-bottom: 1px solid #ccc; 
+}
+.gp-sstatus-col { 
+display: table-cell; 
+padding: 10px; 
+vertical-align: middle; 
+}
+.gp-sstatus-col-name { 
+font-weight: 700; 
+}
+.gp-sstatus-col-icon { 
+cursor:pointer; 
+padding: 5px; 
+}
+.gp-sstatus-ok, 
+.gp-sstatus-col-icon.dashicons-yes { 
+color: #9ac364; 
+}
+.gp-sstatus-notok, 
+.gp-sstatus-col-icon.dashicons-warning { 
+color: #e42362; 
+}
+.gp-sstatus-col-icon.dashicons-no { 
+color: #fff; 
+background: #e42362; 
+border-radius: 50%; 
+}
+
+/*--------------------------------------------------------------
+Updates tab
+--------------------------------------------------------------*/
+
+.gp-theme-updates-form { 
+margin-bottom: 50px; 
+}
+.gp-setup-form-field label { 
+display: block; 
+font-weight: 600; 
+font-size: 15px;
+margin-bottom: 15px; 
+}
+.gp-setup-form-field input { 
+padding: 15px 20px; 
+border:1px solid #dbdbdb; 
+width: 99%; 
+margin-bottom: 30px; 
+}
+.gp-theme-updates-form-submit { 
+padding-top: 10px; 
+padding-bottom: 10px;
+}
+.gp-setup-label-desc {
+margin-bottom: 10px;
+}
+.gp-submitting .gp-theme-updates-form-submit { 
+background: #BFBFBF;
+}
+.gp-theme-updates-form-error input[type='text'] { 
+border: 1px solid #e42362; 
+}
+.gp-theme-updates-form .gp-response-area {
+margin-bottom: 30px;
+font-weight: 600;
+color: #000;
+font-size: 15px;
+}
+.gp-register-button {
+padding: 15px 30px;
+color: #fff;
+display: inline-block;
+cursor: pointer;
+border-radius: 3px;
+font-size: 14px;
+font-weight: 600;
+border: none;
+background: #1dbbd4;
+}
+.gp-register-button:focus,
+.gp-register-button:hover {
+background: #19abc1;
+color: #fff;
+}
+
+/*--------------------------------------------------------------
+Theme Addons tab
+--------------------------------------------------------------*/
+
+/* Wrapper  ************************************/
+
+.gp-addons-list { 
+list-style: none; 
+margin: 0 -15px; 
+overflow: hidden;  
+padding: 0 15px; 
+}
+
+/* Box  ************************************/
+
+.gp-addon {
+position: relative;
+overflow: hidden;
+width: 100%;
+clear: both;
+padding: 15px;
+box-sizing: border-box;
+background-color: #fff;
+border-left: 5px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+.gp-addon:first-child {
+border-top: 1px solid #ccc;
+}
+.gp-has-update.gp-addon {
+border-left-color: #f5db24; 
+}
+.gp-active.gp-addon {
+border-left-color: #1dbbd4; 
+}
+
+/* Info  ************************************/
+
+.gp-addon-title {
+font-size: 14px;
+margin: 0 0 5px;
+}
+.gp-addon-extra {
+color: #999;
+margin: 0 0 5px;
+}
+.gp-addon-extra.gp-required-addon {
+color: #e42362;
+}
+.gp-addon-desc {
+font-size: 13px;
+margin-bottom: 5px;
+}
+
+/* Buttons  ************************************/
+
+.gp-addon-button {
+margin-top: 5px;
+padding: 5px 10px;
+display: inline-block;
+cursor: pointer;
+border-radius: 3px;
+font-size: 12px;
+font-weight: 600;
+text-decoration: none;
+transition: all .15s ease-out;
+}
+.gp-is-active.gp-addon-button {
+opacity: 0.5;
+}
+.gp-addon-button + .spinner {
+display: none;
+}
+.gp-is-active.gp-addon-button + .spinner {
+display: inline-block;
+visibility: visible;
+float: none;
+margin-top: -3px;
+}
+.gp-inactive .gp-addon-button,
+.gp-has-update .gp-addon-button,
+.gp-not-installed .gp-addon-button  {
+background: #1dbbd4;
+color: #fff;
+}
+.gp-inactive .gp-addon-button:hover,
+.gp-has-update .gp-addon-button:hover,
+.gp-inactive .gp-addon-button:focus,
+.gp-has-update .gp-addon-button:focus,
+.gp-not-installed .gp-addon-button:focus,
+.gp-not-installed .gp-addon-button:focus {
+color: #fff;
+background: #19abc1;
+}
+.gp-active .gp-addon-button {
+background: transparent;
+border: 1px solid #ccc;
+color: #999;
+}
+.gp-active .gp-addon-button:hover,
+.gp-active .gp-addon-button:focus {
+background: transparent;
+border: 1px solid #ccc;
+color: #999;
+}
+
+/*--------------------------------------------------------------
+Support
+--------------------------------------------------------------*/
+
+.gp-support-button {
+padding: 15px 30px;
+color: #fff;
+display: inline-block;
+cursor: pointer;
+border-radius: 3px;
+font-size: 14px;
+font-weight: 600;
+border: none;
+background: #1dbbd4;
+text-decoration: none;
+}
+.gp-support-button:focus,
+.gp-support-button:hover {
+background: #19abc1;
+color: #fff;
+}
+.gp-support-button:disabled {
+background: #19abc1;
+color: #fff;
+opacity: 0.5;
+}
+
+/*--------------------------------------------------------------
+Importer
+--------------------------------------------------------------*/
+
+.radium-importer-wrap .spinner {
+visibility: visible; 
+display: block; 
+float: left;
+margin: 2px 5px 0 0;
+}
