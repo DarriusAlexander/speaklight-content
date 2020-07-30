@@ -39,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 				<h4 class="attribute_title"><?php echo wc_attribute_label( $attribute['name'] ); ?></h4>
 				<p><?php
 					if ( $attribute['is_taxonomy'] ) {
-						$values = wc_get_product_terms( $product->id, $attribute['name'], array( 'fields' => 'names' ) );
+						$values = wc_get_product_terms( $product->get_id(), $attribute['name'], array( 'fields' => 'names' ) );
 						foreach ( $values as $attribute_value ) {
 							echo apply_filters( 'woocommerce_attribute', wpautop( wptexturize( $attribute_value ) ), $attribute, $values );
 						}

@@ -1,5 +1,29 @@
 == Changelog ==
 
+2020-05-12 - version 1.7.6
+* Fix   - Remove selected class from inputs when removing from cart.
+* Tweak - Name Your Price 3.0 compatibility fixes.
+
+2020-04-29 - version 1.7.5
+* Tweak - Ability to use opc_add_remove_product to avoid AJAX add to cart request.
+
+2020-03-30 - version 1.7.4
+* Fix: Load plugin files using plugin path.
+* Fix: Notice ID was called incorrectly.
+* Fix: Fix display of Quantity input on single product template.
+* Fix: Style label on product list to be inline.
+
+2020.01.30 - version 1.7.3
+* Fix: When using shortcode modal, tooltips were cut off unable to read.
+
+2020.01.21 - version 1.7.2
+* Tweak: Reposition coupon field to after the product selection.
+* Tweak: WC 3.9 compatibility.
+
+2019.11.21 - version 1.7.1
+* Tweak: Tooltip display in admin screen of category search.
+* Tweak: WC 3.8 compatibility.
+
 2019.07.04 - version 1.7.0
 * New: Introduce helper to find if it's a frontend request
 * New: Bumps WC tested up to version.

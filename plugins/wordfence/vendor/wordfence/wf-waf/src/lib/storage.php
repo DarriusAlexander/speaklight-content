@@ -67,13 +67,5 @@ interface wfWAFStorageInterface {
 	public function getRulesDSLCacheFile();
 
 	public function isAttackDataFull();
-
-	public function vacuum();
-
-	public function getRules();
-
-	public function setRules($rules);
-
-	public function needsInitialRules();
 }
 }

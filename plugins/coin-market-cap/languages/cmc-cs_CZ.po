@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-17 07:47+0000\n"
+"PO-Revision-Date: 2019-07-17 07:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/cmc-advanced-single-shortcode.php:987
+msgid "Loading facebook comment(s)"
+msgstr "Načítání facebook komentář(s)"
+
+#: includes/cmc-advanced-single-shortcode.php:310
+#: includes/cmc-advanced-single-shortcode.php:388
+#: includes/cmc-advanced-single-shortcode.php:500
+#: includes/cmc-advanced-single-shortcode.php:511
+#: includes/cmc-advanced-single-shortcode.php:520
+#: includes/cmc-single-shortcode.php:318 includes/cmc-single-shortcode.php:397
+#: includes/cmc-single-shortcode.php:535 includes/cmc-single-shortcode.php:546
+#: includes/cmc-single-shortcode.php:555
+msgid "N/A"
+msgstr "N / A"
+
+#: includes/cmc-advanced-single-shortcode.php:316
+#: includes/cmc-advanced-single-shortcode.php:394
+#: includes/cmc-single-shortcode.php:324 includes/cmc-single-shortcode.php:403
+msgid "down"
+msgstr "dolů"
+
+#: includes/cmc-advanced-single-shortcode.php:318
+#: includes/cmc-advanced-single-shortcode.php:396
+#: includes/cmc-single-shortcode.php:326 includes/cmc-single-shortcode.php:405
+msgid "up"
+msgstr "nahoru"
+
+#: includes/cmc-advanced-single-shortcode.php:556
+#: includes/cmc-shortcode.php:243 includes/cmc-top-shortcode.php:72
+#: includes/cmc-top-shortcode.php:76
+msgid "24H"
+msgstr "24H"
+
+#: includes/cmc-advanced-single-shortcode.php:558
+#: includes/cmc-shortcode.php:229 includes/cmc-single-shortcode.php:583
+msgid "Add to watch list"
+msgstr "Přidat do seznamu"
+
+#: includes/cmc-advanced-single-shortcode.php:558
+msgid "Watch"
+msgstr "Hodinky"
+
+#: includes/cmc-advanced-single-shortcode.php:558
+msgid "Unwatch"
+msgstr "Nesledovat"
+
+#: includes/cmc-advanced-single-shortcode.php:558
+#: includes/cmc-shortcode.php:229 includes/cmc-single-shortcode.php:583
+msgid "Remove from watch list"
+msgstr "Odstranit ze seznamu"
+
+#: includes/cmc-advanced-single-shortcode.php:572
+#: includes/cmc-shortcode.php:240 includes/cmc-single-shortcode.php:593
+#: includes/cmc-top-shortcode.php:75
+msgid "Market Cap"
+msgstr "Tržní kapitál"
+
+#: includes/cmc-advanced-single-shortcode.php:575
+#: includes/cmc-advanced-single-shortcode.php:651
+#: includes/cmc-advanced-single-shortcode.php:711
+#: includes/cmc-single-shortcode.php:596 includes/cmc-single-shortcode.php:666
+#: includes/cmc-single-shortcode.php:734
+msgid "Volume"
+msgstr "Hlasitost"
+
+#: includes/cmc-advanced-single-shortcode.php:578
+#: includes/cmc-shortcode.php:246 includes/cmc-single-shortcode.php:600
+msgid "Available Supply"
+msgstr "Dostupné dodávky"
+
+#: includes/cmc-advanced-single-shortcode.php:601
+#: includes/cmc-single-shortcode.php:609
+msgid "Currency Not Found"
+msgstr "Měna nebyla nalezena"
+
+#: includes/cmc-advanced-single-shortcode.php:604
+#: includes/cmc-single-shortcode.php:612
+msgid "Something wrong with URL"
+msgstr "Něco se nezdařilo s adresou URL"
+
+#: includes/cmc-advanced-single-shortcode.php:636
+#: includes/cmc-shortcode.php:210 includes/cmc-single-shortcode.php:651
+msgid "Previous"
+msgstr "Předchozí"
+
+#: includes/cmc-advanced-single-shortcode.php:637
+#: includes/cmc-shortcode.php:211 includes/cmc-single-shortcode.php:652
+msgid "Next"
+msgstr "další"
+
+#: includes/cmc-advanced-single-shortcode.php:638
+#: includes/cmc-single-shortcode.php:653
+msgid "Show"
+msgstr "Show"
+
+#: includes/cmc-advanced-single-shortcode.php:639
+#: includes/cmc-single-shortcode.php:654
+msgid "Entries"
+msgstr "Příspěvky"
+
+#: includes/cmc-advanced-single-shortcode.php:640
+#: includes/cmc-single-shortcode.php:655
+msgid "No Historical Data Available"
+msgstr "Žádné historické údaje k dispozici"
+
+#: includes/cmc-advanced-single-shortcode.php:649
+#: includes/cmc-single-shortcode.php:664
+msgid "Date"
+msgstr "datum"
+
+#: includes/cmc-advanced-single-shortcode.php:650
+#: includes/cmc-advanced-single-shortcode.php:710
+#: includes/cmc-shortcode.php:236 includes/cmc-single-shortcode.php:665
+#: includes/cmc-single-shortcode.php:733 includes/cmc-top-shortcode.php:71
+msgid "Price"
+msgstr "Cena"
+
+#: includes/cmc-advanced-single-shortcode.php:652
+#: includes/cmc-single-shortcode.php:667
+msgid "MarketCap"
+msgstr "Tržní kapitál"
+
+#: includes/cmc-advanced-single-shortcode.php:657
+#: includes/cmc-single-shortcode.php:673
+msgid "Something Wrong With URL"
+msgstr "Něco špatného s adresou URL"
+
+#: includes/cmc-advanced-single-shortcode.php:707
+#: includes/cmc-single-shortcode.php:730
+msgid "From"
+msgstr "Z"
+
+#: includes/cmc-advanced-single-shortcode.php:708
+#: includes/cmc-single-shortcode.php:731
+msgid "To"
+msgstr "Na"
+
+#: includes/cmc-advanced-single-shortcode.php:709
+#: includes/cmc-single-shortcode.php:732
+msgid "Zoom"
+msgstr "Zvětšení"
+
+#: includes/cmc-advanced-single-shortcode.php:715
+#: includes/cmc-single-shortcode.php:738
+msgid "Loading Chart..."
+msgstr "Načítání grafu ..."
+
+#: includes/cmc-advanced-single-shortcode.php:716
+#: includes/cmc-shortcode.php:256 includes/cmc-single-shortcode.php:739
+msgid "No Graphical Data"
+msgstr "Žádné grafické údaje"
+
+#: includes/cmc-advanced-single-shortcode.php:877
+#, php-format
+msgid "Rank %s"
+msgstr "Hodnost %s."
+
+#: includes/cmc-advanced-single-shortcode.php:880
+msgid "Block Explorer"
+msgstr "Block Explorer"
+
+#: includes/cmc-advanced-single-shortcode.php:883
+msgid "Official Website"
+msgstr "Oficiální Internetové Stránky"
+
+#: includes/cmc-advanced-single-shortcode.php:886
+msgid "White Paper"
+msgstr "Bílá Paper"
+
+#: includes/cmc-advanced-single-shortcode.php:889
+#: includes/cmc-single-shortcode.php:897
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/cmc-advanced-single-shortcode.php:895
+#: includes/cmc-single-shortcode.php:903
+msgid "Github"
+msgstr "Github"
+
+#: includes/cmc-advanced-single-shortcode.php:899
+#: includes/cmc-single-shortcode.php:907
+msgid "Reddit"
+msgstr "Reddit"
+
+#: includes/cmc-advanced-single-shortcode.php:902
+#: includes/cmc-single-shortcode.php:910
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/cmc-advanced-single-shortcode.php:905
+#: includes/cmc-single-shortcode.php:913
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/cmc-advanced-single-shortcode.php:1037
+#: includes/cmc-single-shortcode.php:1073
+msgid "Buy"
+msgstr "Koupit"
+
+#: includes/cmc-advanced-single-shortcode.php:1038
+#: includes/cmc-single-shortcode.php:1074
+msgid "Sell"
+msgstr "Prodat"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Chart"
+msgstr "Zmapovat"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Calculator"
+msgstr "Kalkulačka"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Historical Data"
+msgstr "Historická Data"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Exchanges"
+msgstr "Výměny"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Twitter Feeds"
+msgstr "Twitter Kanály"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Comments"
+msgstr "Komentáře"
+
+#: includes/cmc-calculator.php:112
+msgid "Enter Amount"
+msgstr "Vložit sumu"
+
+#: includes/cmc-calculator.php:113
+msgid "Base Currency"
+msgstr "Základní měna"
+
+#: includes/cmc-calculator.php:125
+msgid "Convert To"
+msgstr "Převést na"
+
+#: includes/cmc-calculator.php:127
+msgid "Currencies"
+msgstr "Měny"
+
+#: includes/cmc-calculator.php:155
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: includes/cmc-helpers.php:216
+msgid "search"
+msgstr "Vyhledávání"
+
+#: includes/cmc-helpers.php:217
+msgid "Unable to find any result"
+msgstr "Nelze najít žádný výsledek"
+
+#: includes/cmc-shortcode.php:212
+msgid "Loading..."
+msgstr "Načítání..."
+
+#: includes/cmc-shortcode.php:213
+msgid "No Coin Found"
+msgstr "Žádná mince nebyla nalezena"
+
+#: includes/cmc-shortcode.php:214
+msgid "No Favourite Coin"
+msgstr "Žádné Oblíbené Mince"
+
+#: includes/cmc-shortcode.php:224
+msgid "Show/Hide Watch List"
+msgstr "Zobrazit/Skrýt Seznam Hodinky"
+
+#: includes/cmc-shortcode.php:234 includes/cmc-top-shortcode.php:68
+msgid "#"
+msgstr "#"
+
+#: includes/cmc-shortcode.php:235 includes/cmc-top-shortcode.php:70
+msgid "Name"
+msgstr "název"
+
+#: includes/cmc-shortcode.php:237 includes/cmc-top-shortcode.php:72
+msgid "Changes "
+msgstr "Změny"
+
+#: includes/cmc-shortcode.php:237
+msgid "24H "
+msgstr "24H"
+
+#: includes/cmc-shortcode.php:243 includes/cmc-top-shortcode.php:76
+msgid "Volume "
+msgstr "Hlasitost"
+
+#: includes/cmc-shortcode.php:267
+msgid "Price Graph "
+msgstr "Graf cen"
+
+#: includes/cmc-shortcode.php:360
+msgid "Market Cap:"
+msgstr "Tržní kapitál:"
+
+#: includes/cmc-shortcode.php:369
+msgid "24h Vol:"
+msgstr "24h Vol:"
+
+#: includes/cmc-shortcode.php:371
+msgid "BTC Dominance: "
+msgstr "BTC Dominance:"
+
+#: includes/cmc-single-shortcode.php:585
+msgid "Live Price "
+msgstr "Live cena"
+
+#: includes/cmc-single-shortcode.php:588
+msgid "24h % "
+msgstr "24h%"
+
+#: includes/cmc-single-shortcode.php:603
+msgid "Rank"
+msgstr "Hodnost"
+
+#: includes/cmc-single-shortcode.php:888
+msgid "Block"
+msgstr "Blok"
+
+#: includes/cmc-single-shortcode.php:888
+msgid "Explorer"
+msgstr "Explorer"
+
+#: includes/cmc-single-shortcode.php:891
+msgid "Official"
+msgstr "Oficiální"
+
+#: includes/cmc-single-shortcode.php:891
+msgid "Website"
+msgstr "webová stránka"
+
+#: includes/cmc-single-shortcode.php:894
+msgid "White"
+msgstr "Bílá"
+
+#: includes/cmc-single-shortcode.php:894
+msgid "Paper"
+msgstr "Noviny"
+
+#: includes/cmc-top-shortcode.php:159
+msgid "API Request timeout"
+msgstr "Časový limit žádosti API"
+
+#. Name of the plugin
+msgid "Coin Market Cap"
+msgstr "Mince, Trh, Szp]"
+
+#. Description of the plugin
+msgid ""
+"Create a website similar like CoinMarketCap.com using this <strong>Coin "
+"Market Cap & Crypto Prices</strong> WordPress plugin. This crypto plugin "
+"uses coinmarketcap.com api to grab live crypto prices, market cap, charts "
+"and other data related to cryptocurrency"
+msgstr ""
+"Vytvořit webové stránky, podobné jako CoinMarketCap.com pomocí tohoto "
+"<strong>Mince Market Cap & Crypto Ceny</strong> WordPress plugin. Tento "
+"šifrovací plugin používá coinmarketcap.com api chytit živé crypto ceny, "
+"tržní kapitalizace, grafy a další údaje vztahující se k kryptoměna"
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr "Cool Plugins"
+
+#. Author URI of the plugin
+msgid "https://coolplugins.net/"
+msgstr "https://coolplugins.net/"

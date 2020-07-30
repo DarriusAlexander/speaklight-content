@@ -115,11 +115,6 @@ class wfCrawl {
 		if ($ip === null) {
 			$ip = wfUtils::getIP();
 		}
-		
-		if ($ip === null || $ip === false) { //Likely a CLI execution
-			return false;
-		}
-		
 		if (array_key_exists($ip, $verified)) {
 			return $verified[$ip];
 		}

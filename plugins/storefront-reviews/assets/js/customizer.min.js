@@ -1,0 +1,1 @@
+!function($){wp.customize("sr_heading_text",function(t){t.bind(function(t){$(".storefront-reviews .section-title span").text(t)})})}(jQuery);

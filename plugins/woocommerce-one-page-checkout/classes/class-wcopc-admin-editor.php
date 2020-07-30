@@ -240,7 +240,7 @@ input.#wcopc_product_ids {
 			<input id="<?php echo esc_attr( $id ); ?>" name="wcopc_template" type="radio" value="<?php echo $id; ?>" style="width: 16px; height: 16px;" <?php checked( $first ); $first = false; ?>>
 			<?php echo esc_html( $template_details['label'] ); ?>
 			<?php if ( ! empty( $template_details['description'] ) ) : ?>
-			<img data-tip="<?php echo esc_attr( $template_details['description'] ); ?>" class="help_tip" src="<?php echo WC()->plugin_url() . '/assets/images/help.png'; ?>" height="16" width="16">
+			<img data-tip="<?php echo wc_sanitize_tooltip( $template_details['description'] ); ?>" class="help_tip" src="<?php echo WC()->plugin_url() . '/assets/images/help.png'; ?>" height="16" width="16">
 			<?php endif; ?>
 		</label>
 		<?php endforeach; ?>

@@ -1,0 +1,3571 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: crowdfunding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-01 15:45+0530\n"
+"PO-Revision-Date: 2017-06-01 15:45+0530\n"
+"Last-Translator: FantasticPlugins <contact@fantasticplugins.com>\n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: inc\n"
+
+#: woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:57
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:57
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:118
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:118
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:118
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:125
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:125
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:16
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:18
+msgid "Shipping and Handling"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Please continue to the checkout and enter your full address to see if there are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:73
+#: woocommerce/cart/cart-shipping.php:81
+#, php-format
+msgid "Sorry, shipping is unavailable %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:73
+#: woocommerce/cart/cart-shipping.php:81
+msgid "If you require assistance or wish to make alternate arrangements please contact us."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:97
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:51
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:59
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:64
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:65
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:16
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:21
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:75
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:87
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:45
+#: woocommerce/cart/shipping-calculator.php:51
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:16
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:20
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:27
+#: woocommerce/single-product/rating.php:25
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:34
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:43
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:37
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/single-product/related.php:36
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:20
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:20
+msgid "n/a"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:27
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:74
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:104
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr ""
+
+#: inc/class-sigle-product-other-actions.php:302
+#: inc/class-sigle-product-other-actions.php:314
+#: inc/fp-gf-common-functions.php:472
+msgid "Search:"
+msgstr ""
+
+#: inc/class-sigle-product-other-actions.php:305
+#: inc/class-sigle-product-other-actions.php:314
+#: inc/fp-gf-common-functions.php:472
+msgid "Page Size:"
+msgstr ""
+
+#: inc/class-sigle-product-other-actions.php:406
+#: inc/class-sigle-product-other-actions.php:410
+#: inc/class-sigle-product-other-actions.php:417
+#: inc/class-sigle-product-other-actions.php:421
+msgid "Anonymous"
+msgstr ""
+
+#: inc/class-sigle-product-other-actions.php:699
+#: inc/fp-gf-common-functions.php:157
+msgid "Pending Review"
+msgstr ""
+
+#: inc/class-shortcode-pages.php:100
+#: inc/class-shortcode-pages.php:125
+msgid "Sorry No Campaigns Found"
+msgstr ""
+
+#: inc/class-shortcode-pages.php:104
+#: inc/class-shortcode-pages.php:129
+msgid "Please Login to see your Campaign"
+msgstr ""
+
+#: inc/class-shortcode-pages.php:212
+#: inc/fp-gf-common-functions.php:737
+msgid "Goal"
+msgstr ""
+
+#: inc/class-shortcode-pages.php:492
+msgid " RAISED"
+msgstr ""
+
+#: inc/class-shortcode-pages.php:497
+msgid "RAISED"
+msgstr ""
+
+#: inc/class-extension-form.php:52
+#: inc/class-extension-form.php:86
+msgid "Target Goal"
+msgstr ""
+
+#: inc/class-extension-form.php:54
+#: inc/class-extension-form.php:88
+msgid "Campaign Never Ends"
+msgstr ""
+
+#: inc/class-extension-form.php:56
+#: inc/class-extension-form.php:87
+msgid "Target Date"
+msgstr ""
+
+#: inc/class-extension-form.php:59
+#: inc/class-extension-form.php:90
+msgid "Target Quantity"
+msgstr ""
+
+#: inc/class-extension-form.php:73
+msgid "Target"
+msgstr ""
+
+#: inc/class-extension-form.php:83
+msgid " New Campaign End Method"
+msgstr ""
+
+#: inc/class-extension-form.php:99
+msgid "Campaign Extension Date"
+msgstr ""
+
+#: inc/class-extension-form.php:105
+msgid "Existing Goal Price:"
+msgstr ""
+
+#: inc/class-extension-form.php:108
+msgid "Existing Target Quantity:"
+msgstr ""
+
+#: inc/class-extension-form.php:109
+msgid "New Target Quantity:"
+msgstr ""
+
+#: inc/class-extension-form.php:129
+msgid "Description"
+msgstr ""
+
+#: inc/class-extension-form.php:193
+msgid "Submitted"
+msgstr ""
+
+#: inc/class-extension-form.php:201
+msgid "Request Sent Already"
+msgstr ""
+
+#: inc/class-extension-form.php:205
+msgid "Please Fill All Fields"
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:160
+msgid "campaign closed"
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:275
+#: inc/fp-gf-common-functions.php:281
+msgid " hours "
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:277
+#: inc/fp-gf-common-functions.php:283
+msgid " hour "
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:285
+msgid " days "
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:286
+msgid " day "
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:287
+msgid " left"
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:304
+#: inc/fp-gf-common-functions.php:306
+msgid " minutes "
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:414
+msgid "Shipping Address"
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:627
+msgid "Choose Products"
+msgstr ""
+
+#: inc/fp-gf-common-functions.php:958
+#: inc/fp-gf-common-functions.php:1006
+msgid "Raised of"
+msgstr ""
+
+#: inc/class-shop-related-functions.php:419
+msgid "Quantity Contribution"
+msgstr ""
+
+#: inc/contribution_extension.php:17
+#: inc/admin/tabs/contribution-extension.php:19
+msgid "Campaign Extension Requests "
+msgstr ""
+
+#: inc/contribution_extension.php:105
+#: inc/admin/tabs/contribution-extension.php:107
+msgid "Campaign Extension Requests"
+msgstr ""
+
+#: inc/contribution_extension.php:112
+#: inc/admin/tabs/contribution-extension.php:114
+#: inc/admin/tabs/class-campaigns-list-settings.php:72
+msgid "S.No"
+msgstr ""
+
+#: inc/contribution_extension.php:113
+#: inc/admin/tabs/contribution-extension.php:115
+msgid "Product Name"
+msgstr ""
+
+#: inc/contribution_extension.php:114
+#: inc/admin/tabs/contribution-extension.php:116
+msgid "Existing End Method"
+msgstr ""
+
+#: inc/contribution_extension.php:116
+#: inc/admin/tabs/contribution-extension.php:118
+msgid "New Description"
+msgstr ""
+
+#: inc/contribution_extension.php:121
+#: inc/admin/tabs/contribution-extension.php:123
+msgid "New End Method"
+msgstr ""
+
+#: inc/contribution_extension.php:126
+#: inc/admin/tabs/contribution-extension.php:128
+msgid "New End Date"
+msgstr ""
+
+#: inc/contribution_extension.php:131
+#: inc/admin/tabs/contribution-extension.php:133
+msgid "Existing Goal"
+msgstr ""
+
+#: inc/contribution_extension.php:136
+#: inc/admin/tabs/contribution-extension.php:138
+msgid "New Goal"
+msgstr ""
+
+#: inc/contribution_extension.php:142
+#: inc/admin/tabs/contribution-extension.php:144
+msgid "Existing Quantity"
+msgstr ""
+
+#: inc/contribution_extension.php:147
+#: inc/admin/tabs/contribution-extension.php:149
+msgid "New Quantity"
+msgstr ""
+
+#: inc/contribution_extension.php:153
+#: inc/admin/tabs/contribution-extension.php:155
+msgid "Options"
+msgstr ""
+
+#: inc/admin/class-crowdfunding-submenu.php:100
+msgid "Galaxy Funder"
+msgstr ""
+
+#: inc/admin/class-crowdfunding-submenu.php:111
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:431
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/class-crowdfunding-submenu.php:149
+msgid "Your settings have been saved."
+msgstr ""
+
+#: inc/admin/class-crowdfunding-submenu.php:189
+msgid "Save changes"
+msgstr ""
+
+#: inc/admin/class-crowdfunding-submenu.php:219
+msgid "Reset"
+msgstr ""
+
+#: inc/admin/class-crowdfunding-submenu.php:220
+msgid "Reset All"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:18
+msgid "Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:26
+msgid "Error Message Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:32
+msgid "Minimum Contribution Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:33
+msgid "Please Enter Minimum Contribution Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:43
+msgid "Maximum Contribution Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:44
+msgid "Please Enter Maximum Contribution Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:54
+msgid "Input Contribution Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:55
+msgid "Please Enter your Input Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:65
+msgid "Contribution Field Empty Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:66
+msgid "Please Enter Contribution Field Empty Error Message for Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:76
+msgid "Display Error Message on"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:77
+msgid "This Controls where the Error Message should be Displayed"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:85
+msgid "Above Contribution Text Box"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:86
+msgid "Below Contribution Text Box"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:90
+msgid "Perk Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-error-message.php:91
+msgid "This Controls where the Error Message of Perk Should be Displayed"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:18
+msgid "Payment"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:25
+msgid "PayPal Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:31
+msgid "Send Payment to Campaign Creator if PayPal ID is Provided"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:32
+msgid "PayPal Payments are Directly Sent to Campaign Creator"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:105
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:107
+#: inc/admin/tabs/class-campaign-payment.php:121
+msgid "Galaxy Funder - PayPal Adaptive Split Payment"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:111
+#: inc/admin/tabs/class-campaign-payment.php:113
+msgid "Payment Mode"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:115
+msgid "Parallel"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:115
+msgid "Chained"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:118
+msgid "Title"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:120
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:129
+msgid "Enter Detail Description about PayPal Adaptive Payment Gateway for Galaxy Funder"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:132
+msgid "PayPal Email"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:136
+msgid "Please Enter Admin PayPal Email Address"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:139
+msgid "Percentage for Admin"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:143
+msgid "Please Enter the Percentage Value of between for Admin 0 to 100"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:146
+msgid "PayPal Application ID"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:150
+msgid "Please Enter PayPal Application ID"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:153
+msgid "PayPal Security UserID"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:157
+msgid "Please Enter the PayPal Security UserID"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:160
+msgid "PayPal Security Password"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:164
+msgid "Please Enter the PayPal Security Password"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:167
+msgid "PayPal Security Signature"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:171
+msgid "Please Enter PayPal Security Signature"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:174
+msgid "Payment Cancel URL"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:176
+msgid "If Payment is cancelled Where should they be redirected"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:181
+msgid "PayPal Adaptive sandbox"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:183
+msgid "Enable PayPal Adaptive sandbox"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:185
+#, php-format
+msgid "PayPal Adaptive sandbox can be used to test payments. Sign up for a developer account <a href=\"%s\">here</a>."
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:255
+#: inc/admin/tabs/class-campaign-payment.php:257
+msgid "Payment error: Maximum Receiver Count has been Reached"
+msgstr ""
+
+#: inc/admin/tabs/class-campaign-payment.php:343
+#: inc/admin/tabs/class-campaign-payment.php:345
+msgid "Payment error:"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:31
+msgid "Frontend Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:62
+msgid "Use the Shortcode [crowd_fund_form] to display the Front End Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:69
+msgid "FrontEnd Campaign Submission Form Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:75
+msgid "Front End Submission Method"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:76
+msgid "This Controls the Campaign should go for Moderation or Live"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:84
+msgid "Goes for Moderation"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:85
+msgid "Goes Live"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:89
+#: inc/admin/tabs/class-frontend-submission-settings.php:964
+msgid "URL to Redirect for Guest"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:90
+#: inc/admin/tabs/class-frontend-submission-settings.php:965
+msgid "Please Enter URL to Redirect if a guest tries this page"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:100
+msgid "Enable URL Redirection after Campaign is Submitted"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:101
+msgid "Please Select the Option to Enable/Disable URL Redirection after Campaign is Submitted"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:109
+#: inc/admin/tabs/class-single-product-page.php:565
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:199
+msgid "Disable"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:110
+#: inc/admin/tabs/class-single-product-page.php:565
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:199
+msgid "Enable"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:114
+msgid "URL to Redirect after Campaign is submitted"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:115
+msgid "Please Enter URL to Redirect after the campaign is submitted"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:125
+msgid "Display CrowdFunding Type"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:126
+msgid "Please Select the Option to Show or Hide CrowdFunding Type in a Backend"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:134
+#: inc/admin/tabs/class-frontend-submission-settings.php:259
+#: inc/admin/tabs/class-frontend-submission-settings.php:405
+#: inc/admin/tabs/class-frontend-submission-settings.php:562
+#: inc/admin/tabs/class-frontend-submission-settings.php:576
+#: inc/admin/tabs/class-frontend-submission-settings.php:740
+#: inc/admin/tabs/class-frontend-submission-settings.php:762
+#: inc/admin/tabs/class-frontend-submission-settings.php:777
+#: inc/admin/tabs/class-frontend-submission-settings.php:799
+#: inc/admin/tabs/class-frontend-submission-settings.php:821
+#: inc/admin/tabs/class-frontend-submission-settings.php:843
+#: inc/admin/tabs/class-shortcode-generator.php:199
+#: inc/admin/tabs/class-shortcode-generator.php:213
+#: inc/admin/tabs/class-shortcode-generator.php:227
+#: inc/admin/tabs/class-shortcode-generator.php:241
+#: inc/admin/tabs/class-shop-page.php:192
+#: inc/admin/tabs/class-shop-page.php:206
+#: inc/admin/tabs/class-shop-page.php:220
+#: inc/admin/tabs/class-shop-page.php:234
+#: inc/admin/tabs/class-email-settings.php:630
+#: inc/admin/tabs/class-single-product-page.php:47
+#: inc/admin/tabs/class-single-product-page.php:61
+#: inc/admin/tabs/class-single-product-page.php:75
+#: inc/admin/tabs/class-single-product-page.php:100
+#: inc/admin/tabs/class-single-product-page.php:125
+#: inc/admin/tabs/class-single-product-page.php:161
+#: inc/admin/tabs/class-single-product-page.php:186
+#: inc/admin/tabs/class-single-product-page.php:211
+#: inc/admin/tabs/class-single-product-page.php:246
+#: inc/admin/tabs/class-single-product-page.php:271
+#: inc/admin/tabs/class-single-product-page.php:297
+#: inc/admin/tabs/class-single-product-page.php:322
+#: inc/admin/tabs/class-single-product-page.php:348
+#: inc/admin/tabs/class-single-product-page.php:362
+#: inc/admin/tabs/class-single-product-page.php:387
+#: inc/admin/tabs/class-single-product-page.php:443
+#: inc/admin/tabs/class-single-product-page.php:608
+#: inc/admin/tabs/class-single-product-page.php:632
+#: inc/admin/tabs/class-single-product-page.php:657
+#: inc/admin/tabs/class-single-product-page.php:682
+#: inc/admin/tabs/class-single-product-page.php:707
+#: inc/admin/tabs/class-single-product-page.php:732
+#: inc/admin/tabs/class-single-product-page.php:757
+#: inc/admin/tabs/class-single-product-page.php:771
+#: inc/admin/tabs/class-single-product-page.php:796
+#: inc/admin/tabs/class-single-product-page.php:932
+#: inc/admin/tabs/class-single-product-page.php:988
+#: inc/admin/tabs/class-single-product-page.php:1002
+#: inc/admin/tabs/class-single-product-page.php:1016
+#: inc/admin/tabs/class-single-product-page.php:1030
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:156
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:169
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:221
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:250
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:330
+#: inc/admin/tabs/class-mycampaign.php:60
+#: inc/admin/tabs/class-mycampaign.php:226
+msgid "Show"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:135
+#: inc/admin/tabs/class-frontend-submission-settings.php:260
+#: inc/admin/tabs/class-frontend-submission-settings.php:406
+#: inc/admin/tabs/class-frontend-submission-settings.php:563
+#: inc/admin/tabs/class-frontend-submission-settings.php:577
+#: inc/admin/tabs/class-frontend-submission-settings.php:741
+#: inc/admin/tabs/class-frontend-submission-settings.php:763
+#: inc/admin/tabs/class-frontend-submission-settings.php:778
+#: inc/admin/tabs/class-frontend-submission-settings.php:800
+#: inc/admin/tabs/class-frontend-submission-settings.php:822
+#: inc/admin/tabs/class-frontend-submission-settings.php:844
+#: inc/admin/tabs/class-shortcode-generator.php:200
+#: inc/admin/tabs/class-shortcode-generator.php:214
+#: inc/admin/tabs/class-shortcode-generator.php:228
+#: inc/admin/tabs/class-shortcode-generator.php:242
+#: inc/admin/tabs/class-shop-page.php:193
+#: inc/admin/tabs/class-shop-page.php:207
+#: inc/admin/tabs/class-shop-page.php:221
+#: inc/admin/tabs/class-shop-page.php:235
+#: inc/admin/tabs/class-email-settings.php:631
+#: inc/admin/tabs/class-single-product-page.php:48
+#: inc/admin/tabs/class-single-product-page.php:62
+#: inc/admin/tabs/class-single-product-page.php:76
+#: inc/admin/tabs/class-single-product-page.php:101
+#: inc/admin/tabs/class-single-product-page.php:126
+#: inc/admin/tabs/class-single-product-page.php:162
+#: inc/admin/tabs/class-single-product-page.php:187
+#: inc/admin/tabs/class-single-product-page.php:212
+#: inc/admin/tabs/class-single-product-page.php:247
+#: inc/admin/tabs/class-single-product-page.php:272
+#: inc/admin/tabs/class-single-product-page.php:298
+#: inc/admin/tabs/class-single-product-page.php:323
+#: inc/admin/tabs/class-single-product-page.php:349
+#: inc/admin/tabs/class-single-product-page.php:363
+#: inc/admin/tabs/class-single-product-page.php:388
+#: inc/admin/tabs/class-single-product-page.php:444
+#: inc/admin/tabs/class-single-product-page.php:609
+#: inc/admin/tabs/class-single-product-page.php:633
+#: inc/admin/tabs/class-single-product-page.php:658
+#: inc/admin/tabs/class-single-product-page.php:683
+#: inc/admin/tabs/class-single-product-page.php:708
+#: inc/admin/tabs/class-single-product-page.php:733
+#: inc/admin/tabs/class-single-product-page.php:758
+#: inc/admin/tabs/class-single-product-page.php:772
+#: inc/admin/tabs/class-single-product-page.php:797
+#: inc/admin/tabs/class-single-product-page.php:933
+#: inc/admin/tabs/class-single-product-page.php:989
+#: inc/admin/tabs/class-single-product-page.php:1003
+#: inc/admin/tabs/class-single-product-page.php:1017
+#: inc/admin/tabs/class-single-product-page.php:1031
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:157
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:170
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:221
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:250
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:330
+#: inc/admin/tabs/class-mycampaign.php:61
+#: inc/admin/tabs/class-mycampaign.php:227
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:139
+msgid "Crowdfunding Type"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:140
+msgid "Please Select a type of crowdfunding"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:148
+msgid "Fundraising by CrowdFunding"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:149
+msgid "Product Purchase by CrowdFunding"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:153
+msgid "Products for crowdfunding Campaign"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:154
+msgid "Please Select whether to display All Products or selected products in frontend Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:160
+msgid "All Products"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:160
+msgid "Selected Products"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:165
+msgid "Products for frontend Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:166
+msgid "Please select the products that you wish to be displayed for product purchase in the frontend form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:173
+msgid "Categories for crowdfunding Campaign"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:174
+msgid "Please Select whether to display All Categories or selected categories in frontend Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:180
+msgid "All Categories"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:180
+msgid "Selected Categories"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:185
+msgid "Categories For Front End Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:186
+msgid "Please Select the categories that you wish your campaign must be displayed"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:195
+msgid "Campaign Purpose"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:196
+msgid "Please Enter Campaign Purpose Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:206
+msgid "Campaign Title Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:207
+#: inc/admin/tabs/class-frontend-submission-settings.php:265
+#: inc/admin/tabs/class-frontend-submission-settings.php:287
+msgid "Please Enter Campaign Title Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:218
+msgid "Please Enter Choose Products Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:228
+msgid "Campaign End Method Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:229
+msgid "Please Enter Campaign End Method Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:239
+msgid "Campaign Title input Placeholder"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:240
+msgid "Please Enter Campaign Title input Paceholder for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:250
+msgid "Display Campaign End Method Field in Frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:251
+msgid "Please Select the Option to Show or Hide Campaign End Method in Submission form "
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:264
+msgid "Campaign Duration Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:275
+msgid "Woocommerce Currency Symbol For Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:276
+msgid "Please Enter Woocommerce Currency Symbol For Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:286
+msgid "Campaign Duration input Placeholder"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:297
+msgid "Recommended Contribution Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:298
+msgid "Please Enter Recommended Contribution Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:308
+msgid "Recommended Contribution input Placeholder"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:309
+msgid "Please Enter Recommended Contribution input Placeholder for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:319
+msgid "Hide Recommeded Contribution"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:320
+msgid "You can Show or Hide Recommended Contribution"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:330
+#: inc/admin/tabs/class-shortcode-generator.php:67
+#: inc/admin/tabs/class-shop-page.php:44
+#: inc/admin/tabs/class-single-product-page.php:844
+msgid "Maximum Contribution Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:331
+#: inc/admin/tabs/class-frontend-submission-settings.php:364
+msgid "Please Enter Maximum Contribution Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:341
+msgid "Maximum Contribution input Placeholder"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:342
+msgid "Please Enter Maximum Contribution input Placehoder for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:352
+msgid "Hide Maximum Contribution"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:353
+msgid "You can Show or Hide Maximum Contribution"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:363
+#: inc/admin/tabs/class-shortcode-generator.php:56
+#: inc/admin/tabs/class-shop-page.php:33
+#: inc/admin/tabs/class-single-product-page.php:833
+msgid "Minimum Contribution Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:374
+msgid "Minimum Contribution input Placeholder"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:375
+msgid "Please Enter Maximum Contribution input Placeholder for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:385
+msgid "Hide Minimum Contribution"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:386
+msgid "You can Show or Hide Minimum Contribution"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:396
+msgid "Display Target Goal When Product Purchase by Crowdfunding is chosen"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:397
+msgid "Please Select the Option to Show or Hide Target Goal in Submission form when Product Purchase by Crowdfunding is chosen"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:410
+msgid "Target Goal Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:411
+msgid "Please Enter Target Goal Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:421
+msgid "New Target Goal Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:422
+msgid "Please Enter New Target Goal Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:432
+msgid "Target Goal input Placeholder"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:433
+msgid "Please Enter Target Goal input Placeholder for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:443
+msgid "Target Quantity Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:444
+msgid "Please Enter Target Quantity Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:454
+msgid "Target Quantity input Placeholder"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:455
+msgid "Please Enter Target Quantity input Placeholder for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:465
+msgid "Product Price Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:466
+msgid "Please Enter Product Price Label for campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:476
+msgid "Description Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:477
+#: inc/admin/tabs/class-frontend-submission-settings.php:681
+msgid "Please Enter Description Label at campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:487
+msgid "Campaign Social Promotion label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:488
+msgid "Please Enter Campaign Social Promotion label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:498
+msgid "Campaign Social Promotion Facebook label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:499
+msgid "Please Enter Campaign Social Promotion Facebook label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:509
+msgid "Campaign Social Promotion Twitter label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:510
+msgid "Please Enter Campaign Social Promotion Twitter label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:520
+msgid "Campaign Social Promotion Google label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:521
+msgid "Please Enter Campaign Social Promotion Google label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:531
+msgid "Campaign Show contributor label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:532
+msgid "Please Enter Campaign Show contributor label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:542
+msgid "Campaign Mark contributor as Anonymous label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:543
+msgid "Please Enter Campaign Mark contributor as Anonymous label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:553
+msgid "Display Add Perk Rule Button in Frontend Submission form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:554
+msgid "Please Select Whether to show or hide Add Perk Rule Button in frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:567
+msgid "Display \"Estimated Delivery On\" field in Frontend Submission form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:568
+msgid "Please Select Whether to show or hide \"Estimated Delivery On\" field in frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:581
+msgid "Enable Confirmation Message for Removing Perk Rule"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:582
+msgid "By Enabling this Option ask you to Confirm Before Removing the Perk"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:592
+msgid "Remove Perk Confirmation Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:593
+msgid "Please Enter Remove Perk Rule Confirmation Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:603
+msgid "Add Perk Rule Button Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:604
+msgid "Please Enter Add Perk Rule Button Caption for Front End Campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:614
+msgid "Remove Perk Rule Button Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:615
+msgid "Please Enter Remove Perk Rule Button Caption for Front End Campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:625
+#: inc/admin/tabs/class-email-settings.php:638
+#: inc/admin/tabs/class-single-product-page.php:226
+msgid "Perk Name Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:626
+msgid "Please Enter Perk Name Label for Front End Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:636
+#: inc/admin/tabs/class-single-product-page.php:251
+msgid "Perk Amount Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:637
+msgid "Please Enter Perk Amount Label for Front End Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:647
+msgid "Perk Description Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:648
+msgid "Please Enter Perk Description Label for Front End Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:658
+msgid "Perk Claim Max Count Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:659
+msgid "Please Enter Perk Claim Max Count for Front End Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:669
+msgid "Perk Estimated Delivery Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:670
+msgid "Please Enter Perk Delivery Label for Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:680
+msgid "Featured Image Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:691
+msgid "I Agree Label"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:692
+msgid "Please Enter I Agree Label at campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:702
+msgid "Campaign I Agree Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:703
+msgid "Please Enter I Agree Error Message which will display it in frontend"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:714
+msgid "Category Selection Frontend"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:720
+msgid "Front End Submission Empty Checkbox"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:721
+#: inc/admin/tabs/class-frontend-submission-settings.php:901
+msgid "Please Enter Front End Submission Empty Field Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:731
+msgid "Show/Hide Category Selection in Frontend Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:732
+msgid "Select Show/Hide Category Selection Option in Frontend Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:747
+msgid "Billing and Shipping Details Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:753
+msgid "Show/Hide Billing Details in Frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:754
+msgid "Please Select Whether to show or hide Billing Details frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:768
+msgid "Show/Hide Shipping Details in Frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:769
+msgid "Please Select Whether to show or hide Shipping Details frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:784
+msgid "PayPal Email Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:790
+msgid "Show/Hide PayPal Email Address Field in Frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:791
+msgid "Please Select Whether to show or hide PayPal Email Address Field frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:806
+msgid "Social Promotion Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:812
+msgid "Show/Hide Social Promotion Field in Frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:813
+msgid "Please Select Whether to show or hide Social Promotion Address Field frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:828
+msgid "Contributor Table Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:834
+msgid "Show/Hide Contributor Table Settings Field in Frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:835
+msgid "Please Select Whether to show or hide Contributor Table Settings Field frontend Submission Form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:850
+msgid "FrontEnd Campaign Form Submission Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:856
+msgid "Front End Submission Status Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:857
+msgid "Please Enter Front End Submission Status Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:867
+msgid "Front End Submission Response Success Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:868
+msgid "Please Enter Front End Submission Response Success Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:878
+msgid "Front End Submission Response Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:879
+msgid "Please Enter Front End Submission Response Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:889
+msgid "Front End Submission Number Field Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:890
+msgid "Please Enter Front End Submission Number Field Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:900
+msgid "Front End Submission Empty Field Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:912
+msgid "FrontEnd Campaign Submission Page"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:918
+msgid "Default CSS (Non Editable)"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:919
+msgid "These are element IDs for the Frontend Campaign Submission form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:941
+#: inc/admin/tabs/class-shortcode-generator.php:331
+#: inc/admin/tabs/class-shop-page.php:336
+#: inc/admin/tabs/class-single-product-page.php:1123
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:942
+#: inc/admin/tabs/class-shortcode-generator.php:332
+#: inc/admin/tabs/class-shop-page.php:337
+#: inc/admin/tabs/class-single-product-page.php:1124
+msgid "Customize the following element IDs of Frontend Campaign Submission form"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:975
+msgid "Limit Number of Campaigns per User"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:976
+msgid "Please check the checkbox if you wish to limit the number of campaigns created by a user"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:986
+msgid "Number of campaigns to be allowed per User"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:987
+msgid "Please Enter the Number of campaigns to be allowed per user"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:997
+msgid "Campaign Limit exceeded Message"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:998
+msgid "Please Enter a message to display when the campaign limit exceeds"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:1094
+msgid "Select Particular Products"
+msgstr ""
+
+#: inc/admin/tabs/class-frontend-submission-settings.php:1127
+#: inc/entry_forms/class-perk-meta-box.php:61
+#: inc/entry_forms/class-perk-meta-box.php:190
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:26
+msgid "Shortcode Generator"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:50
+msgid "Shortcode Label"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:57
+#: inc/admin/tabs/class-shop-page.php:34
+#: inc/admin/tabs/class-single-product-page.php:834
+msgid "Please Enter Minimum Contribution Label for Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:68
+#: inc/admin/tabs/class-shop-page.php:45
+#: inc/admin/tabs/class-single-product-page.php:845
+msgid "Please Enter Maximum Contribution Label for Campaign"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:78
+#: inc/admin/tabs/class-shop-page.php:55
+#: inc/admin/tabs/class-single-product-page.php:855
+#: inc/admin/tabs/class-mycampaign.php:109
+msgid "Goal Label"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:79
+#: inc/admin/tabs/class-shop-page.php:56
+#: inc/admin/tabs/class-single-product-page.php:856
+msgid "Please Enter Goal Label for Campaign"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:89
+#: inc/admin/tabs/class-shop-page.php:66
+#: inc/admin/tabs/class-single-product-page.php:877
+msgid "Total Contribution Label"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:90
+#: inc/admin/tabs/class-shop-page.php:67
+#: inc/admin/tabs/class-single-product-page.php:878
+msgid "Please Enter Total Contribution Label"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:100
+#: inc/admin/tabs/class-shop-page.php:77
+#: inc/admin/tabs/class-single-product-page.php:888
+msgid "Total Contribution Percent Label"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:101
+#: inc/admin/tabs/class-shop-page.php:78
+#: inc/admin/tabs/class-single-product-page.php:889
+msgid "Please Enter Total Contribution Percent Label"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:111
+msgid "Enable Title in Shortcode"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:112
+msgid "Enable this Option to show the Title in Shortcode"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:121
+msgid "Enable Description in Shortcode"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:122
+msgid "Enable this Option to show the Description in Shortcode"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:131
+msgid "Enter Number of words to Trim from  Description"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:132
+msgid "Enter Number of words to trim from description of product page"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:143
+#: inc/admin/tabs/class-shop-page.php:136
+msgid "Choose Inbuilt/Custom Design"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:149
+#: inc/admin/tabs/class-shop-page.php:142
+#: inc/admin/tabs/class-single-product-page.php:938
+#: inc/admin/tabs/class-single-product-page.php:945
+msgid "Inbuilt Design"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:150
+#: inc/admin/tabs/class-shop-page.php:143
+#: inc/admin/tabs/class-single-product-page.php:939
+msgid "Please Select you want to load the Inbuilt Design"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:161
+#: inc/admin/tabs/class-shop-page.php:154
+#: inc/admin/tabs/class-single-product-page.php:950
+msgid "Select Inbuilt Design"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:162
+#: inc/admin/tabs/class-shop-page.php:155
+#: inc/admin/tabs/class-single-product-page.php:951
+msgid "This helps to load the inbuilt type"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:170
+#: inc/admin/tabs/class-shop-page.php:163
+#: inc/admin/tabs/class-single-product-page.php:959
+msgid "Minimal Style"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:171
+#: inc/admin/tabs/class-shop-page.php:164
+#: inc/admin/tabs/class-single-product-page.php:960
+msgid "IGG Style"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:172
+#: inc/admin/tabs/class-shop-page.php:165
+#: inc/admin/tabs/class-single-product-page.php:961
+msgid "KS Style"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:176
+#: inc/admin/tabs/class-shop-page.php:169
+#: inc/admin/tabs/class-single-product-page.php:965
+msgid "Select Progress Bar Style"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:177
+#: inc/admin/tabs/class-shop-page.php:170
+#: inc/admin/tabs/class-single-product-page.php:966
+msgid "This helps to select the Progress bar Style"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:185
+#: inc/admin/tabs/class-shop-page.php:178
+#: inc/admin/tabs/class-single-product-page.php:974
+msgid "Style 1"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:186
+#: inc/admin/tabs/class-shop-page.php:179
+#: inc/admin/tabs/class-single-product-page.php:975
+msgid "Style 2"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:190
+#: inc/admin/tabs/class-shop-page.php:183
+#: inc/admin/tabs/class-single-product-page.php:979
+msgid "Raised Campaign Amount Show/hide"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:191
+msgid "Show or Hide the Target Price in a Shortcode Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:204
+#: inc/admin/tabs/class-shop-page.php:197
+msgid "Raised Campaign Percentage Show/hide"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:205
+msgid "Show or Hide the Raised Percentage in a Shortcode Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:218
+#: inc/admin/tabs/class-shop-page.php:211
+#: inc/admin/tabs/class-single-product-page.php:1007
+msgid "Target Days Left Show/hide"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:219
+msgid "Show or Hide Days Left in a Shortcode Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:232
+#: inc/admin/tabs/class-shop-page.php:225
+#: inc/admin/tabs/class-single-product-page.php:1021
+msgid "Number of Funders Details Show/hide"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:233
+msgid "Show or Hide the Funders count in a Shortcode Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:246
+#: inc/admin/tabs/class-shop-page.php:239
+#: inc/admin/tabs/class-single-product-page.php:1035
+msgid "Inbuilt CSS (Non Editable)"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:247
+#: inc/admin/tabs/class-shop-page.php:240
+msgid "These are element IDs in the Shop Page "
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:319
+#: inc/admin/tabs/class-shortcode-generator.php:326
+#: inc/admin/tabs/class-shop-page.php:324
+#: inc/admin/tabs/class-shop-page.php:331
+#: inc/admin/tabs/class-single-product-page.php:1111
+#: inc/admin/tabs/class-single-product-page.php:1118
+msgid "Custom Design"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:320
+#: inc/admin/tabs/class-shop-page.php:325
+#: inc/admin/tabs/class-single-product-page.php:1112
+msgid "Please Select you want to load the Custom Design"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:342
+msgid "Select Campaigns"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:343
+msgid "Select your Campaign in the List Box"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:355
+msgid "Shortcode"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:363
+msgid "Use the Shortcode [galaxyfunder_my_campaign] for displaying the Campaigns created by the User"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:370
+msgid "Use the Shortcode [galaxyfunder_all_campaign_list] for displaying the Campaigns Created by all Members"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:377
+msgid "Use the Shortcode [galaxyfunder_running_campaigns] for displaying  All Running Campaigns"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:384
+msgid "Use the Shortcode [galaxyfunder_closed_campaigns] for displaying All Closed Campaigns"
+msgstr ""
+
+#: inc/admin/tabs/class-shortcode-generator.php:391
+msgid "Use the Shortcode [gf_funders_table_for_campaign] for displaying the Funders table in Campaign Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:20
+msgid "Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:27
+msgid "Shop Page Label"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:88
+#: inc/admin/tabs/class-single-product-page.php:216
+msgid "Funder's Label"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:98
+msgid "Show Description on shop page"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:99
+msgid "Please Select You want to display the Description on shop page"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:104
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:107
+msgid "None"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:105
+msgid "Above Style Bar"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:106
+msgid "Below Style Bar"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:112
+msgid "Product Description Type"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:113
+msgid "Please Select You Want to Display the Which Description on Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:118
+msgid "Product Main Description"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:119
+msgid "Product Short Description"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:125
+msgid "Description Words Count"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:126
+msgid "Please Enter The Words Count to Display in Description"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:184
+msgid "Show or Hide the Target Price in a Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:198
+msgid "Show or Hide the Raised Percentage in a Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:212
+msgid "Show or Hide Days Left in a Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-shop-page.php:226
+msgid "Show or Hide the Funders count in a Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:28
+msgid "Mail"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:36
+msgid "Email Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:43
+msgid "Campaign Submission Mail Template"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:49
+msgid "Send Email on Campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:58
+#: inc/admin/tabs/class-email-settings.php:151
+#: inc/admin/tabs/class-email-settings.php:246
+#: inc/admin/tabs/class-email-settings.php:338
+#: inc/admin/tabs/class-email-settings.php:432
+#: inc/admin/tabs/class-email-settings.php:516
+msgid "Send Email To"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:59
+#: inc/admin/tabs/class-email-settings.php:152
+#: inc/admin/tabs/class-email-settings.php:247
+#: inc/admin/tabs/class-email-settings.php:339
+#: inc/admin/tabs/class-email-settings.php:433
+#: inc/admin/tabs/class-email-settings.php:517
+msgid "Creator"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:68
+#: inc/admin/tabs/class-email-settings.php:161
+#: inc/admin/tabs/class-email-settings.php:256
+#: inc/admin/tabs/class-email-settings.php:348
+#: inc/admin/tabs/class-email-settings.php:442
+#: inc/admin/tabs/class-email-settings.php:526
+msgid "Admin"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:77
+#: inc/admin/tabs/class-email-settings.php:170
+#: inc/admin/tabs/class-email-settings.php:265
+#: inc/admin/tabs/class-email-settings.php:357
+#: inc/admin/tabs/class-email-settings.php:451
+#: inc/admin/tabs/class-email-settings.php:535
+msgid "Others"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:86
+#: inc/admin/tabs/class-email-settings.php:179
+#: inc/admin/tabs/class-email-settings.php:274
+#: inc/admin/tabs/class-email-settings.php:366
+#: inc/admin/tabs/class-email-settings.php:460
+#: inc/admin/tabs/class-email-settings.php:544
+msgid "Enter Other Emails Each Per Line"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:100
+msgid "<p>[cf_campaign_name]- Shortcode for displaying Campaign Name</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:104
+msgid "Campaign Submission Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:105
+msgid "Please enter subject of your Campaign Submission Mail"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:119
+msgid "<p>[cf_campaign_name]- Shortcode for displaying Campaign Name</p><p>[cf_site_title]- Shortcode for displaying Campaign Site Title</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:124
+msgid "Campaign Submission Email Message"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:125
+msgid "Enter custom email message for Campaign Submission"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:136
+msgid "Campaign Approval Mail Template"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:142
+msgid "Send Email on Campaign Approved"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:193
+#: inc/admin/tabs/class-email-settings.php:380
+#: inc/admin/tabs/class-email-settings.php:474
+msgid "<p>[campaign_name]- Shortcode for displaying Campaign Name</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:197
+msgid "Approved Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:198
+msgid "Please enter subject of Approved Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:212
+msgid "<p>[campaign_name]- Shorcode for displaying Campaign Name</p><p>[cf_site_title]- Shortcode for displaying Campaign Site Title</p><p> [cf_site_campaign_url]- Shortcode for displaying Campaign Product Page Url</p><p> [cf_site_campaign_shipping_address]- Shortcode for displaying Campaign Creator Shipping Address</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:219
+msgid "Approved Email Message"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:220
+msgid "Enter custom email message for Campaign Approved"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:231
+msgid "Campaign Rejection Mail Template"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:237
+msgid "Send Email on Campaign Rejected"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:288
+#: inc/admin/tabs/class-email-settings.php:307
+msgid "<p>[cf_site_campaign_name]- Shortcode for displaying Campaign Name</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:292
+msgid "Rejected Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:293
+msgid "Please enter subject of Rejected Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:311
+msgid "Rejected Email Message"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:312
+msgid "Enter custom email message for Campaign [cf_site_campaign_name] Rejection"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:323
+msgid "Campaign Completion Mail Template"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:329
+msgid "Send Email on Campaign Completion"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:384
+msgid "Campaign Completion Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:385
+msgid "Please enter subject of Campaign Completion Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:399
+msgid "<p>[cf_site_campaign_completion]- Shortcode for displaying Campaign Name</p><p> [cf_site_campaign_url]- Shortcode for displaying Campaign Product Page Url</p><p> [cf_site_campaign_shipping_address]- Shortcode for displaying Campaign Creator Shipping Address</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:405
+msgid "Campaign Completion Email Message"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:406
+msgid "Enter custom email message for Campaign [cf_site_campaign_completion] Completion"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:417
+msgid "Campaign Deletion Mail Template"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:423
+msgid "Send Email on Campaign Deleted"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:478
+msgid "Campaign Deletion Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:479
+#: inc/admin/tabs/class-email-settings.php:563
+msgid "Please enter subject of Campaign Deletion Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:489
+msgid "Campaign Deletion Email Message"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:490
+msgid "Enter custom email message for Campaign [cf_site_campaign_name] Deletion"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:501
+msgid "Campaign Contribution Mail Template"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:507
+msgid "Send Email on Campaign Order"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:558
+msgid "<p>[cf_site_contributed_campaign_name]- Shortcode for displaying Campaign Name</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:562
+msgid "Contribution Mail Subject"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:577
+msgid "<p>[cf_site_contributor_name]- Shortcode for displaying Contributor Name</p><p>[cf_site_contributor_email]- Shortcode for displaying Contributor Email</p><p>[cf_site_contribution_amount]- Shortcode for displaying Contribution Amount</p><p> [cf_site_contributed_campaign_name]- Shortcode for displaying Campaign Name</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:584
+msgid "Contribution Email Message"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:585
+msgid "Enter custom email message for Campaign Deletion"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:599
+msgid "<p>{gfsitelinkwithid}- Shortcode to display Unsubscribe Link</p>"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:603
+msgid "Unsubscribe Link Message for Email"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:604
+msgid "This message will be displayed a the Unsubscribe message in Galaxy Funder Emails"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:615
+msgid "Perk Information Order Reciept Customization"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:622
+#: inc/admin/tabs/class-email-settings.php:623
+msgid "Show/Hide Perk table in Order Reciept"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:639
+msgid "Please enter Label For Perk Name "
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:649
+msgid "Perk Associated Contribution Label"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:650
+msgid "Please enter Label For Perk Associated Contribution "
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:660
+msgid "Perk Products Label"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:661
+msgid "Please enter Label For Perk Products "
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:671
+#: inc/admin/tabs/class-single-product-page.php:276
+msgid "Perk Quantity Label"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:672
+msgid "Please enter Label For Perk Quantity "
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:682
+msgid "Message To Show When There Is No Perk Product In Order"
+msgstr ""
+
+#: inc/admin/tabs/class-email-settings.php:683
+msgid "Please enter Label To Show When There Is No Perk Product In Order"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:19
+msgid "Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:26
+msgid "[displayperk]- Shortcode for displaying Perk Table"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:32
+msgid "Contribution Table Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:38
+msgid "Contribution Table Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:39
+msgid "This Controls the Contribution Table Show or Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:52
+msgid "Search Box Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:53
+msgid "This Controls the Search Box Show or Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:66
+msgid "Page Size Option Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:67
+msgid "This Controls the Page Size Option Show or Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:80
+#: inc/admin/tabs/class-mycampaign.php:76
+msgid "S.No Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:81
+msgid "Change S.No Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:91
+msgid "S.No Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:92
+msgid "Show or Hide Serial Number Column in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:105
+msgid "Contributor Image"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:106
+msgid "Change Contributor Image in Single Product Page by Your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:116
+msgid "Contributor Image Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:117
+msgid "Show or Hide Contributor Image in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:130
+msgid "Contributor Image Size "
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:131
+#: inc/admin/tabs/class-single-product-page.php:478
+msgid "Change Contributor Image size in Single Product Page by Your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:138
+msgid "PX"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:141
+msgid "Contributor Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:142
+msgid "Change Contributor Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:152
+msgid "Contributor Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:153
+msgid "Show or Hide Contributor Name Column in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:166
+msgid "Contributor Email ID Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:167
+msgid "Change Contributor Email ID Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:177
+msgid "Contributor Email ID Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:178
+msgid "Show or Hide Contributor Email ID Column in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:191
+msgid "Contribution Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:192
+msgid "Change Contribution Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:202
+msgid "Contribution Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:203
+msgid "Show or Hide Contribution Column in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:227
+msgid "Change Perk Name Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:237
+msgid "Perk Name Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:238
+msgid "Show or Hide Perk Name Column in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:252
+msgid "Change Perk Amount Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:262
+msgid "Perk Amount Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:263
+msgid "Show or Hide Perk Amount Column in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:277
+msgid "Change Perk Quantity Column in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:287
+msgid "Perk Quantity Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:288
+msgid "Show or Hide Perk Quantity Column in Front End Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:302
+#: inc/admin/tabs/class-mycampaign.php:98
+msgid "Date Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:303
+msgid "Change Date Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:313
+msgid "Date Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:314
+msgid "Show or Hide Date Column in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:327
+msgid "Order Notes Column Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:328
+msgid "Change Order Notes Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:339
+msgid "Order Notes Column Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:340
+msgid "Show or Hide Order Notes Column in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:353
+msgid "Label for Predefined Buttons Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:354
+msgid "Show or Hide the Caption for Predefined Buttons"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:367
+msgid "Predefined Buttons Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:368
+msgid "Change Predefined Buttons Caption in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:378
+msgid "Amount You Wish to Contribute Label Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:379
+msgid "Show or Hide the Label for Amount You Wish to Contribute"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:392
+msgid "Predefined Buttons & Editable Texbox Label Line1"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:403
+msgid "Predefined Buttons & Editable Texbox Label Line2"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:404
+msgid "Change the Amount you Wish to Contribute Label in Single Product Page by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:416
+msgid "Contribution Table Position"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:420
+#: inc/admin/tabs/class-single-product-page.php:545
+#: inc/admin/tabs/class-single-product-page.php:617
+#: inc/admin/tabs/class-single-product-page.php:1151
+msgid "Before Single Product"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:420
+#: inc/admin/tabs/class-single-product-page.php:545
+#: inc/admin/tabs/class-single-product-page.php:617
+#: inc/admin/tabs/class-single-product-page.php:1154
+msgid "After Single Product"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:420
+#: inc/admin/tabs/class-single-product-page.php:545
+#: inc/admin/tabs/class-single-product-page.php:617
+#: inc/admin/tabs/class-single-product-page.php:1155
+msgid "After Single Product Summary"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:428
+msgid "Perk Table Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:434
+msgid "Perk Table Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:435
+msgid "Show or Hide Perk Table in Front End"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:448
+msgid "Perk Url Type"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:457
+msgid "Perk Name"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:458
+msgid "Perk Product"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:462
+msgid "Perk Product Image Display Selection"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:470
+msgid "Perk Product Name"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:471
+msgid "Perk Product Image"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:472
+msgid "Perk Product Image and Name"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:476
+msgid "Perk Product Image Display Size"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:477
+msgid "px"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:486
+msgid "Perk Heading Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:487
+msgid "Change the Head Label in the Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:497
+msgid "No Perk Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:498
+msgid "Change the No Perk Label in Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:508
+msgid "Out of Claimed Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:509
+msgid "Change the Out of Claimed Label in Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:519
+msgid "Out of Claimed Label for Unlimited Perks"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:520
+msgid "Change the Out of Claimed Label for Unlimited Perks in Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:530
+msgid "Estimated Delivery Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:531
+msgid "Change the Estimated Delivery Label in Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:541
+msgid "Perk Table Position"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:551
+msgid "Perk Selection Type"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:555
+msgid "Single Selection"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:555
+msgid "Multiple Selection"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:561
+msgid "Perk Quantity Selection"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:571
+msgid "Perk Quantity Display Position"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:575
+msgid "Top Left"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:575
+msgid "Top Right"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:575
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:575
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:582
+msgid "Author Info Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:588
+msgid "Author Info Heading"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:589
+msgid "Customize the Author Info Heading"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:599
+msgid "Author Info Table Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:600
+msgid "Show or Hide the Author Info Entire Table"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:613
+msgid "Author Info Table Position"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:623
+msgid "Display Profile when BuddyPress is Active"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:624
+msgid "Show or Hide the Profile Link of BuddyPress when it is in active"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:637
+msgid "Avatar Size"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:638
+msgid "Customize the Avatar Size by providing common value for width as well as height in pixel"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:648
+msgid "Avatar Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:649
+msgid "Show or Hide the Avatar in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:662
+msgid "Author Name Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:663
+msgid "Customize the Author Name Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:673
+msgid "Author Name Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:674
+#: inc/admin/tabs/class-single-product-page.php:699
+msgid "Show or Hide the Author Name in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:687
+msgid "Author Nick Name Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:688
+msgid "Customize the Author Nick Name Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:698
+msgid "Author Nick Name Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:712
+msgid "Author Email Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:713
+#: inc/admin/tabs/class-single-product-page.php:738
+msgid "Customize the Author Email Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:723
+msgid "Author Email Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:724
+msgid "Show or Hide the Author Email in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:737
+msgid "About Author/Biography Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:748
+msgid "About Author/Biography Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:749
+msgid "Show or Hide the Author Biography in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:762
+msgid "Display Country when UserPro is Active"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:763
+msgid "Show or Hide the Country of UserPro when it is in active"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:776
+msgid "Author Country Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:777
+msgid "Customize Author Country Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:787
+msgid "Author Country Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:788
+msgid "Show or Hide the Author Country in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:802
+msgid "Single Product Page Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:808
+msgid "Campaign Day and Time Display Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:809
+msgid "Please Select You Want to Display Day and Time in Font End Page "
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:814
+msgid "Day Only"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:815
+msgid "Day With Hour"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:816
+msgid "Day With Hour and Minutes"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:822
+msgid "Campaign Starts Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:823
+msgid "Please Enter Campaign Starts Label for Campaign Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:866
+msgid "CrowdFunding Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:867
+msgid "Please Enter CrowdFunding Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:900
+msgid "Contributor Name Label"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:901
+msgid "Please Enter Contribution Name Field Label in Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:911
+msgid "Contributor Name Description"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:912
+msgid "Please Enter Description of Contributor Name Field in Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:922
+msgid "Display Contributor Name Field in Frontend"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:923
+msgid "Show or Hide Contributor Name Field in Frontend"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:980
+msgid "Show or Hide the Raised Amount Value in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:993
+msgid "Raised Camapaign Percentage Show/hide"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:994
+msgid "Show or Hide the Raised Percentage in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1008
+msgid "Show or Hide Days Left in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1022
+msgid "Show or Hide the Funders count in a Single Product Page"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1036
+msgid "These are element IDs for the Contribution Table"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1135
+msgid "Social Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1137
+msgid "Here you can customize social settings"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1141
+msgid "Social Buttons Position"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1142
+msgid "This helps to Position CrowdFunding Social Buttons in Different Places"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1152
+msgid "Before Single Product Summary"
+msgstr ""
+
+#: inc/admin/tabs/class-single-product-page.php:1153
+msgid "Single Product Summary"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:43
+msgid "General"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:80
+msgid "Add to Cart Button Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:85
+msgid "Add to Cart Button Label"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:86
+msgid "Please Enter Add to cart Button Label to show"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:97
+msgid "Redirect after Contribution"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:98
+msgid "Please Select the place you want redirect after Contribution"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:105
+msgid "Cart Page"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:106
+msgid "Checkout Page"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:113
+msgid "Campaign Out of Stock Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:118
+msgid "Out of Stock Label"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:119
+msgid "Please Enter Out of Stock Label"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:130
+msgid "Display Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:135
+msgid "Select roles which can enable front end campaign submission form"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:136
+msgid "Select roles which can able to submit front end campaign submission form"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:147
+msgid "Show Campaigns in Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:148
+msgid "This helps to Show/Hide the Campaigns in Shop Page"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:161
+msgid "Hide Closed Campaigns"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:162
+msgid "If set to hide the closed campaigns will be hidden in shop and category pages "
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:175
+msgid "Raise Contributions when order status becomes"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:176
+msgid "Please Select the Order status to Raise Contributions"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:186
+msgid "Restriction for Cart"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:191
+msgid "Don't Allow Other Products to Cart when Cart Contain CrowdFunding Campaign "
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:192
+msgid "This helps to Stop Other Products added to Cart when CrowdFunding Campaign in Cart"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:202
+msgid "Cart Error Message"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:203
+msgid "This helps to Show your Error Message when add some other products to cart"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:213
+msgid "Show/Hide Woocommerce Coupon Field in Cart/Checkout page"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:214
+msgid "This helps to Show/Hide Woocommerce Coupon Field when CrowdFunding Campaign in Cart/Checkout"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:224
+msgid "When coupon is applied on a CrowdFunding Campaign update  the Campaign Goal with"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:233
+msgid "Price after coupon discount"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:233
+msgid "User choosen amount"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:237
+msgid "Checkout Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:242
+msgid "Show/hide Mark as Anonymous Checkbox in Checkout page "
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:253
+msgid "Mark as Anonymous text"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:254
+msgid "Please enter your custom caption"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:266
+msgid "Price Button Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:271
+msgid "Button color "
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:272
+msgid "Please enter the Button color"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:284
+msgid "Button Text color "
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:285
+msgid "Please enter the Button Text color"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:297
+msgid "Selected Button color "
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:298
+msgid "Please enter the Selected Button color"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:310
+msgid "Selected Button Text color "
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:311
+msgid "Please enter the Selected Button Text color"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:323
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:324
+msgid "Box Shadow show or hide option"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:336
+msgid "Troubleshoot"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:341
+msgid "Load Template"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:342
+msgid "Troubleshooting the Problem by change the Option to load Template Files from Various Places"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:348
+msgid "From Plugin"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:348
+msgid "From Theme"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:354
+msgid "Hook to destroy session"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:355
+msgid "Select Hook to destroy session"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:365
+msgid "woocommerce_checkout_update_order_meta"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:366
+msgid "woocommerce_thankyou"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:372
+msgid "Troubleshoot SSL"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:378
+msgid "Load Ajax from"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:379
+msgid "Force SSL for Admin Cause Galaxy Funder to Stop Working because of https to http is causing problem"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:385
+msgid "From Admin URL"
+msgstr ""
+
+#: inc/admin/tabs/class-crowdfunding-general-tab.php:385
+msgid "From Site URL"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:15
+msgid "Campaigns"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:73
+msgid "Campaign Name"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:74
+msgid "Campaign Creator"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:75
+msgid "Date"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:76
+msgid "Target Goal/Target Quantity"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:77
+msgid "Raised"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:78
+msgid "Raised %"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:79
+msgid "Funders"
+msgstr ""
+
+#: inc/admin/tabs/class-campaigns-list-settings.php:80
+msgid "Status"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:25
+msgid "My Account Page"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:33
+msgid "Use the Shortcode [crowd_fund_extension] to display the Campaign Extension Form"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:39
+msgid "Use the Shortcode [cf_mycampaign_table] to display the Campaign table"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:45
+msgid "My Account Page Settings"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:51
+msgid "My Campaign Table Show/Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:52
+msgid "This Controls the My Campaign Table Show or Hide"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:65
+msgid "Title of My Campaign"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:66
+msgid "Change My Campaign Title in My Account Page"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:77
+msgid "Change S.No Caption in Single in My Campaign table by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:87
+msgid "Campaign Label"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:88
+msgid "Change Campaign Caption in My Campaign table by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:99
+msgid "Change Date Caption in My Campaign table by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:110
+msgid "Change Goal Caption in My Campaign table by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:120
+msgid "Fund Raised Label"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:121
+msgid "Change Fund Raised Caption in My Campaign table by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:131
+msgid "Fund Raised Percentage Label"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:132
+msgid "Change Fund Raised Percentage Caption in My Campaign table by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:142
+msgid "Campaign Extension Label"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:153
+msgid "Campaign Extension Link Label"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:164
+msgid "Page Id of Contribution Extension Link "
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:175
+msgid "Funders Label"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:176
+#: inc/admin/tabs/class-mycampaign.php:187
+msgid "Change Funders in My Campaign table by your Custom Words"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:186
+msgid "Status Label"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:197
+#: inc/admin/tabs/class-mycampaign.php:198
+msgid "Customize Target End Type in My Account Page"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:208
+msgid "Campaign Table Position"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:212
+msgid "Start of My Account"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:212
+msgid "End of My Account"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:218
+msgid "Show/Hide Your Subscribe Link"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:219
+msgid "Show/Hide Your Subscribe Link if you want to display it in my account page"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:231
+msgid "Subscribe Link Message"
+msgstr ""
+
+#: inc/admin/tabs/class-mycampaign.php:232
+msgid "This Message will be displayed on the option to Unsubscribe from Galaxy Funder Emails"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:256
+msgid "Fundraising by Crowdfunding"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:257
+msgid "Product Purchase by Crowdfunding"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:274
+msgid "Use Selected Product Featured Image"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:274
+msgid "     (Works only When one Product is Chosen)"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:296
+#: inc/entry_forms/class-frontend-form.php:673
+#: inc/entry_forms/class-frontend-form.php:682
+#: inc/entry_forms/class-frontend-form.php:699
+#: inc/entry_forms/class-frontend-form.php:708
+msgid "Target Goal/Target Date"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:524
+msgid "Billing Information"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:525
+msgid "Billing First Name"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:526
+msgid "Billing Last Name"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:527
+msgid "Billing Company"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:528
+msgid "Billing Address 1"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:529
+msgid "Billing Address 2"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:530
+msgid "Billing City"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:531
+msgid "Billing Postcode"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:532
+msgid "Billing Country"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:533
+msgid "Billing State"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:534
+msgid "Billing Email"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:535
+msgid "Billing Phone"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:537
+msgid "Shipping Information"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:540
+msgid "Same as Billing Information"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:542
+msgid "Shipping First Name"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:543
+msgid "Shipping Last Name"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:544
+msgid "Shipping Company"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:545
+msgid "Shipping Address 1"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:546
+msgid "Shipping Address 2"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:547
+msgid "Shipping City"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:548
+msgid "Shipping Postcode"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:549
+msgid "Shipping Country"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:550
+msgid "Shipping State"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:561
+#: inc/entry_forms/class-frontend-form.php:596
+msgid "Choose Category"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:624
+msgid "Enter your PayPal ID"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:635
+msgid "Submit Campaign"
+msgstr ""
+
+#: inc/entry_forms/class-frontend-form.php:884
+msgid "You can not submit campaign"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:17
+msgid "Perk Rule"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:39
+msgid "Name of Perk"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:95
+msgid "Perk Amount"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:108
+msgid "Limit Perk Claim"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:114
+msgid "Limited"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:119
+msgid "Unlimited"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:124
+msgid "Perk Claim Max Count"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:128
+msgid "Estimated Delivery on"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:135
+msgid "Remove Perk Rule"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:181
+msgid "Add Perk Rule"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:363
+msgid "Campaign Contribution Table"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:498
+msgid "Campaign Contributor Billing & Shipping Information"
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:499
+msgid "Compaign Creator Email ID : "
+msgstr ""
+
+#: inc/entry_forms/class-perk-meta-box.php:533
+msgid "Billing Address"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:34
+msgid "Enable Galaxy Funder"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:35
+msgid "Enable Galaxy Funder if you want users to contribute for your job by donating money"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:42
+#: inc/entry_forms/class-product-level-entry-from.php:54
+msgid "CrowdFunding Type"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:67
+msgid "Minimum Price ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:68
+#: inc/entry_forms/class-product-level-entry-from.php:83
+#: inc/entry_forms/class-product-level-entry-from.php:91
+#: inc/entry_forms/class-product-level-entry-from.php:108
+msgid "Please Enter Only Numbers"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:75
+msgid "Hide Minimum Price"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:82
+msgid "Recommended Price ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:90
+msgid "Maximum Price ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:98
+msgid "Hide Maximum Price"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:107
+msgid "Target Price ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:116
+msgid "Check this Option to use the Featured Image of Selected Product (Works only When one Product is Chosen.)"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:123
+msgid "Hide Target Price"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:130
+msgid "Campaign End Method"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:134
+msgid "Target Goal & Date"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:145
+msgid "From Date"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:168
+msgid "User Requested Campaign Duration in days"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:176
+msgid "To Date"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:183
+msgid "Target Quantity "
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:191
+msgid "Enable Social Promotion"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:192
+msgid "Enable Social Promotion for this Campaign"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:199
+msgid "Enable Social Promotion Through Facebook"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:200
+msgid "Enable Social Promotion for this Campaign Through Facebook"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:207
+msgid "Enable Social Promotion Through Twitter"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:208
+msgid "Enable Social Promotion for this Campaign Through Twitter"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:215
+msgid "Enable Social Promotion Through Google+"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:216
+msgid "Enable Social Promotion for this Campaign Through Google+"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:223
+msgid "Show Contributor Table"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:224
+msgid "Enable this option to display the contributors for this Campaign"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:231
+msgid "Mark Contributors as Anonymous"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:232
+msgid "Enable this option to display the contributors Name as Anonymous for this Campaign"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:239
+msgid "Campaigner PayPal ID"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:246
+msgid "Select Style"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:247
+msgid "Select style for displaying price"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:249
+msgid "Editable Textbox"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:250
+msgid "Non-Editable Textbox"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:251
+msgid "Predefined Buttons"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:252
+msgid "Predefined ListBox"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:253
+msgid "Predefined Button & Editable TextBox"
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:261
+msgid "Amount 1 ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:268
+msgid "Amount 2 ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:275
+msgid "Amount 3 ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:282
+msgid "Amount 4 ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:289
+msgid "Amount 5 ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:296
+msgid "Amount 6 ("
+msgstr ""
+
+#: inc/entry_forms/class-product-level-entry-from.php:303
+msgid "Recomended Amount ("
+msgstr ""
+
+#: inc/emails/create-custom-order.php:7
+#, php-format
+msgid "Order &ndash; %s"
+msgstr ""
+

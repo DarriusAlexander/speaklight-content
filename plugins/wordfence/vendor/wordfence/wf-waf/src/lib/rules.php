@@ -28,7 +28,6 @@ class wfWAFRule implements wfWAFRuleInterface {
 	private $description;
 	private $whitelist;
 	private $action;
-	/** @var wfWAFRuleComparisonGroup */
 	private $comparisonGroup;
 	/**
 	 * @var wfWAF
@@ -99,19 +98,6 @@ class wfWAFRule implements wfWAFRuleInterface {
 		$this->setWhitelist($whitelist);
 		$this->setAction($action);
 		$this->setComparisonGroup($comparisonGroup);
-	}
-
-	public function __sleep() {
-		return array(
-			'ruleID',
-			'type',
-			'category',
-			'score',
-			'description',
-			'whitelist',
-			'action',
-			'comparisonGroup',
-		);
 	}
 
 	/**
@@ -309,9 +295,6 @@ RULE
 	 */
 	public function setWAF($waf) {
 		$this->waf = $waf;
-		if ($this->comparisonGroup) {
-			$this->comparisonGroup->setWAF($waf);
-		}
 	}
 }
 
@@ -350,14 +333,6 @@ class wfWAFRuleLogicalOperator implements wfWAFRuleInterface {
 		$this->setOperator($operator);
 		$this->setCurrentValue($currentValue);
 		$this->setComparison($comparison);
-	}
-
-	public function __sleep() {
-		return array(
-			'operator',
-			'currentValue',
-			'comparison',
-		);
 	}
 
 	/**
@@ -527,15 +502,6 @@ class wfWAFRuleComparison implements wfWAFRuleInterface {
 		$this->setAction($action);
 		$this->setExpected($expected);
 		$this->setSubjects($subjects);
-	}
-
-	public function __sleep() {
-		return array(
-			'rule',
-			'action',
-			'expected',
-			'subjects',
-		);
 	}
 
 	/**
@@ -775,7 +741,6 @@ class wfWAFRuleComparison implements wfWAFRuleInterface {
 				}
 				$totalRead = 0;
 				
-				$first = true;
 				$readsize = max(min(10 * 1024 * 1024, wfWAFUtils::iniSizeToBytes(ini_get('upload_max_filesize'))), 1 * 1024 * 1024);
 				while (!feof($fh)) {
 					$data = fread($fh, $readsize);
@@ -788,10 +753,6 @@ class wfWAFRuleComparison implements wfWAFRuleInterface {
 					foreach ($patterns as $index => $rule) {
 						if (@preg_match('/' . $rule . '/iS', null) === false) {
 							continue; //This PCRE version can't compile the rule
-						}
-						
-						if (!$first && substr($rule, 0, 1) == '^') {
-							continue; //Signature only applies to file beginning
 						}
 						
 						if (isset($commonStrings[$index])) {
@@ -811,8 +772,6 @@ class wfWAFRuleComparison implements wfWAFRuleInterface {
 							return true;
 						}
 					}
-					
-					$first = false;
 				}	
 			}
 		}
@@ -1215,16 +1174,6 @@ class wfWAFRuleComparison implements wfWAFRuleInterface {
 	 */
 	public function setWAF($waf) {
 		$this->waf = $waf;
-		if (is_array($this->subjects)) {
-			foreach ($this->subjects as $subject) {
-				if (is_object($subject) && method_exists($subject, 'setWAF')) {
-					$subject->setWAF($waf);
-				}
-			}
-		}
-		if (is_object($this->expected) && method_exists($this->expected, 'setWAF')) {
-			$this->expected->setWAF($waf);
-		}
 	}
 
 	/**
@@ -1247,8 +1196,6 @@ class wfWAFRuleComparisonGroup implements wfWAFRuleInterface {
 	private $items = array();
 	private $failedComparisons = array();
 	private $result = false;
-	private $waf;
-
 	/**
 	 * @var wfWAFRule
 	 */
@@ -1259,12 +1206,6 @@ class wfWAFRuleComparisonGroup implements wfWAFRuleInterface {
 		foreach ($args as $arg) {
 			$this->add($arg);
 		}
-	}
-
-	public function __sleep() {
-		return array(
-			'items',
-		);
 	}
 
 	public function add($item) {
@@ -1432,25 +1373,6 @@ class wfWAFRuleComparisonGroup implements wfWAFRuleInterface {
 	public function setRule($rule) {
 		$this->rule = $rule;
 	}
-
-	/**
-	 * @return mixed
-	 */
-	public function getWAF() {
-		return $this->waf;
-	}
-
-	/**
-	 * @param mixed $waf
-	 */
-	public function setWAF($waf) {
-		$this->waf = $waf;
-		foreach ($this->items as $item) {
-			if (is_object($item) && method_exists($item, 'setWAF')) {
-				$item->setWAF($waf);
-			}
-		}
-	}
 }
 
 class wfWAFRuleComparisonFailure {
@@ -1486,17 +1408,6 @@ class wfWAFRuleComparisonFailure {
 		$this->setMultiplier($multiplier);
 		$this->setParamValue($paramValue);
 		$this->setMatches($matches);
-	}
-
-	public function __sleep() {
-		return array(
-			'paramKey',
-			'expected',
-			'action',
-			'multiplier',
-			'paramValue',
-			'matches',
-		);
 	}
 
 	/**
@@ -1619,13 +1530,6 @@ class wfWAFRuleComparisonSubject {
 		$this->waf = $waf;
 		$this->subject = $subject;
 		$this->filters = $filters;
-	}
-
-	public function __sleep() {
-		return array(
-			'subject',
-			'filters',
-		);
 	}
 
 	/**

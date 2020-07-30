@@ -1,0 +1,152 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">quantity</custom-field>
+        <custom-field action="translate">custom-title</custom-field>
+        <custom-field action="copy">weight</custom-field>
+        <custom-field action="translate">custom-description</custom-field>
+        <custom-field action="ignore">date-added</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">book</custom-type>
+        <custom-type translate="1">DVD</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">genre</taxonomy>
+        <taxonomy translate="1">type</taxonomy>
+        <taxonomy translate="0">publisher</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="cf_add_to_cart_label" />
+        <key name="cf_outofstock_label"/>
+        <key name="cf_campaign_restrict_error_message"/>
+        <key name="cf_checkout_textbox"/>
+        <key name="cf_serial_number_label"/>
+        <key name="cf_contributor_image_label"/>
+        <key name="cf_contributor_label"/>
+        <key name="cf_contributor_email_label"/>
+        <key name="cf_donation_label"/>
+        <key name="cf_perk_name_label"/>
+        <key name="cf_perk_amount_label"/>
+        <key name="cf_perk_quantity_label"/>
+        <key name="cf_date_label"/>
+        <key name="cf_perk_head_label"/>
+        <key name="cf_no_perk_label"/>
+        <key name="cf_out_of_claimed_label"/>
+        <key name="cf_out_of_claimed_unlimited_label"/>
+        <key name="cf_estimated_delivery_label"/>
+        <key name="crowdfunding_min_price_tab_product"/>
+        <key name="crowdfunding_maximum_price_tab_product"/>
+        <key name="crowdfunding_target_price_tab_product"/>
+        <key name="crowdfunding_payyourprice_price_tab_product"/>
+        <key name="crowdfunding_totalprice_label"/>
+        <key name="crowdfunding_totalprice_percent_label"/>
+        <key name="cf_contributor_name_caption"/>
+        <key name="cf_contributor_name_description"/>
+        <key name="cf_campaign_start_message"/>
+        <key name="crowdfunding_min_price_shop_page"/>
+        <key name="crowdfunding_maximum_price_shop_page"/>
+        <key name="crowdfunding_target_price_shop_page"/>
+        <key name="crowdfunding_totalprice_label_shop_page"/>
+        <key name="crowdfunding_totalprice_percent_label_shop_page"/>
+        <key name="cf_submission_camp_title_label"/>
+        <key name="cf_submission_camp_title_placeholder"/>
+        <key name="cf_submission_camp_duration_label"/>
+        <key name="cf_submission_camp_duration_placeholder"/>
+        <key name="cf_submission_camp_recommendedprice_label"/>
+        <key name="cf_submission_camp_recommendedprice_placeholder"/>
+        <key name="cf_submission_camp_maximumprice_label"/>
+        <key name="cf_submission_camp_maximumprice_placeholder"/>
+        <key name="cf_submission_camp_minimumprice_label"/>
+        <key name="cf_submission_camp_minimumprice_placeholder"/>
+        <key name="cf_submission_camp_targetprice_label"/>
+        <key name="cf_submission_camp_targetprice_placeholder"/>
+        <key name="cf_submission_camp_description_label"/>
+        <key name="cf_custom_remove_perk_confirmation_message"/>
+        <key name="cf_add_perk_rule_caption"/>
+        <key name="cf_remove_perk_rule_caption"/>
+        <key name="cf_custom_perk_name_label"/>
+        <key name="cf_custom_perk_amount_label"/>
+        <key name="cf_custom_perk_description_label"/>
+        <key name="cf_custom_perk_claim_count_label"/>
+        <key name="cf_custom_perk_delivery_label"/>
+        <key name="cf_submission_camp_featuredimage_label"/>
+        <key name="cf_submission_camp_i_agree_label"/>
+        <key name="cf_frontend_submission_empty_checkbox_error_message"/>
+        <key name="cf_frontend_submission_status_message"/>
+        <key name="cf_frontend_submission_response_message"/>
+        <key name="cf_frontend_submission_response_error_message"/>
+        <key name="cf_frontend_submission_number_field_error_message"/>
+        <key name="cf_frontend_submission_empty_field_error_message"/>
+        <key name="cf_funder_label"/>
+        <key name="cf_mycampaign_title"/>
+        <key name="cf_mycampaign_serial_number_label"/>
+        <key name="cf_mycampaign_campaign_label"/>
+        <key name="cf_mycampaign_date_label"/>
+        <key name="cf_mycampaign_goal_label"/>
+        <key name="cf_mycampaign_raised_label"/>
+        <key name="cf_mycampaign_raised_percent_label"/>
+        <key name="cf_mycampaign_extension_label"/>
+        <key name="cf_mycampaign_extension_link_label"/>
+        <key name="cf_mycampaign_funders_label"/>
+        <key name="cf_mycampaign_status_label"/>
+        <key name="gf_unsubscribe_message_myaccount_page"/>
+        <key name="cf_min_price_error_msg"/>
+        <key name="cf_max_price_error_msg"/>
+        <key name="cf_input_price_error_message"/>
+        <key name="cf_perk_error_message"/>
+        <key name="crowdfunding_min_price_shop_page_shortcode"/>
+        <key name="crowdfunding_maximum_price_shop_page_shortcode"/>
+        <key name="crowdfunding_target_price_shop_page_shortcode"/>
+        <key name="crowdfunding_totalprice_label_shop_page_shortcode"/>
+        <key name="crowdfunding_totalprice_percent_label_shop_page_shortcode"/>
+        <key name="crowdfunding_number_of_words_to_trim"/>
+        <key name="cf_author_name_label"/>
+        <key name="cf_author_nick_name_label"/>
+        <key name="cf_author_email_label"/>
+        <key name="cf_author_biography_label"/>
+        <key name="cf_author_info_heading"/>
+        <key name="cf_author_country_label"/>
+        <key name="cf_submission_camp_targetprice_label"/>
+        <key name="cf_submission_camp_targetprice_placeholder"/>
+        <key name="cf_submission_camp_targetprice_label_new"/>
+        
+        
+         </admin-texts>
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_language_switcher_sidebar">0</key>
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>
+    </language-switcher-settings>
+</wpml-config>
+
+

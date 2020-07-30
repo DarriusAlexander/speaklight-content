@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 
 	var response_messages = '';
 	var timeout;
-	var delay = 1000;
+	var delay = 500;
 
 	var $checkout = $( '.checkout' );
 	var $body = $( 'body' );
@@ -267,7 +267,13 @@ jQuery(document).ready(function($){
 		$(selectors).attr('disabled', 'disabled');
 
 		// Custom event for devs to hook into before posting of products for processing
-		$('body').trigger( 'opc_add_remove_product', [ data ] );
+		$('body').trigger( 'opc_add_remove_product', [ data, e, selectors ] );
+
+		// Read from opc_add_remove_product trigger above and maybe avoid the AJAX add to cart call.
+		if ( data.invalid === true ) {
+			$( selectors ).removeAttr( 'disabled' );
+			return;
+		}
 
 		$.ajax({
 			type: 'POST',
@@ -308,9 +314,9 @@ jQuery(document).ready(function($){
 					if ( $(this).prop( 'type' ) == 'number' ) {
 
 						if ( in_cart ) {
-							$(this).val( response.products_in_cart[ product_id ].quantity );
+							$(this).val( response.products_in_cart[ product_id ].quantity ).data( 'cart_quantity', response.products_in_cart[ product_id ].quantity );
 						} else {
-							$(this).val(0);
+							$(this).val(0).data( 'cart_quantity', 0 );
 						}
 
 					} else if ( $(this).is( 'a, button' ) ) {
@@ -327,6 +333,7 @@ jQuery(document).ready(function($){
 							$(this).prop( 'checked', true );
 						} else {
 							$(this).prop( 'checked', false );
+							$(this).parents( '.product-item' ).removeClass( 'selected' );
 						}
 					}
 

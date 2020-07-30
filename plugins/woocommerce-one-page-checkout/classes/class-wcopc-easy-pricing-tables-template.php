@@ -37,7 +37,7 @@ class WCOPC_Easy_Pricing_Tables_Template extends WCOPC_Template {
 	 */
 	public function display_pricing_table( $template, $shortcode_atts ) {
 		if ( $this->template_key == $template && isset( $shortcode_atts['easy_pricing_table_id'] ) ) {
-			echo '<div id="opc-product-selection" data-opc_id="' . PP_One_Page_Checkout::$shortcode_page_id . '"class="hide-if-js wcopc">';
+			echo '<div id="opc-product-selection" data-opc_id="' . PP_One_Page_Checkout::$shortcode_page_id . '"class="wcopc">';
 			echo do_shortcode( '[easy-pricing-table id="' . $shortcode_atts['easy_pricing_table_id'] . '"]' );
 			echo '</div>';
 		}

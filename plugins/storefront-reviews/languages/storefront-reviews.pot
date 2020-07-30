@@ -1,0 +1,165 @@
+# Copyright (C) 2015 Storefront Reviews
+# This file is distributed under the same license as the Storefront Reviews package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Storefront Reviews 1.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/storefront-reviews\n"
+"POT-Creation-Date: 2015-09-18 13:42:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: storefront-reviews.php:156 storefront-reviews.php:165
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: storefront-reviews.php:175
+msgid "Support"
+msgstr ""
+
+#: storefront-reviews.php:176
+msgid "Docs"
+msgstr ""
+
+#: storefront-reviews.php:199
+msgid ""
+"%sThanks for installing the Storefront Reviews extension. To get started, "
+"visit the %sCustomizer%s.%s %sOpen the Customizer%s"
+msgstr ""
+
+#: storefront-reviews.php:266
+msgid ""
+"Storefront Reviews requires that you use Storefront as your parent theme."
+msgstr ""
+
+#: storefront-reviews.php:266
+msgid "Install Storefront now"
+msgstr ""
+
+#. #-#-#-#-#  storefront-reviews.pot (Storefront Reviews 1.0.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: storefront-reviews.php:280
+msgid "Storefront Reviews"
+msgstr ""
+
+#: storefront-reviews.php:289
+msgid "Recent Reviews"
+msgstr ""
+
+#: storefront-reviews.php:295
+msgid "Product reviews title"
+msgstr ""
+
+#: storefront-reviews.php:308
+msgid "Reviews to display"
+msgstr ""
+
+#: storefront-reviews.php:329
+msgid "Product ID"
+msgstr ""
+
+#: storefront-reviews.php:330
+msgid "Display reviews from a specific product by adding the ID here"
+msgstr ""
+
+#: storefront-reviews.php:348
+msgid "Review IDs"
+msgstr ""
+
+#: storefront-reviews.php:349
+msgid "Comma separate specific review IDs to display them"
+msgstr ""
+
+#: storefront-reviews.php:376
+msgid "Review display"
+msgstr ""
+
+#: storefront-reviews.php:377
+msgid "Choose a design/layout for the reviews"
+msgstr ""
+
+#: storefront-reviews.php:395
+msgid "Display Gravatar"
+msgstr ""
+
+#: storefront-reviews.php:396
+msgid "Display the reviwers Gravatar?"
+msgstr ""
+
+#: storefront-reviews.php:428
+msgid "Maximum reviews"
+msgstr ""
+
+#: storefront-reviews.php:429
+msgid "The maximum number of reviews to display"
+msgstr ""
+
+#: storefront-reviews.php:457
+msgid "Review columns"
+msgstr ""
+
+#: storefront-reviews.php:458
+msgid "The number of columns reviews are arranged in to"
+msgstr ""
+
+#: storefront-reviews.php:487
+msgid "Carousel"
+msgstr ""
+
+#: storefront-reviews.php:488
+msgid "Display the reviews in a carousel"
+msgstr ""
+
+#: storefront-reviews.php:512
+msgid "Star color"
+msgstr ""
+
+#: storefront-reviews.php:513
+msgid "The color of the star ratings throughout the store"
+msgstr ""
+
+#: storefront-reviews.php:556
+msgid "Previous"
+msgstr ""
+
+#: storefront-reviews.php:557
+msgid "Next"
+msgstr ""
+
+#: storefront-reviews.php:642
+msgid "Product Reviews"
+msgstr ""
+
+#: storefront-reviews.php:725 storefront-reviews.php:762
+msgid "reviewed by"
+msgstr ""
+
+#: storefront-reviews.php:731 storefront-reviews.php:745
+#: storefront-reviews.php:768
+msgid "View this product"
+msgstr ""
+
+#: storefront-reviews.php:805
+msgid "Heading Text"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://woothemes.com/products/storefront-reviews/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display product reviews on the across your Storefront powered WooCommerce "
+"shop."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com/"
+msgstr ""

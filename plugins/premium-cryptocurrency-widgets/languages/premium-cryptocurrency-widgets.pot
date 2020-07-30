@@ -1,0 +1,858 @@
+# Copyright (C) 2020 Premium Cryptocurrency Widgets
+# This file is distributed under the same license as the Premium Cryptocurrency Widgets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Premium Cryptocurrency Widgets\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/builder.php:3
+msgid "Widgets builder"
+msgstr ""
+
+#: admin/settings.php:6
+msgid "Settings are successfully saved."
+msgstr ""
+
+#: admin/settings.php:12
+msgid "Plugin settings"
+msgstr ""
+
+#: admin/settings.php:20
+msgid "CryptoCompare API key"
+msgstr ""
+
+#: admin/settings.php:26
+msgid "Get a free API key"
+msgstr ""
+
+#: admin/settings.php:33
+msgid "Locale"
+msgstr ""
+
+#: admin/settings.php:38
+msgid "This setting affects how dates are formatted."
+msgstr ""
+
+#: admin/settings.php:44
+msgid "Thousands separator"
+msgstr ""
+
+#: admin/settings.php:52
+msgid "Decimal separator"
+msgstr ""
+
+#: admin/settings.php:60
+msgid "Price margin (%)"
+msgstr ""
+
+#: admin/settings.php:65
+msgid "Price margin in percent to automatically apply to the pulled quotes."
+msgstr ""
+
+#: admin/settings.php:71
+msgid "Google Maps API key"
+msgstr ""
+
+#: admin/settings.php:76
+msgid "Required for geo heatmap, optional for gauge and treemap widgets"
+msgstr ""
+
+#: admin/settings.php:82
+msgid "Asset recognition regexp"
+msgstr ""
+
+#: admin/settings.php:87, admin/settings.php:98
+msgid "Please check the documentation for further instructions (expand the Help section in the top right corner)."
+msgstr ""
+
+#: admin/settings.php:93
+msgid "Virtual asset page regexp"
+msgstr ""
+
+#: admin/settings.php:104
+msgid "Virtual asset page content"
+msgstr ""
+
+#: admin/settings.php:113
+msgid "Enqueue priority"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:132
+msgid "Same window"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:133
+msgid "New window"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:134
+msgid "1 hour"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:135
+msgid "24 hours"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:136
+msgid "5 days"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:137
+msgid "7 days"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:138
+msgid "14 days"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:139
+msgid "1 month"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:140
+msgid "2 months"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:141
+msgid "3 months"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:142
+msgid "6 months"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:143
+msgid "1 year"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:144
+msgid "2 years"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:145
+msgid "3 years"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:146
+msgid "5 years"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:147
+msgid "Algorithm"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:148
+msgid "Anonymity"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:149
+msgid "API"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:150
+msgid "API type"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:151
+msgid "Ascending"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:152
+msgid "Ask"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:153
+msgid "Pair"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:154
+msgid "Assets"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:155
+msgid "Pair short"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:156
+msgid "Average fee"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:157
+msgid "Display axes"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:158
+msgid "Bar"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:159
+msgid "Bid"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:160
+msgid "Block reward reduction"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:161
+msgid "Bottom center"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:162
+msgid "Bottom left"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:163
+msgid "Bottom right"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:164
+msgid "Buy"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:165
+msgid "Center"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:166, classes/PremiumCryptocurrencyWidgets/Plugin.php:269
+msgid "Change"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:167, classes/PremiumCryptocurrencyWidgets/Plugin.php:270
+msgid "% Change"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:168
+msgid "Change 24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:169
+msgid "% Change 24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:170
+msgid "Chart"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:171
+msgid "Close"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:172
+msgid "Color"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:173
+msgid "Copy"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:174
+msgid "Country"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:175
+msgid "Cryptocurrencies"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:176
+msgid "Cryptocurrency"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:177
+msgid "Currency"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:178
+msgid "Currencies"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:179
+msgid "Cursor"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:180
+msgid "Customizable"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:181
+msgid "Customize"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:182
+msgid "Date / time"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:183
+msgid "Descending"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:184
+msgid "Description"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:185
+msgid "Difficulty adjustment"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:186
+msgid "Direction"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:187
+msgid "Quote (display) currency"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:188
+msgid "Display chart for selected coin"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:189
+msgid "Display header"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:190
+msgid "Ease of use"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:191
+msgid "Features"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:192
+msgid "Fee"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:193
+msgid "Field"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:194
+msgid "Price change animation"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:195
+msgid "Fields"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:196
+msgid "Flash on quotes change"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:197
+msgid "Graph type"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:198
+msgid "High"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:199
+msgid "High 24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:200
+msgid "ID"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:201
+msgid "Yes"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:202
+msgid "Last market"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:203
+msgid "Last trade ID"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:204, classes/PremiumCryptocurrencyWidgets/Plugin.php:205
+msgid "Last udpate"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:206, classes/PremiumCryptocurrencyWidgets/Plugin.php:207, classes/PremiumCryptocurrencyWidgets/Plugin.php:208
+msgid "Last volume"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:209
+msgid "Left"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:210
+msgid "Limit"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:211
+msgid "Line"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:212
+msgid "Link"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:213
+msgid "Load more"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:214
+msgid "Logo"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:215, classes/PremiumCryptocurrencyWidgets/Plugin.php:216, classes/PremiumCryptocurrencyWidgets/Plugin.php:228, classes/PremiumCryptocurrencyWidgets/Plugin.php:230
+msgid "Name"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:217
+msgid "Low"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:218
+msgid "Low 24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:219
+msgid "Market"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:220
+msgid "Market cap"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:221
+msgid "Mkt cap"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:222
+msgid "Text (markup)"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:223
+msgid "Max"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:224
+msgid "Min payout"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:225
+msgid "Mode"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:226
+msgid "Multiple coins / single display currency"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:227
+msgid "Single coin / multiple display currencies"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:229
+msgid "Name (LC)"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:231
+msgid "No"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:232, classes/PremiumCryptocurrencyWidgets/Plugin.php:235
+msgid "b"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:233
+msgid "k"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:234
+msgid "m"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:236
+msgid "Open"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:237
+msgid "Open 24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:238
+msgid "Coin page URL"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:239
+msgid "Pagination"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:240
+msgid "Pause on hover"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:241
+msgid "Payment type"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:242
+msgid "Period"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:243
+msgid "1h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:244
+msgid "24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:245
+msgid "5d"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:246
+msgid "7d"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:247
+msgid "14d"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:248
+msgid "1m"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:249
+msgid "2m"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:250
+msgid "3m"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:251
+msgid "6m"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:252
+msgid "1y"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:253
+msgid "2y"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:254
+msgid "3y"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:255
+msgid "5y"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:256
+msgid "max"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:257
+msgid "Platforms"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:258
+msgid "Position"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:259
+msgid "Preview"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:260
+msgid "Price"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:261
+msgid "Price (currency)"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:262
+msgid "Proof type"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:263
+msgid "Purchase date"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:264
+msgid "Purchase price"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:265
+msgid "Sell date"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:266
+msgid "Sell price"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:267
+msgid "Portfolio structure"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:268, classes/PremiumCryptocurrencyWidgets/Plugin.php:281
+msgid "Quantity"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:271
+msgid "Cost"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:272
+msgid "Market value"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:273
+msgid "Return"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:274
+msgid "% Return"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:275
+msgid "24h range"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:276
+msgid "Rank"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:277
+msgid "Real-time updates"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:278
+msgid "Read more"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:279
+msgid "Right"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:280
+msgid "Rows per page"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:282
+msgid "Save"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:283
+msgid "Search"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:284
+msgid "Search..."
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:285
+msgid "No matching records found"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:286
+msgid "Sell"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:287
+msgid "Security"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:288
+msgid "Shortcode"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:289
+msgid "Server locations"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:290
+msgid "Sort field"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:291
+msgid "Sort direction"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:292
+msgid "Source"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:293
+msgid "Source code link"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:294
+msgid "Supply"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:295
+msgid "Supported coins"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:296
+msgid "Symbol"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:297
+msgid "From"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:298
+msgid "From (LC)"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:299
+msgid "To"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:300
+msgid "Speed"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:301
+msgid "Start date"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:302
+msgid "Start expanded"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:303
+msgid "Extra CSS styles"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:304
+msgid "Target"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:305
+msgid "Technology"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:306
+msgid "Template"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:307
+msgid "Theme"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:308
+msgid "Timeout"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:309
+msgid "Top center"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:310
+msgid "Top left"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:311
+msgid "Top right"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:312
+msgid "Total"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:313
+msgid "Total change"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:314
+msgid "Total % change"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:315
+msgid "Total cost"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:316
+msgid "Total value"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:317, classes/PremiumCryptocurrencyWidgets/Plugin.php:318
+msgid "Total volume 24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:319
+msgid "Vol 24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:320
+msgid "% from total volume"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:321
+msgid "Date"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:322
+msgid "Time"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:323
+msgid "Trading pairs"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:324
+msgid "Treemap"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:325
+msgid "Type"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:326
+msgid "Twitter"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:327
+msgid "Unknown"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:328
+msgid "URL"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:331, classes/PremiumCryptocurrencyWidgets/Plugin.php:337, classes/PremiumCryptocurrencyWidgets/Plugin.php:338
+msgid "Volume"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:332, classes/PremiumCryptocurrencyWidgets/Plugin.php:333
+msgid "Day volume"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:334, classes/PremiumCryptocurrencyWidgets/Plugin.php:335, classes/PremiumCryptocurrencyWidgets/Plugin.php:336
+msgid "Volume 24h"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:339
+msgid "VWAP"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:340
+msgid "Website"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:485
+msgid "Builder"
+msgstr ""
+
+#: classes/PremiumCryptocurrencyWidgets/Plugin.php:489
+msgid "Settings"
+msgstr ""

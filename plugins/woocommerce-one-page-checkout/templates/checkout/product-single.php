@@ -3,7 +3,7 @@
  * Template to display a single product as per standard WooCommerce Templates
  *
  * @package WooCommerce-One-Page-Checkout/Templates
- * @version 1.0
+ * @version 1.7.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -22,7 +22,7 @@ foreach ( $products as $single_product_id => $single_product ) :
 	?>
 	<div class="opc-single-product single-product">
 
-		<div id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
 
 			<?php
 				/**
@@ -42,7 +42,7 @@ foreach ( $products as $single_product_id => $single_product ) :
 					woocommerce_template_single_excerpt();
 				?>
 
-				<div class="product-quantity">
+				<div class="opc-product-quantity product-quantity">
 
 					<?php
 						/**
@@ -53,7 +53,7 @@ foreach ( $products as $single_product_id => $single_product ) :
 						do_action( 'wcopc_single_add_to_cart', $the_post_id );
 					?>
 
-				</div>
+				</div><!-- .opc-product-quantity -->
 
 				<?php
 					woocommerce_template_single_meta();
@@ -62,9 +62,20 @@ foreach ( $products as $single_product_id => $single_product ) :
 
 			</div><!-- .summary -->
 
+			<?php
+				/**
+				 * Hook: woocommerce_after_single_product_summary.
+				 *
+				 * @hooked woocommerce_output_product_data_tabs - 10
+				 * @hooked woocommerce_upsell_display - 15
+				 * @hooked woocommerce_output_related_products - 20
+				 */
+				do_action( 'woocommerce_after_single_product_summary' );
+			?>
+
 		</div><!-- #product-<?php the_ID(); ?> -->
 
-	</div>
+	</div><!-- .opc-single-product -->
 <?php endforeach; ?>
 
 <?php wp_reset_postdata(); ?>

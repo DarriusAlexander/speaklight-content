@@ -1,5 +1,35 @@
 *** Branding Changelog ***
 
+2020-06-10 - version 1.0.26
+* Tweak - WC 4.2 compatibility.
+
+2020-04-29 - version 1.0.25
+* Tweak - WC 4.1 compatibility.
+
+2020-03-10 - version 1.0.24
+* Tweak - WC 4.0 compatibility.
+
+2020-02-18 - version 1.0.23
+* Tweak - Remove legacy code.
+
+2020-01-16 - version 1.0.22
+* Tweak - WC 3.9 compatibility.
+
+2019-11-04 - version 1.0.21
+* Tweak - WC 3.8 compatibility.
+
+2019-08-08 - version 1.0.20
+* Tweak - WC 3.7 compatibility.
+
+2019-04-16 - version 1.0.19
+* Tweak - WC 3.6 compatibility.
+
+2018-10-09 - version 1.0.18
+* Update - WC 3.5 compatibility.
+
+2018-05-21 - version 1.0.17
+* Update - WC 3.4 compatibility.
+
 2017-12-13 - version 1.0.16
  * Tweak - Updates the headers to indicate WooCommerce 3.3 compatibility.
 

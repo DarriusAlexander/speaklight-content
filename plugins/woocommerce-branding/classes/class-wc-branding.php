@@ -145,6 +145,10 @@ class WC_Branding {
 	function replace_woocommerce_text() {
 		global $l10n;
 
+		if ( ! is_array( $l10n ) ) {
+			return;
+		}
+
 		foreach ( $l10n as $plugin_key => $plugin ) {
 			foreach ( $plugin->entries as $entry_key => $entries ) {
 				foreach ( $entries->translations as $key => $value ) {

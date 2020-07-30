@@ -7,10 +7,10 @@
  * Text Domain: wcopc
  * Domain Path: languages
  * Plugin URI:  https://woocommerce.com/products/woocommerce-one-page-checkout/
- * Version:     1.7.0
+ * Version: 1.7.6
  *
  * WC requires at least: 2.5
- * WC tested up to: 3.5
+ * WC tested up to: 4.1
  * Woo: 527886:c9ba8f8352cd71b5508af5161268619a
  *
  * This program is free software: you can redistribute it and/or modify
@@ -38,7 +38,7 @@
  * Required functions
  */
 if ( ! function_exists( 'woothemes_queue_update' ) || ! function_exists( 'is_woocommerce_active' ) ) {
-	require_once( 'woo-includes/woo-functions.php' );
+	require_once 'woo-includes/woo-functions.php';
 }
 
 /**
@@ -55,6 +55,8 @@ if ( ! is_woocommerce_active() || version_compare( get_option( 'woocommerce_db_v
 	add_action( 'admin_notices', 'PP_One_Page_Checkout::woocommerce_inactive_notice' );
 	return;
 }
+
+define( 'WC_ONE_PAGE_CHECKOUT_VERSION', '1.7.6' ); // WRCS: DEFINED_VERSION.
 
 /**
  * Load the text domain to make the plugin's strings available for localisation.
@@ -174,18 +176,18 @@ class PP_One_Page_Checkout {
 			self::$active_plugins = array_merge( self::$active_plugins, get_site_option( 'active_sitewide_plugins', array() ) );
 		}
 
-		require_once( 'functions.php' );
-		require_once( 'classes/class-wcopc-admin-editor.php' );
-		require_once( 'classes/abstract-class-wcopc-template.php' );
-		require_once( 'classes/class-wcopc-easy-pricing-tables-template.php' );
-		require_once( 'classes/class-wcopc-compat-bookings.php' );
-		require_once( 'classes/class-wcopc-compat-subscriptions.php' );
-		require_once( 'classes/class-wcopc-compat-name-your-price.php' );
-		require_once( 'classes/class-wcopc-settings.php' );
-
 		self::$plugin_url     = untrailingslashit( plugins_url( '/', __FILE__ ) );
 		self::$plugin_path    = untrailingslashit( plugin_dir_path( __FILE__ ) );
 		self::$template_path  = self::$plugin_path . '/templates/';
+
+		require_once self::$plugin_path . '/functions.php';
+		require_once self::$plugin_path . '/classes/class-wcopc-admin-editor.php';
+		require_once self::$plugin_path . '/classes/abstract-class-wcopc-template.php';
+		require_once self::$plugin_path . '/classes/class-wcopc-easy-pricing-tables-template.php';
+		require_once self::$plugin_path . '/classes/class-wcopc-compat-bookings.php';
+		require_once self::$plugin_path . '/classes/class-wcopc-compat-subscriptions.php';
+		require_once self::$plugin_path . '/classes/class-wcopc-compat-name-your-price.php';
+		require_once self::$plugin_path . '/classes/class-wcopc-settings.php';
 
 		self::$templates   = apply_filters( 'wcopc_templates', array(
 			'product-table' => array(
@@ -211,7 +213,7 @@ class PP_One_Page_Checkout {
 		) );
 
 		add_filter( 'woocommerce_ajax_get_endpoint', array( __CLASS__, 'make_sure_ajax_url_is_relative' ) );
-		add_action( 'woocommerce_checkout_before_customer_details', array( __CLASS__, 'add_product_selection_fields' ), 11 );
+		add_action( 'woocommerce_before_checkout_form', array( __CLASS__, 'add_product_selection_fields' ), 9 );
 
 		// Change add to cart messages on OPC pages to say "Add to Order" and do not include the "View Cart ->" button
 		add_filter( 'woocommerce_add_error', array( __CLASS__, 'maybe_filter_error_message'), 10, 1 );
@@ -247,6 +249,11 @@ class PP_One_Page_Checkout {
 
 		// Checks if a queried page contains the one page checkout shortcode, needs to happen after the "template_redirect"
 		add_action( 'the_posts', array( __CLASS__, 'ensure_shortcode_page_id_is_set' ), 10, 2 );
+
+		// Allow empty cart when we're doing a request from a OPC page.
+		add_action( 'wp_ajax_woocommerce_update_order_review', array( __CLASS__, 'maybe_allow_expired_session' ), 9 );
+		add_action( 'wp_ajax_nopriv_woocommerce_update_order_review', array( __CLASS__, 'maybe_allow_expired_session' ), 9 );
+		add_action( 'wc_ajax_update_order_review', array( __CLASS__, 'maybe_allow_expired_session' ), 9 );
 
 		// Display order review template even when cart is empty in WC 2.3+
 		add_action( 'woocommerce_update_order_review_fragments', array( __CLASS__, 'update_order_review_fragments' ), 9 );
@@ -373,6 +380,17 @@ class PP_One_Page_Checkout {
 	 */
 	public static function load_opc_order_review_template( $deprecated = false ) {
 		wc_get_template( 'checkout/deprecated/review-order.php', array( 'checkout' => WC()->checkout(), 'is_ajax' => $deprecated ), '', PP_One_Page_Checkout::$template_path );
+	}
+
+	/**
+	 * If the cart is empty, and the request is OPC, disable the `expired session` warning.
+	 *
+	 * @since 1.7.1
+	 */
+	public static function maybe_allow_expired_session() {
+		if ( WC()->cart->is_empty() && self::is_any_form_of_opc_page() ) {
+			add_filter( 'woocommerce_checkout_update_order_review_expired', '__return_false' );
+		}
 	}
 
 	/**
@@ -637,11 +655,11 @@ class PP_One_Page_Checkout {
 		$products = apply_filters( 'wcopc_products_for_selection_fields', $products, self::$template, self::$raw_shortcode_atts );
 
 		?>
-		<div id="opc-product-selection" data-opc_id="<?php echo self::$shortcode_page_id; ?>" class="hide-if-js wcopc">
+		<div id="opc-product-selection" data-opc_id="<?php echo self::$shortcode_page_id; ?>" class="wcopc">
 			<?php if ( ! empty( $products ) ) : ?>
 				<?php wc_get_template( self::$template, array( 'products' => $products ), '', self::$template_path ); ?>
 			<?php endif; ?>
-		</div><?php
+		</div><!-- .opc-product-selection --><?php
 
 		self::maybe_show_shipping( $products );
 
@@ -1692,8 +1710,7 @@ class PP_One_Page_Checkout {
 	 * Append opc checkout form template to core single product template if enabled
 	 */
 	public static function single_product_wcopc() {
-
-		if ( is_wcopc_checkout() ) {
+		if ( is_wcopc_checkout() && is_product() ) {
 
 			do_action( 'wcopc_before_display_checkout' );
 
@@ -1712,12 +1729,10 @@ class PP_One_Page_Checkout {
 	}
 
 	/**
-	 * Modifications to the core single product pages when opc is enabled
+	 * Modifications to the core single product section when opc is enabled
 	 */
 	public static function filter_single_product_wcopc() {
-
-		if ( is_product() && is_wcopc_checkout() ) {
-
+		if ( is_wcopc_checkout() ) {
 			// modify add to cart text
 			add_filter( 'woocommerce_product_single_add_to_cart_text', array( __CLASS__, 'modify_single_add_to_cart_text' ) );
 
@@ -1725,20 +1740,27 @@ class PP_One_Page_Checkout {
 			remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
 			remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 
-			$product = wc_get_product();
+			if ( is_product() ) {
+				$product = wc_get_product();
 
-			// show the shipping fields if needed
-			if ( ! empty( $product ) && 'yes' == wcopc_get_products_prop( $product, 'wcopc', '_' ) ) {
-				if ( $product->is_type( 'variable' ) || $product->is_type( 'grouped' ) ) {
-					$products = array_filter( array_map( 'wc_get_product', wcopc_get_all_child_products( $product ) ) );
-				} else {
-					$products = array( $product );
+				// show the shipping fields if needed
+				if ( ! empty( $product ) && 'yes' == wcopc_get_products_prop( $product, 'wcopc', '_' ) ) {
+					if ( $product->is_type( 'variable' ) || $product->is_type( 'grouped' ) ) {
+						$products = array_filter( array_map( 'wc_get_product',
+							wcopc_get_all_child_products( $product ) ) );
+					} else {
+						$products = array( $product );
+					}
+
+					self::maybe_show_shipping( $products );
 				}
+			}
 
-				self::maybe_show_shipping( $products );
+			if ( is_page() ) {
+				// Removes tabs when we're using a page as OPC.
+				remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
 			}
 		}
-
 	}
 
 	/**

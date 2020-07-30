@@ -102,13 +102,15 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 	 */
 	public function handle_add_payment_method_success( $source_id, $source_object ) {
 		if ( isset( $_POST[ 'wc-' . $this->id . '-update-subs-payment-method-card' ] ) ) {
-			$all_subs = wcs_get_users_subscriptions();
-			$subs_statuses = apply_filters( 'wc_stripe_update_subs_payment_method_card_statuses', array( 'active' ) );
+			$all_subs        = wcs_get_users_subscriptions();
+			$subs_statuses   = apply_filters( 'wc_stripe_update_subs_payment_method_card_statuses', array( 'active' ) );
+			$stripe_customer = new WC_Stripe_Customer( get_current_user_id() );
 
 			if ( ! empty( $all_subs ) ) {
 				foreach ( $all_subs as $sub ) {
 					if ( $sub->has_status( $subs_statuses ) ) {
 						update_post_meta( $sub->get_id(), '_stripe_source_id', $source_id );
+						update_post_meta( $sub->get_id(), '_stripe_customer_id', $stripe_customer->get_id() );
 						update_post_meta( $sub->get_id(), '_payment_method', $this->id );
 						update_post_meta( $sub->get_id(), '_payment_method_title', $this->method_title );
 					}
@@ -126,7 +128,7 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 	public function save_source_to_order( $order, $source ) {
 		parent::save_source_to_order( $order, $source );
 
-		$order_id = WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $order->id : $order->get_id();
+		$order_id = $order->get_id();
 
 		// Also store it on the subscriptions being purchased or paid for in the order.
 		if ( function_exists( 'wcs_order_contains_subscription' ) && wcs_order_contains_subscription( $order_id ) ) {
@@ -138,7 +140,7 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 		}
 
 		foreach ( $subscriptions as $subscription ) {
-			$subscription_id = WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->id : $subscription->get_id();
+			$subscription_id = $subscription->get_id();
 			update_post_meta( $subscription_id, '_stripe_customer_id', $source->customer );
 			update_post_meta( $subscription_id, '_stripe_source_id', $source->source );
 		}
@@ -217,17 +219,26 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 		try {
 			if ( $amount * 100 < WC_Stripe_Helper::get_minimum_amount() ) {
 				/* translators: minimum amount */
-				return new WP_Error( 'stripe_error', sprintf( __( 'Sorry, the minimum allowed order total is %1$s to use this payment method.', 'woocommerce-gateway-stripe' ), wc_price( WC_Stripe_Helper::get_minimum_amount() / 100 ) ) );
+				$message = sprintf( __( 'Sorry, the minimum allowed order total is %1$s to use this payment method.', 'woocommerce-gateway-stripe' ), wc_price( WC_Stripe_Helper::get_minimum_amount() / 100 ) );
+				throw new WC_Stripe_Exception(
+					'Error while processing renewal order ' . $renewal_order->get_id() . ' : ' . $message,
+					$message
+				);
 			}
 
-			$order_id = WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $renewal_order->id : $renewal_order->get_id();
+			$order_id = $renewal_order->get_id();
+
+			$this->ensure_subscription_has_customer_id( $order_id );
 
 			// Get source from order
 			$prepared_source = $this->prepare_order_source( $renewal_order );
 			$source_object   = $prepared_source->source_object;
 
 			if ( ! $prepared_source->customer ) {
-				return new WP_Error( 'stripe_error', __( 'Customer not found', 'woocommerce-gateway-stripe' ) );
+				throw new WC_Stripe_Exception(
+					'Failed to process renewal for order ' . $renewal_order->get_id() . '. Stripe customer id is missing in the order',
+					__( 'Customer not found', 'woocommerce-gateway-stripe' )
+				);
 			}
 
 			WC_Stripe_Logger::log( "Info: Begin processing subscription payment for order {$order_id} for the amount of {$amount}" );
@@ -301,10 +312,10 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 	 * @param int $resubscribe_order The order created for the customer to resubscribe to the old expired/cancelled subscription
 	 */
 	public function delete_resubscribe_meta( $resubscribe_order ) {
-		delete_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $resubscribe_order->id : $resubscribe_order->get_id() ), '_stripe_customer_id' );
-		delete_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $resubscribe_order->id : $resubscribe_order->get_id() ), '_stripe_source_id' );
+		delete_post_meta( $resubscribe_order->get_id(), '_stripe_customer_id' );
+		delete_post_meta( $resubscribe_order->get_id(), '_stripe_source_id' );
 		// For BW compat will remove in future
-		delete_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $resubscribe_order->id : $resubscribe_order->get_id() ), '_stripe_card_id' );
+		delete_post_meta( $resubscribe_order->get_id(), '_stripe_card_id' );
 		$this->delete_renewal_meta( $resubscribe_order );
 	}
 
@@ -329,14 +340,8 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 	 * @return void
 	 */
 	public function update_failing_payment_method( $subscription, $renewal_order ) {
-		if ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ) {
-			update_post_meta( $subscription->id, '_stripe_customer_id', $renewal_order->stripe_customer_id );
-			update_post_meta( $subscription->id, '_stripe_source_id', $renewal_order->stripe_source_id );
-
-		} else {
-			update_post_meta( $subscription->get_id(), '_stripe_customer_id', $renewal_order->get_meta( '_stripe_customer_id', true ) );
-			update_post_meta( $subscription->get_id(), '_stripe_source_id', $renewal_order->get_meta( '_stripe_source_id', true ) );
-		}
+		update_post_meta( $subscription->get_id(), '_stripe_customer_id', $renewal_order->get_meta( '_stripe_customer_id', true ) );
+		update_post_meta( $subscription->get_id(), '_stripe_source_id', $renewal_order->get_meta( '_stripe_source_id', true ) );
 	}
 
 	/**
@@ -349,20 +354,20 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 	 * @return array
 	 */
 	public function add_subscription_payment_meta( $payment_meta, $subscription ) {
-		$source_id = get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->id : $subscription->get_id() ), '_stripe_source_id', true );
+		$source_id = get_post_meta( $subscription->get_id(), '_stripe_source_id', true );
 
 		// For BW compat will remove in future.
 		if ( empty( $source_id ) ) {
-			$source_id = get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->id : $subscription->get_id() ), '_stripe_card_id', true );
+			$source_id = get_post_meta( $subscription->get_id(), '_stripe_card_id', true );
 
 			// Take this opportunity to update the key name.
-			WC_Stripe_Helper::is_wc_lt( '3.0' ) ? update_post_meta( $subscription->id, '_stripe_source_id', $source_id ) : update_post_meta( $subscription->get_id(), '_stripe_source_id', $source_id );
+			update_post_meta( $subscription->get_id(), '_stripe_source_id', $source_id );
 		}
 
 		$payment_meta[ $this->id ] = array(
 			'post_meta' => array(
 				'_stripe_customer_id' => array(
-					'value' => get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->id : $subscription->get_id() ), '_stripe_customer_id', true ),
+					'value' => get_post_meta( $subscription->get_id(), '_stripe_customer_id', true ),
 					'label' => 'Stripe Customer ID',
 				),
 				'_stripe_source_id'   => array(
@@ -387,7 +392,11 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 		if ( $this->id === $payment_method_id ) {
 
 			if ( ! isset( $payment_meta['post_meta']['_stripe_customer_id']['value'] ) || empty( $payment_meta['post_meta']['_stripe_customer_id']['value'] ) ) {
-				throw new Exception( __( 'A "Stripe Customer ID" value is required.', 'woocommerce-gateway-stripe' ) );
+
+				// Allow empty stripe customer id during subscription renewal. It will be added when processing payment if required.
+				if ( ! isset( $_POST['wc_order_action'] ) || 'wcs_process_renewal' !== $_POST['wc_order_action'] ) {
+					throw new Exception( __( 'A "Stripe Customer ID" value is required.', 'woocommerce-gateway-stripe' ) );
+				}
 			} elseif ( 0 !== strpos( $payment_meta['post_meta']['_stripe_customer_id']['value'], 'cus_' ) ) {
 				throw new Exception( __( 'Invalid customer ID. A valid "Stripe Customer ID" must begin with "cus_".', 'woocommerce-gateway-stripe' ) );
 			}
@@ -412,52 +421,52 @@ class WC_Stripe_Sepa_Subs_Compat extends WC_Gateway_Stripe_Sepa {
 	 * @return string the subscription payment method
 	 */
 	public function maybe_render_subscription_payment_method( $payment_method_to_display, $subscription ) {
-		$customer_user = WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->customer_user : $subscription->get_customer_id();
+		$customer_user = $subscription->get_customer_id();
 
 		// bail for other payment methods
-		if ( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->payment_method : $subscription->get_payment_method() ) !== $this->id || ! $customer_user ) {
+		if ( $subscription->get_payment_method() !== $this->id || ! $customer_user ) {
 			return $payment_method_to_display;
 		}
 
-		$stripe_source_id = get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->id : $subscription->get_id() ), '_stripe_source_id', true );
+		$stripe_source_id = get_post_meta( $subscription->get_id(), '_stripe_source_id', true );
 
 		// For BW compat will remove in future.
 		if ( empty( $stripe_source_id ) ) {
-			$stripe_source_id = get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->id : $subscription->get_id() ), '_stripe_card_id', true );
+			$stripe_source_id = get_post_meta( $subscription->get_id(), '_stripe_card_id', true );
 
 			// Take this opportunity to update the key name.
-			WC_Stripe_Helper::is_wc_lt( '3.0' ) ? update_post_meta( $subscription->id, '_stripe_source_id', $stripe_source_id ) : update_post_meta( $subscription->get_id(), '_stripe_source_id', $stripe_source_id );
+			update_post_meta( $subscription->get_id(), '_stripe_source_id', $stripe_source_id );
 		}
 
 		$stripe_customer    = new WC_Stripe_Customer();
-		$stripe_customer_id = get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->id : $subscription->get_id() ), '_stripe_customer_id', true );
+		$stripe_customer_id = get_post_meta( $subscription->get_id(), '_stripe_customer_id', true );
 
 		// If we couldn't find a Stripe customer linked to the subscription, fallback to the user meta data.
 		if ( ! $stripe_customer_id || ! is_string( $stripe_customer_id ) ) {
 			$user_id            = $customer_user;
-			$stripe_customer_id = get_user_meta( $user_id, '_stripe_customer_id', true );
-			$stripe_source_id   = get_user_meta( $user_id, '_stripe_source_id', true );
+			$stripe_customer_id = get_user_option( '_stripe_customer_id', $user_id );
+			$stripe_source_id   = get_user_option( '_stripe_source_id', $user_id );
 
 			// For BW compat will remove in future.
 			if ( empty( $stripe_source_id ) ) {
-				$stripe_source_id = get_user_meta( $user_id, '_stripe_card_id', true );
+				$stripe_source_id = get_user_option( '_stripe_card_id', $user_id );
 
 				// Take this opportunity to update the key name.
-				update_user_meta( $user_id, '_stripe_source_id', $stripe_source_id );
+				update_user_option( $user_id, '_stripe_source_id', $stripe_source_id, false );
 			}
 		}
 
 		// If we couldn't find a Stripe customer linked to the account, fallback to the order meta data.
 		if ( ( ! $stripe_customer_id || ! is_string( $stripe_customer_id ) ) && false !== $subscription->order ) {
-			$stripe_customer_id = get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->order->id : $subscription->get_parent_id() ), '_stripe_customer_id', true );
-			$stripe_source_id   = get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->order->id : $subscription->get_parent_id() ), '_stripe_source_id', true );
+			$stripe_customer_id = get_post_meta( $subscription->get_parent_id(), '_stripe_customer_id', true );
+			$stripe_source_id   = get_post_meta( $subscription->get_parent_id(), '_stripe_source_id', true );
 
 			// For BW compat will remove in future.
 			if ( empty( $stripe_source_id ) ) {
-				$stripe_source_id = get_post_meta( ( WC_Stripe_Helper::is_wc_lt( '3.0' ) ? $subscription->order->id : $subscription->get_parent_id() ), '_stripe_card_id', true );
+				$stripe_source_id = get_post_meta( $subscription->get_parent_id(), '_stripe_card_id', true );
 
 				// Take this opportunity to update the key name.
-				WC_Stripe_Helper::is_wc_lt( '3.0' ) ? update_post_meta( $subscription->order->id, '_stripe_source_id', $stripe_source_id ) : update_post_meta( $subscription->get_parent_id(), '_stripe_source_id', $stripe_source_id );
+				update_post_meta( $subscription->get_parent_id(), '_stripe_source_id', $stripe_source_id );
 			}
 		}
 

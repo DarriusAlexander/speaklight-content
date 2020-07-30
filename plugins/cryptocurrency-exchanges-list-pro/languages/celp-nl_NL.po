@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cryptocurrency Exchanges List PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-06 11:14+0000\n"
+"PO-Revision-Date: 2018-10-06 11:19+0000\n"
+"Last-Translator: admin <baljit.cooltimeline@gmail.com>\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: cryptocurrency-exchanges-list-pro.php:186 includes/celp-meta-fields.php:23
+msgid "Select Exchange"
+msgstr "Selecteer Exchange"
+
+#: cryptocurrency-exchanges-list-pro.php:199 includes/celp-meta-fields.php:38
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/celp-coin-exchanges.php:20 includes/celp-details-shortcodes.php:191
+#: includes/celp-shortcode.php:38
+msgid "Previous"
+msgstr "voorgaand"
+
+#: includes/celp-coin-exchanges.php:21 includes/celp-details-shortcodes.php:192
+#: includes/celp-shortcode.php:39
+msgid "Next"
+msgstr "volgende"
+
+#: includes/celp-coin-exchanges.php:22 includes/celp-details-shortcodes.php:193
+#: includes/celp-shortcode.php:40
+msgid "Show"
+msgstr "Laten zien"
+
+#: includes/celp-coin-exchanges.php:23 includes/celp-details-shortcodes.php:194
+#: includes/celp-shortcode.php:41
+msgid "Search"
+msgstr "Zoeken"
+
+#: includes/celp-coin-exchanges.php:24 includes/celp-details-shortcodes.php:195
+#: includes/celp-shortcode.php:42
+msgid "Entries"
+msgstr "inzendingen"
+
+#: includes/celp-coin-exchanges.php:25 includes/celp-shortcode.php:44
+msgid "No Exchange Found"
+msgstr "Geen Exchange gevonden"
+
+#: includes/celp-coin-exchanges.php:41 includes/celp-details-shortcodes.php:253
+#: includes/celp-shortcode.php:83
+msgid "#"
+msgstr ""
+
+#: includes/celp-coin-exchanges.php:43
+msgid "Exchange"
+msgstr "Uitwisseling"
+
+#: includes/celp-coin-exchanges.php:44 includes/celp-details-shortcodes.php:255
+msgid "Pair"
+msgstr "Paar"
+
+#: includes/celp-coin-exchanges.php:45 includes/celp-details-shortcodes.php:256
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/celp-coin-exchanges.php:46 includes/celp-details-shortcodes.php:257
+msgid "Volume (24h)"
+msgstr "Volume (24 uur)"
+
+#: includes/celp-coin-exchanges.php:47 includes/celp-details-shortcodes.php:258
+msgid "Updated"
+msgstr "bijgewerkt"
+
+#: includes/celp-coin-exchanges.php:56 includes/celp-details-shortcodes.php:170
+#: includes/celp-details-shortcodes.php:266
+msgid "Something wrong with URL"
+msgstr "Er is iets mis met de URL"
+
+#: includes/celp-details-shortcodes.php:83
+#: includes/celp-details-shortcodes.php:404
+msgid "BTC"
+msgstr ""
+
+#: includes/celp-details-shortcodes.php:101
+msgid "Start Crypto Trading"
+msgstr "Start Crypto Trading"
+
+#: includes/celp-details-shortcodes.php:104 includes/celp-meta-fields.php:31
+msgid "Exchange Name"
+msgstr "Exchange-naam"
+
+#: includes/celp-details-shortcodes.php:106 includes/celp-shortcode.php:85
+msgid "Volume (24H)"
+msgstr "Volume (24H)"
+
+#: includes/celp-details-shortcodes.php:108
+msgid " BTC"
+msgstr ""
+
+#: includes/celp-details-shortcodes.php:110
+msgid "Coins Support"
+msgstr "Ondersteuning van munten"
+
+#: includes/celp-details-shortcodes.php:111 includes/celp-shortcode.php:87
+msgid "Trading Pairs"
+msgstr "Trading-paren"
+
+#: includes/celp-details-shortcodes.php:115
+msgid "Website"
+msgstr "Website"
+
+#: includes/celp-details-shortcodes.php:128
+msgid "Twitter"
+msgstr ""
+
+#: includes/celp-details-shortcodes.php:138
+msgid "Telegram"
+msgstr ""
+
+#: includes/celp-details-shortcodes.php:148
+msgid "Blog"
+msgstr "blog"
+
+#: includes/celp-details-shortcodes.php:160 includes/celp-shortcode.php:91
+msgid "Alexa Rank"
+msgstr ""
+"Alexa Rank\n"
+
+#: includes/celp-details-shortcodes.php:163
+msgid "Top Country"
+msgstr "Top land"
+
+#: includes/celp-details-shortcodes.php:196
+msgid "No Pair Found"
+msgstr "Geen paar gevonden"
+
+#: includes/celp-details-shortcodes.php:201 includes/celp-shortcode.php:48
+msgid "Showing"
+msgstr "Resultaat"
+
+#: includes/celp-details-shortcodes.php:202 includes/celp-shortcode.php:49
+msgid "to"
+msgstr "naar"
+
+#: includes/celp-details-shortcodes.php:203 includes/celp-shortcode.php:50
+msgid "of"
+msgstr "van"
+
+#: includes/celp-details-shortcodes.php:204 includes/celp-shortcode.php:51
+msgid "entries"
+msgstr "entries"
+
+#: includes/celp-details-shortcodes.php:208 includes/celp-shortcode.php:55
+msgid "filtered from"
+msgstr "gefilterd van"
+
+#: includes/celp-details-shortcodes.php:209 includes/celp-shortcode.php:56
+msgid "total entries"
+msgstr "Totale inzendingen"
+
+#: includes/celp-details-shortcodes.php:213 includes/celp-shortcode.php:60
+msgid "Loading"
+msgstr "Bezig met laden"
+
+#: includes/celp-details-shortcodes.php:254
+msgid "Currency"
+msgstr "Valuta"
+
+#: includes/celp-details-shortcodes.php:529
+msgid "Trade"
+msgstr "Handel"
+
+#: includes/celp-functions.php:370
+msgid "less than 1 second ago"
+msgstr "minder dan 1 seconde geleden"
+
+#: includes/celp-functions.php:374
+msgid "year "
+msgstr "jaar"
+
+#: includes/celp-functions.php:375
+msgid "day"
+msgstr "dag"
+
+#: includes/celp-functions.php:376
+msgid "hours ago"
+msgstr "uren geleden"
+
+#: includes/celp-functions.php:377
+msgid "hour ago"
+msgstr "uur geleden"
+
+#: includes/celp-functions.php:378
+msgid "minutes ago"
+msgstr "minuten geleden"
+
+#: includes/celp-functions.php:379
+msgid "minute ago"
+msgstr "minuut geleden"
+
+#: includes/celp-functions.php:380
+msgid "seconds ago"
+msgstr "seconden geleden"
+
+#: includes/celp-functions.php:381
+msgid "second ago"
+msgstr "tweede geleden"
+
+#: includes/celp-meta-fields.php:44 includes/celp-meta-fields.php:49
+msgid "Affiliate Links"
+msgstr "Gelieerde Links"
+
+#: includes/celp-shortcode.php:84
+msgid "Name"
+msgstr "Naam"
+
+#: includes/celp-shortcode.php:86
+msgid "Coins"
+msgstr "munten"
+
+#: includes/celp-shortcode.php:95
+msgid "Bitcoin Price"
+msgstr "Bitcoin-prijs"
+
+#: includes/celp-shortcode.php:99
+msgid "Official Website"
+msgstr "Officiële website"
+
+#. Name of the plugin
+msgid "Cryptocurrency Exchanges List PRO"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Cryptocurrency exchanges list pro WordPress plugin creates a list of 200+ "
+"best cryptocurrency exchanges by using crypto markets api data provided by "
+"coinexchangeprice.com public API."
+msgstr ""
+
+#. Author of the plugin
+msgid "Cool Plugins Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://coolplugins.net"
+msgstr ""

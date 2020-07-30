@@ -1,0 +1,176 @@
+Premium Cryptocurrency Widgets
+------------------------------
+
+CHANGES HISTORY
+---------------
+v.2.15.0 - 6 Apr 2020
+- Cryptocompare real-time data feed: upgrade to the new websocket API.
+- New coins added (total number of supported coins and tokens is 4600).
+
+v.2.14.0 - 13 Sep 2019
+- Ability to specify price margin in percent to automatically apply to all pulled quotes. E.g. increase all prices by 5%.
+- New coins added (total number of supported coins and tokens is more than 4000).
+
+v.2.13.4 - 12 Sep 2019
+- Bug fix: display chart tooltip on the left side for the last data point to prevent it going out of visible area.
+
+v.2.13.3 - 02 Jul 2019
+- Load more button added to news widgets.
+
+v.2.13.2 - 25 Jun 2019
+- Chart widget: new multi-period template.
+
+v.2.13.1 - 20 Jun 2019
+- New coins added.
+
+v.2.13.0 - 27 Mar 2019
+- Portfolio widget can be customized by the end user (to achieve it "Customizable" flag should be set on the widget level in the widget builder).
+  If portfolio widget allows customization the user will be able to override assets, displayed columns and sorting and create their own portfolio.
+- Bug fix: main menu doesn't work on virtual asset pages (WordPress version only).
+
+v.2.12.1 - 10 Mar 2019
+- Empty spaces are replaced with hyphens in links, where coin name substitute variable is used.
+
+v.2.12.0 - 25 Feb 2019
+- New widget: coins search dropdown (redirect to a given link on click).
+- New coins added.
+
+v.2.11.2 - 11 Feb 2019
+- Purchase date, sell date, sell price fields added to the portfolio widget.
+
+v.2.11.1 - 08 Feb 2019
+- Cursor option added to the chart widget.
+- Minor fixes and performance improvements.
+
+v.2.11.0 - 28 Jan 2019
+- New widget: Info (allows to display description, website and some other key attributes of a coin).
+- Rankings widget: it's possible to choose, which API to pull data from - CryptoCompare.com or CoinCap.io.
+- New coins added.
+
+v.2.10.0 - 18 Jan 2019
+- New widget: Table - exchanges (display cryptocurrency exchanges).
+- New widget: Table - exchanges quotes (display quotes for a given coin from different exchanges).
+- New widget: Table - wallets (display cryptocurrency wallets).
+- New widget: Table - mining pools (display mining pools).
+- Ability to display crypto rankings in any fiat currency.
+- Quick search function added to most of the table widgets.
+- Migration to CoinCap.io REST API 2.0 completed.
+
+v.2.9.3 - 15 Jan 2019
+- New coins added.
+
+v.2.9.2 - 2 Jan 2019
+- Ability to specify CryptoCompare.com API key.
+- Ability to add "+" sign before change values in inline widgets (requires extra CSS: .pcw-up:before {content: '+';})
+- Minor bug fixes.
+
+v.2.9.1 - 12 Nov 2018
+- Price change animation effects implemented (flash, pulse, bounce etc).
+- 2 new Ticker - quotes widget templates added.
+- 1 new Card widget template added.
+- Chart tooltips improved.
+
+v.2.9.0 - 08 Nov 2018
+- New cryptocurrencies added (total number of supported coins and tokens is 3179).
+- New widgets added: Accordion and Odometer.
+- Ability to enable pagination, choose default sort order and direction for Table - Quotes and Portfolio widgets.
+- Ability to choose mode ("Multiple coins / single display currency" or "Single coin / multiple display currencies") for Table - quotes and Comparison widgets.
+- Ability to hide table header from display in Table - quotes widgets.
+
+v.2.8.0 - 26 Oct 2018
+- Ability to provide Google Maps API key for Geo heatmap widgets to avoid errors in browser console.
+- Ability to pass coin and currency symbol for widgets in the URL (using regular expressions). In this case they will take precendence over shortcode "assets" parameter.
+- [WordPress version] Ability to auto generate and display virtual coin pages when specific URL is accessed (e.g. http://yourwebsite.com/crypto/BTC/USD). Virtual page content can be customized based on any combination of crypto widgets.
+- Ability to use substitute variables ({name},{asset},{asset_short},{symbol_from},{symbol_to}) in the URL of button widgets. This is useful to construct links like this: http://yourwebsite.com/coin/Ethereum or http://yourwebsite.com/coin/ETH.
+
+v.2.7.0 - 23 Oct 2018
+- New vizualization widgets added: Gauge, Treemap, Geo heatmap.
+
+v.2.6.1 - 20 Oct 2018
+- Translation of k,m,b,t suffixes for big numbers added.
+
+v.2.6.0 - 19 Oct 2018
+- Toast widgets implemented.
+- Performance improvement (loading widgets and vendor libraries on demand when needed, also known as lazy loading).
+
+v.2.5.1 - 15 Oct 2018
+- Another template is added for news block widget.
+- Bug fix: translation in WordPress version doesn't work.
+
+v.2.5.0 - 09 Oct 2018
+- News and quotes widgets with animated typed effect implemented.
+- News block widget added
+
+v.2.4.2 - 08 Oct 2018
+- Doughnut chart widgets implemented to visually compare coins market cap and volume.
+- 2 new card widgets and 1 new label widget added.
+
+v.2.4.1 - 05 Oct 2018
+- New coins added.
+- Label widgets added (partially decoupled from card widgets).
+- Absolute and % return columns added to portfolio widgets.
+- Overall look & feel improvements.
+
+v.2.4.0 - 02 Oct 2018
+- Table (quotes) widget enhancement: ability to display multi-period chart in the table header for selected coin.
+- New card widgets with charts implemented.
+
+v.2.3.0 - 28 Sep 2018
+- Ability to add small line chart to comparison widgets to display 1 hour, 24 hours, 7 days etc performance of a coin.
+- New templates for card, table, portfolio, trades, comparison, ticker widgets.
+
+v.2.2.0 - 27 Sep 2018
+- Basic line chart widgets added.
+- Ability to add small line chart to table widgets to display 1 hour, 24 hours, 7 days etc performance of a coin.
+- Historical data table widgets added.
+
+v.2.1.0 - 24 Sep 2018
+- Calculator widgets added.
+
+v2.0.0 - 21 Aug 2018
+IMPORTANT! The plugin is rewritten from scratch to provide better performance, ensure compatibility with wider range of websites
+and be able to offer more features. The JavaScript version of the plugin does not longer have dependency on PHP and can be used
+with plain HTML pages. After installing this version you will have to rebuild all previously used shortcodes.
+
+Major functional changes:
+- New coins added.
+- New widget type: market cap rankings table.
+- New widget type: crypto news ticker.
+- Inline widgets are improved to allow mixing any coins market data (price, volume, market cap etc) into static texts.
+- Ability to add custom links using substitute variables to the table (quote) widgets from the widgets builder interface.
+- Ability to turn off real-time feed on widget by widget basis.
+- Widgets builder added to the JavaScript version of the plugin.
+
+v1.4.1 - 22 March 2018
+- New coins added.
+- Bug fix: PHP Warning: include(): Failed opening '/wp-content/plugins/premium-cryptocurrency-widgets/templates//index.php' for inclusion
+
+v1.4.0 - 07 March 2018
+- New widget type: button.
+- Ticker widgets improvements.
+
+v1.3.0 - 02 March 2018
+- New widget type: portfolio.
+- New widget type: real-time trades.
+- New coins added (more than 2200 coins are supported).
+- More than 50-60 coins can now be loaded on a single page.
+- Coins market data will be displayed even if WebSocket data feed is not available (using REST API).
+- Flash effect added when coin price changes (can be enabled/disabled in widget settings).
+- Integration with translation plugins (Loco Translate and similar, WordPress version only).
+- Bug fix: Table sorting doesn't work properly when thousands delimiter is "." and decimals delimiter is ",".
+
+v1.2.0 - 06 December 2017
+- New coins added (total number of supported coins is 1849).
+- 64x64px thumbs added for all coin logo images to minimize load speed.
+- Ability to specify another coin as display currency, e.g. BTC~ETH, ETH~LTC etc.
+- Table widgets made responsive on mobiles.
+- Click & sort functionality added to table widgets.
+- Supply and Market Cap columns added to table and comparison widgets.
+- Ability to add links to individual coins pages in table and comparison widgets.
+
+v1.1.0 - 26 September 2017
+- More coins added (total number of supported coins is 1535).
+- Ability to select quote (display) currency (e.g. EUR, AUD, CAD etc).
+
+v1.0.0 - 12 September 2017
+- Initial version

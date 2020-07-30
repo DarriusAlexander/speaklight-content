@@ -1,0 +1,393 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-17 07:52+0000\n"
+"PO-Revision-Date: 2019-07-17 07:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/cmc-advanced-single-shortcode.php:558
+#: includes/cmc-shortcode.php:229 includes/cmc-single-shortcode.php:583
+msgid "Add to watch list"
+msgstr "Añadir a la lista de observación"
+
+#: includes/cmc-advanced-single-shortcode.php:558
+msgid "Watch"
+msgstr "Reloj"
+
+#: includes/cmc-advanced-single-shortcode.php:558
+msgid "Unwatch"
+msgstr "Unwatch"
+
+#: includes/cmc-advanced-single-shortcode.php:558
+#: includes/cmc-shortcode.php:229 includes/cmc-single-shortcode.php:583
+msgid "Remove from watch list"
+msgstr "Eliminar de la lista de vigilancia"
+
+#: includes/cmc-advanced-single-shortcode.php:877
+#, php-format
+msgid "Rank %s"
+msgstr "Rango %s"
+
+#: includes/cmc-advanced-single-shortcode.php:880
+msgid "Block Explorer"
+msgstr "Bloque Explorer"
+
+#: includes/cmc-advanced-single-shortcode.php:883
+msgid "Official Website"
+msgstr "Web Oficial"
+
+#: includes/cmc-advanced-single-shortcode.php:886
+msgid "White Paper"
+msgstr "Libro Blanco"
+
+#: includes/cmc-advanced-single-shortcode.php:889
+#: includes/cmc-single-shortcode.php:897
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/cmc-advanced-single-shortcode.php:895
+#: includes/cmc-single-shortcode.php:903
+msgid "Github"
+msgstr "Github"
+
+#: includes/cmc-advanced-single-shortcode.php:899
+#: includes/cmc-single-shortcode.php:907
+msgid "Reddit"
+msgstr "Reddit"
+
+#: includes/cmc-advanced-single-shortcode.php:902
+#: includes/cmc-single-shortcode.php:910
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/cmc-advanced-single-shortcode.php:905
+#: includes/cmc-single-shortcode.php:913
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/cmc-advanced-single-shortcode.php:987
+msgid "Loading facebook comment(s)"
+msgstr "La carga de facebook comentario(s)"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Chart"
+msgstr "Gráfico"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Calculator"
+msgstr "Calculadora"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Historical Data"
+msgstr "Datos Históricos"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Exchanges"
+msgstr "Intercambio"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Twitter Feeds"
+msgstr "Twitter Feeds"
+
+#: includes/cmc-advanced-single-shortcode.php:1058
+msgid "Comments"
+msgstr "Comentarios"
+
+#: includes/cmc-shortcode.php:214
+msgid "No Favourite Coin"
+msgstr "No Hay Favorito De La Moneda"
+
+#: includes/cmc-shortcode.php:224
+msgid "Show/Hide Watch List"
+msgstr "Mostrar/Ocultar Lista De Vigilancia"
+
+#: includes/cmc-shortcode.php:234 includes/cmc-top-shortcode.php:68
+msgid "#"
+msgstr "#"
+
+#: includes/cmc-single-shortcode.php:888
+msgid "Block"
+msgstr "Bloque"
+
+#: includes/cmc-single-shortcode.php:888
+msgid "Explorer"
+msgstr "Explorador"
+
+#: includes/cmc-single-shortcode.php:894
+msgid "White"
+msgstr "Blanco"
+
+#: includes/cmc-single-shortcode.php:894
+msgid "Paper"
+msgstr "Artículo"
+
+#. Name of the plugin
+msgid "Coin Market Cap"
+msgstr "Moneda De La Capitalización De Mercado"
+
+#. Description of the plugin
+msgid ""
+"Create a website similar like CoinMarketCap.com using this <strong>Coin "
+"Market Cap & Crypto Prices</strong> WordPress plugin. This crypto plugin "
+"uses coinmarketcap.com api to grab live crypto prices, market cap, charts "
+"and other data related to cryptocurrency"
+msgstr ""
+"Crear un sitio web similar a las de CoinMarketCap.com el uso de este <strong>"
+"Monedas de Mercado de la Pac y los Cripto Precios</strong> plugin de "
+"WordPress. Esta cripto plugin utiliza coinmarketcap.com api para agarrar "
+"vivir crypto los precios, la capitalización de mercado, gráficos y otros "
+"datos relacionados con la cryptocurrency"
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr "Cool Plugins"
+
+#. Author URI of the plugin
+msgid "https://coolplugins.net/"
+msgstr "https://coolplugins.net/"
+
+#: includes/cmc-advanced-single-shortcode.php:310
+#: includes/cmc-advanced-single-shortcode.php:388
+#: includes/cmc-advanced-single-shortcode.php:500
+#: includes/cmc-advanced-single-shortcode.php:511
+#: includes/cmc-advanced-single-shortcode.php:520
+#: includes/cmc-single-shortcode.php:318 includes/cmc-single-shortcode.php:397
+#: includes/cmc-single-shortcode.php:535 includes/cmc-single-shortcode.php:546
+#: includes/cmc-single-shortcode.php:555
+msgid "N/A"
+msgstr ""
+"N / A\n"
+
+#: includes/cmc-advanced-single-shortcode.php:316
+#: includes/cmc-advanced-single-shortcode.php:394
+#: includes/cmc-single-shortcode.php:324 includes/cmc-single-shortcode.php:403
+msgid "down"
+msgstr "abajo"
+
+#: includes/cmc-advanced-single-shortcode.php:318
+#: includes/cmc-advanced-single-shortcode.php:396
+#: includes/cmc-single-shortcode.php:326 includes/cmc-single-shortcode.php:405
+msgid "up"
+msgstr ""
+"arriba\n"
+
+#: includes/cmc-advanced-single-shortcode.php:556
+#: includes/cmc-shortcode.php:243 includes/cmc-top-shortcode.php:72
+#: includes/cmc-top-shortcode.php:76
+msgid "24H"
+msgstr "24H"
+
+#: includes/cmc-advanced-single-shortcode.php:572
+#: includes/cmc-shortcode.php:240 includes/cmc-single-shortcode.php:593
+#: includes/cmc-top-shortcode.php:75
+msgid "Market Cap"
+msgstr "Tapa del mercado"
+
+#: includes/cmc-advanced-single-shortcode.php:575
+#: includes/cmc-advanced-single-shortcode.php:651
+#: includes/cmc-advanced-single-shortcode.php:711
+#: includes/cmc-single-shortcode.php:596 includes/cmc-single-shortcode.php:666
+#: includes/cmc-single-shortcode.php:734
+msgid "Volume"
+msgstr "Volumen"
+
+#: includes/cmc-advanced-single-shortcode.php:578
+#: includes/cmc-shortcode.php:246 includes/cmc-single-shortcode.php:600
+msgid "Available Supply"
+msgstr "Suministro disponible"
+
+#: includes/cmc-advanced-single-shortcode.php:601
+#: includes/cmc-single-shortcode.php:609
+msgid "Currency Not Found"
+msgstr "Moneda no encontrada"
+
+#: includes/cmc-advanced-single-shortcode.php:604
+#: includes/cmc-single-shortcode.php:612
+msgid "Something wrong with URL"
+msgstr "Algo mal con URL"
+
+#: includes/cmc-advanced-single-shortcode.php:636
+#: includes/cmc-shortcode.php:210 includes/cmc-single-shortcode.php:651
+msgid "Previous"
+msgstr "Anterior"
+
+#: includes/cmc-advanced-single-shortcode.php:637
+#: includes/cmc-shortcode.php:211 includes/cmc-single-shortcode.php:652
+msgid "Next"
+msgstr "Siguiente"
+
+#: includes/cmc-advanced-single-shortcode.php:638
+#: includes/cmc-single-shortcode.php:653
+msgid "Show"
+msgstr "Espectáculo"
+
+#: includes/cmc-advanced-single-shortcode.php:639
+#: includes/cmc-single-shortcode.php:654
+msgid "Entries"
+msgstr "Entradas"
+
+#: includes/cmc-advanced-single-shortcode.php:640
+#: includes/cmc-single-shortcode.php:655
+msgid "No Historical Data Available"
+msgstr "No hay datos históricos disponibles"
+
+#: includes/cmc-advanced-single-shortcode.php:649
+#: includes/cmc-single-shortcode.php:664
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/cmc-advanced-single-shortcode.php:650
+#: includes/cmc-advanced-single-shortcode.php:710
+#: includes/cmc-shortcode.php:236 includes/cmc-single-shortcode.php:665
+#: includes/cmc-single-shortcode.php:733 includes/cmc-top-shortcode.php:71
+msgid "Price"
+msgstr "Precio"
+
+#: includes/cmc-advanced-single-shortcode.php:652
+#: includes/cmc-single-shortcode.php:667
+msgid "MarketCap"
+msgstr "Tapa del mercado"
+
+#: includes/cmc-advanced-single-shortcode.php:657
+#: includes/cmc-single-shortcode.php:673
+msgid "Something Wrong With URL"
+msgstr "Algo no funciona con URL"
+
+#: includes/cmc-advanced-single-shortcode.php:707
+#: includes/cmc-single-shortcode.php:730
+msgid "From"
+msgstr "De"
+
+#: includes/cmc-advanced-single-shortcode.php:708
+#: includes/cmc-single-shortcode.php:731
+msgid "To"
+msgstr "A"
+
+#: includes/cmc-advanced-single-shortcode.php:709
+#: includes/cmc-single-shortcode.php:732
+msgid "Zoom"
+msgstr "Enfocar"
+
+#: includes/cmc-advanced-single-shortcode.php:715
+#: includes/cmc-single-shortcode.php:738
+msgid "Loading Chart..."
+msgstr "Cargando Gráfico ..."
+
+#: includes/cmc-advanced-single-shortcode.php:716
+#: includes/cmc-shortcode.php:256 includes/cmc-single-shortcode.php:739
+msgid "No Graphical Data"
+msgstr "Sin datos gráficos"
+
+#: includes/cmc-advanced-single-shortcode.php:1037
+#: includes/cmc-single-shortcode.php:1073
+msgid "Buy"
+msgstr "Comprar"
+
+#: includes/cmc-advanced-single-shortcode.php:1038
+#: includes/cmc-single-shortcode.php:1074
+msgid "Sell"
+msgstr "Vender"
+
+#: includes/cmc-calculator.php:112
+msgid "Enter Amount"
+msgstr "Ingresar cantidad"
+
+#: includes/cmc-calculator.php:113
+msgid "Base Currency"
+msgstr ""
+"Moneda base\n"
+
+#: includes/cmc-calculator.php:125
+msgid "Convert To"
+msgstr ""
+"Convertir a\n"
+
+#: includes/cmc-calculator.php:127
+msgid "Currencies"
+msgstr "Monedas"
+
+#: includes/cmc-calculator.php:155
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: includes/cmc-helpers.php:216
+msgid "search"
+msgstr ""
+"buscar\n"
+
+#: includes/cmc-helpers.php:217
+msgid "Unable to find any result"
+msgstr "No se puede encontrar ningún resultado"
+
+#: includes/cmc-shortcode.php:212
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: includes/cmc-shortcode.php:213
+msgid "No Coin Found"
+msgstr "No se encontró moneda"
+
+#: includes/cmc-shortcode.php:235 includes/cmc-top-shortcode.php:70
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/cmc-shortcode.php:237 includes/cmc-top-shortcode.php:72
+msgid "Changes "
+msgstr "Cambios"
+
+#: includes/cmc-shortcode.php:237
+msgid "24H "
+msgstr "24H"
+
+#: includes/cmc-shortcode.php:243 includes/cmc-top-shortcode.php:76
+msgid "Volume "
+msgstr "Volumen"
+
+#: includes/cmc-shortcode.php:267
+msgid "Price Graph "
+msgstr "Gráfico de precios"
+
+#: includes/cmc-shortcode.php:360
+msgid "Market Cap:"
+msgstr ""
+"Tapa del mercado:\n"
+
+#: includes/cmc-shortcode.php:369
+msgid "24h Vol:"
+msgstr "24 horas Vol:"
+
+#: includes/cmc-shortcode.php:371
+msgid "BTC Dominance: "
+msgstr "Dominio de BTC:"
+
+#: includes/cmc-single-shortcode.php:585
+msgid "Live Price "
+msgstr "Precio en vivo"
+
+#: includes/cmc-single-shortcode.php:588
+msgid "24h % "
+msgstr "24h%"
+
+#: includes/cmc-single-shortcode.php:603
+msgid "Rank"
+msgstr "Rango"
+
+#: includes/cmc-single-shortcode.php:891
+msgid "Official"
+msgstr "Oficial"
+
+#: includes/cmc-single-shortcode.php:891
+msgid "Website"
+msgstr "Sitio web"
+
+#: includes/cmc-top-shortcode.php:159
+msgid "API Request timeout"
+msgstr "Tiempo de espera de solicitud API"

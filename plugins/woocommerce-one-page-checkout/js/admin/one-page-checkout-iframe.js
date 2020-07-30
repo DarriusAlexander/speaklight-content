@@ -78,7 +78,6 @@ jQuery(document).ready(function($){
 		'fadeIn' : 50,
 		'fadeOut' : 50,
 		'delay' : 200,
-		'maxWidth' : '400px',
-		'minWidth' : '400px'
+		'maxWidth' : '200px',
 	} );
 });

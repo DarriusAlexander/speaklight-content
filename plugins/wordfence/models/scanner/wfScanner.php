@@ -214,6 +214,7 @@ class wfScanner {
 			'scansEnabled_passwds' => true,
 			'scansEnabled_diskSpace' => true,
 			'scansEnabled_wafStatus' => true,
+			'scansEnabled_dns' => true,
 			'scan_exclude' => wfConfig::get('scan_exclude', ''),
 			'scan_include_extra' => wfConfig::get('scan_include_extra', ''),
 			'scansEnabled_geoipSupport' => true,
@@ -248,6 +249,7 @@ class wfScanner {
 			'scansEnabled_passwds' => true,
 			'scansEnabled_diskSpace' => true,
 			'scansEnabled_wafStatus' => true,
+			'scansEnabled_dns' => true,
 			'other_scanOutside' => true,
 			'scansEnabled_scanImages' => true,
 			'scan_exclude' => wfConfig::get('scan_exclude', ''),
@@ -303,6 +305,7 @@ class wfScanner {
 			'scansEnabled_passwds' => false,
 			'scansEnabled_diskSpace' => false,
 			'scansEnabled_wafStatus' => false,
+			'scansEnabled_dns' => false,
 			'other_scanOutside' => false,
 			'scansEnabled_scanImages' => false,
 			'scansEnabled_highSense' => false,
@@ -339,7 +342,7 @@ class wfScanner {
 			'scansEnabled_plugins' => 0,
 			'scansEnabled_coreUnknown' => 0.05,
 			'scansEnabled_malware' => 0.05,
-			'scansEnabled_fileContents' => 0.1,
+			'scansEnabled_fileContents' => 0.05,
 			'scan_include_extra' => 0,
 			'scansEnabled_fileContentsGSB' => 0.05,
 			'scansEnabled_posts' => 0.05,
@@ -349,6 +352,7 @@ class wfScanner {
 			'scansEnabled_suspiciousAdminUsers' => 0.05,
 			'scansEnabled_passwds' => 0.05,
 			'scansEnabled_diskSpace' => 0.05,
+			'scansEnabled_dns' => 0.05,
 			'other_scanOutside' => 0,
 			'scansEnabled_scanImages' => 0,
 			'scansEnabled_highSense' => 0,
@@ -479,7 +483,6 @@ class wfScanner {
 	 * @return array
 	 */
 	private function _scanJobsForStage($stage) {
-		$always = array();
 		$options = array();
 		switch ($stage) {
 			case self::STAGE_SPAMVERTISING_CHECKS:
@@ -502,6 +505,7 @@ class wfScanner {
 					'scansEnabled_checkHowGetIPs',
 					'scansEnabled_diskSpace',
 					'scansEnabled_wafStatus',
+					'scansEnabled_dns',
 					'scansEnabled_geoipSupport',
 				);
 				break;
@@ -520,11 +524,6 @@ class wfScanner {
 				);
 				break;
 			case self::STAGE_MALWARE_SCAN:
-				if ($this->scanType() != self::SCAN_TYPE_QUICK) {
-					$always = array(
-						'checkSkippedFiles',
-					);
-				}
 				$options = array(
 					'scansEnabled_malware',
 					'scansEnabled_fileContents',
@@ -563,7 +562,7 @@ class wfScanner {
 			}
 		}
 		
-		return array_merge($filteredOptions, $always);
+		return $filteredOptions;
 	}
 	
 	/**
@@ -597,9 +596,9 @@ class wfScanner {
 				continue;
 			}
 			
-			$jobs = $this->_scanJobsForStage($stage);
-			if (count($jobs)) {
-				$parameters['expected'] = count($jobs);
+			$options = $this->_scanJobsForStage($stage);
+			if (count($options)) {
+				$parameters['expected'] = count($options);
 			}
 			else {
 				$parameters['status'] = self::STATUS_DISABLED;
@@ -865,10 +864,10 @@ class wfScanner {
 			'checkSpamIP' => array('checkSpamIP'), 
 			'checkGSB' => array('scansEnabled_checkGSB'),
 			'checkHowGetIPs' => array('scansEnabled_checkHowGetIPs'),
+			'dns' => array('scansEnabled_dns'),
 			'diskSpace' => array('scansEnabled_diskSpace'),
 			'wafStatus' => array('scansEnabled_wafStatus'),
 			'geoipSupport' => array('scansEnabled_geoipSupport'),
-			'checkSkippedFiles' => ($this->scanType() != self::SCAN_TYPE_QUICK), //Always runs except for quick
 			'knownFiles' => ($this->scanType() != self::SCAN_TYPE_QUICK), //Always runs except for quick, options are scansEnabled_core, scansEnabled_themes, scansEnabled_plugins, scansEnabled_coreUnknown, scansEnabled_malware
 			'checkReadableConfig' => array('scansEnabled_checkReadableConfig'),
 			'fileContents' => ($this->scanType() != self::SCAN_TYPE_QUICK), //Always runs except for quick, options are scansEnabled_fileContents and scansEnabled_fileContentsGSB

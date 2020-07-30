@@ -1,0 +1,20 @@
+<h3>Basic usage</h3>
+<p>
+  To add a cryptocurrency widget to a page or post do the following:
+</p>
+<ol>
+  <li>Select <strong>Premium Cryptocurrency Widgets</strong> in the admin menu.</li>
+  <li>Choose specific widget type (inline, box, table etc), template and color scheme.</li>
+  <li>Customize widget settings (coin, display currency, real-time feed etc).</li>
+  <li>Copy the widget shortcode to clipboard.</li>
+  <li>Paste the shortcode to a page or post.</li>
+</ol>
+<p>
+  If you want to add a cryptocurrency widget to one of the <a href="widgets.php">WordPress widgets areas</a> you have to install
+  an extra free WordPress plugin (<a href="https://wordpress.org/plugins/shortcode-widget/" target="_blank">this one</a> or similar),
+  which allows processing shortcodes in widgets. After the plugin is installed get the shortcode as described above and paste it to a widget area.
+</p>
+<p>
+  If you want to call the shortcode from a template you need to wrap the shortcode in a <i>do_shortcode()</i> function call like this:
+</p>
+<pre><code>&lt;?php echo do_shortcode('[cryptocurrency_widget type="card" template="basic" color="blue" assets="BTC~USD" style="" api="cryptocompare.com" realtime="true" flash="true"]');?&gt;</code></pre>

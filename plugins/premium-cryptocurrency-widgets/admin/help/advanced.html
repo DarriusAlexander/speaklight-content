@@ -1,0 +1,50 @@
+<h3>Auto coin recognition</h3>
+<p>
+    Sometimes, when you have multiple pages or posts, each providing information about a particular coin, it can be
+    useful that coin and currency symbols are obtained from the page URL rather than each individual widget shortcode. This way you
+    can have exactly the same shortcodes across all such pages, but they will display quotes depending on coin and currency
+    are passed in the page URL.
+    To set this up you need to fill in the <b>Asset recognition regexp</b> setting, which should be a valid regular
+    expression with 2 groups to capture coin and display currency symbol respectively.
+</p>
+<p>
+    Let's consider an example. Suppose, you have 3 pages with the following URLs: coin-page-btc-usd, coin-page-eth-eur,
+    coin-page-xrp-usd.
+    In this case you can specify the following regular expression in the <b>Asset recognition regexp</b> setting:
+    <pre><code>^coin-page-([a-zA-Z0-9-\*]+)-([a-zA-Z0-9-\*]+)/?$</code></pre>
+    After that when one of these pages is accessed the plugin will retrieve coin symbol and currency from the URL and display corresponding quotes,
+    irrespective of what is specified in the <b>assets</b> parameter of the shortcode.
+</p>
+<p>
+    Please note, that all multi-coin widgets (such as table widgets, for instance) on such pages will also be overridden to use
+    coin and display currency provided in the URL.
+</p>
+
+<h3>Virtual coin pages</h3>
+<p>
+    When you want to have a dedicated page for every coin it can be cumbersome to manually create a lot of coin pages.
+    Don't worry, you can have the plugin auto generate and display such pages automatically on demand.
+    You need to specify a regular expression in the <b>Virtual asset page regexp</b> setting.
+    When a visitor requests a page, which URL matches this expression a virtual page will be automatically created and displayed to the visitor.
+    The content of such pages will be generated based on the <b>Virtual asset page content</b> setting. There you can
+    insert any number of cryptocurrency widgets (as well as some static text), but the plugin will automatically substitute the necessary coin and display currency from the URL.
+</p>
+<p>
+    Suppose, that you want the plugin to auto generate a coin page when the following URLs are requested:
+    https://yourwebsite.com/crypto/btc/usd, https://yourwebsite.com/crypto/eth/usd, https://yourwebsite.com/crypto/xrp/usd etc.
+    In this case you can specify the following regular expression in the <b>Virtual asset page regexp</b> setting:
+    <pre><code>^crypto/([a-zA-Z0-9-\*]+)/([a-zA-Z0-9-\*]+)/?$</code></pre>
+    You can add this widget to the <b>Virtual asset page content</b> setting:
+    <pre><code>[cryptocurrency_widget type="card" template="basic3" color="blue" assets="BTC~USD" api="cryptocompare.com" realtime="true" flash="true"]</code></pre>
+    After that, when user opens https://yourwebsite.com/crypto/eth/usd the plugin will display an auto-generated page with Ethereum / USD widget on it
+    (in this case it doesn't matter which asset is specified in the widget shortcode). Of course, you can have as many widgets on
+    the auto generated pages as you like.
+</p>
+<p>
+    Please note, that all multi-coin widgets (such as table widgets, for instance) on virtual coin pages
+    will not inherit coin and display currency from the URL, but will use those from the shortcode.
+</p>
+<p>
+    The main difference between <b>Auto coin recognition</b> and <b>Virtual coin pages</b> features is that the former is suitable
+    for <b>existing</b> pages or posts and the latter is used to handle requests to <b>non-existing</b> (virtual) pages.
+</p>

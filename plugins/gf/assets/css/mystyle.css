@@ -1,0 +1,39 @@
+.pledgemaincontainer {
+    color:green;
+}
+
+
+.pledgetracker { 
+    height: 10px;
+    border-radius: 5px;
+    position: relative;
+    background: #f3efe6;
+    overflow: hidden;
+}
+
+.rightsidepledge {
+    float:right;
+}
+
+.pledgetracker span {
+    display: block;
+    height: 100%;
+}
+
+.currentpledgegoal {
+    background-color: #c66799;
+    -webkit-animation: currentpledgebar 2s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: currentpledgebar 2s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+
+@-webkit-keyframes currentpledgebar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+@-moz-keyframes currentpledgebar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
